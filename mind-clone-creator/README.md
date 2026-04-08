@@ -1,29 +1,31 @@
 # mind-clone-creator
 
-帮你把自己的经验打包成可复用的 AI 顾问，也支持继续编译成工作型替身。
+[中文 README](README.zh.md)
 
-## 这是什么
+Turn your own experience, judgment, and work habits into a reusable AI advisor, and extend it toward a workflow-oriented work clone when needed.
 
-这是一个把“你怎么判断、怎么表达、怎么推进工作”结构化出来的 skill。
+## What It Does
 
-目前支持两条主线：
+`mind-clone-creator` structures how you think, respond, and move work forward.
 
-- `persona-only`：先交付人格层分身，更像你本人地回答、澄清、评审、给建议
-- `persona-plus-workflow`：在同一个 working bundle 里同时保留人格层和 workflow 轨道，后续继续编译成工作型替身
+It currently supports two main paths:
 
-## 适合什么场景
+- `persona-only`: deliver a persona-layer clone first for advice, clarification, review, and bounded collaboration
+- `persona-plus-workflow`: keep both the persona layer and a workflow track in the same working bundle, then continue compiling it into a workflow-oriented clone
 
-- 想先得到一个更像你回答的顾问型分身
-- 想沉淀自己的判断方式、表达风格和边界意识
-- 想逐步把顾问型分身继续编译成 workflow-oriented work clone
-- 想维护 sample stack、latest stack 和 release-readiness 检查
+## Good Fits
 
-## 快速入口
+- You want an advisor that answers more like you
+- You want to capture your judgment style, expression, and working boundaries
+- You want to grow a persona clone into a workflow-oriented work clone over time
+- You maintain sample stacks, latest stacks, or release-readiness checks for this workflow
 
-- 直接对支持 skill 的环境说：`我想创建自己的数字分身`
-- 或说：`我想做一个人格 + workflow 的工作型替身`
+## Quick Start
 
-## 典型产物
+- `I want to create my own digital twin`
+- `I want to build a persona + workflow work clone`
+
+## Typical Outputs
 
 - personal clone skill
 - `clone_config.yaml`
@@ -34,47 +36,44 @@
 - `workflow_blueprint.md`
 - workflow runtime bundle
 
-## 维护者常用命令
+## Maintainer Commands
 
 - `python3 scripts/validate_repo_docs.py --format json`
 - `python3 scripts/rebuild_sample_stack.py --output-root /tmp/mind-clone-sample-stack`
 - `python3 scripts/clone_ops.py doctor latest-stack --explain --summary-json /tmp/latest-stack-summary.json`
 - `python3 scripts/clone_ops.py validate release-readiness --output-root /tmp/mind-clone-sample-stack-release --summary-json /tmp/mind-clone-release-readiness.json`
 
-## 关键文档
+## Related Docs
 
-- [references/current_system_flow.md](references/current_system_flow.md)
-- [references/capability_index.md](references/capability_index.md)
-- [references/doc_router.md](references/doc_router.md)
-- [references/failure_path_guide.md](references/failure_path_guide.md)
-- [references/glossary.md](references/glossary.md)
-- [references/operator_command_contract.md](references/operator_command_contract.md)
-- [references/operator_command_summary.md](references/operator_command_summary.md)
-- [references/operator_playbook.md](references/operator_playbook.md)
-- [references/new_maintainer_first_15_minutes.md](references/new_maintainer_first_15_minutes.md)
-- [steps/07_workflow_agent_design.md](steps/07_workflow_agent_design.md)
-- [RELEASE_READINESS_CHECKLIST.md](RELEASE_READINESS_CHECKLIST.md)
+- [SKILL.md](SKILL.md): full skill contract
+- [references/current_system_flow.md](references/current_system_flow.md): current system flow
+- [references/capability_index.md](references/capability_index.md): script and capability map
+- [references/doc_router.md](references/doc_router.md): documentation router
+- [references/operator_playbook.md](references/operator_playbook.md): operator-oriented guidance
+- [references/new_maintainer_first_15_minutes.md](references/new_maintainer_first_15_minutes.md): fast maintainer entry
+- [RELEASE_READINESS_CHECKLIST.md](RELEASE_READINESS_CHECKLIST.md): release gate checklist
 
-## 诚实边界
+## Honest Boundaries
 
-默认产物擅长：
+By default, this workflow is good at:
 
-- 更像你地回答问题、澄清需求、做评审
-- 在边界清晰的场景中作为你的咨询代理
-- 保留你的显性经验、表达风格和常用判断框架
+- answering in a way that sounds more like you
+- acting as a bounded consultation or review proxy
+- preserving your explicit experience, style, and decision habits
 
-默认产物不等于：
+By default, it is not:
 
-- 全自动接活到交付的执行 Agent
-- 已编码完成的工作流系统
-- 能自主判断任务阶段并编排全流程的替身
+- a fully autonomous execution agent
+- a finished workflow system
+- a clone that can route and run arbitrary work end to end on its own
 
-## 项目结构
+## Layout
 
 ```text
 mind-clone-creator/
 ├── SKILL.md
 ├── README.md
+├── README.zh.md
 ├── scripts/
 ├── steps/
 ├── prompts/

@@ -53,8 +53,11 @@ clone-skills/
 
 - [SKILL.md](SKILL.md): the root router for clone-related requests
 - [mind-clone-creator/README.md](mind-clone-creator/README.md): the self-clone workflow overview
+- [mind-clone-creator/README.zh.md](mind-clone-creator/README.zh.md): the Chinese README for the self-clone workflow
 - [mind-clone-creator/SKILL.md](mind-clone-creator/SKILL.md): the full skill contract for self-clone creation
-- [mind-clone-advisor/SKILL.md](mind-clone-advisor/SKILL.md): the public-materials-based advisor workflow
+- [mind-clone-advisor/README.md](mind-clone-advisor/README.md): the public-materials-based advisor workflow overview
+- [mind-clone-advisor/README.zh.md](mind-clone-advisor/README.zh.md): the Chinese README for the public-materials-based advisor workflow
+- [mind-clone-advisor/SKILL.md](mind-clone-advisor/SKILL.md): the full skill contract for the advisor workflow
 - [mind-clone-advisor/references/guide.md](mind-clone-advisor/references/guide.md): the longer Chinese guide for building a public-materials-based mind clone
 
 ## Boundaries
