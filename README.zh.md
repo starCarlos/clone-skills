@@ -49,6 +49,14 @@ clone-skills/
 └── mind-clone-creator/
 ```
 
+## 相关文档
+
+- [SKILL.md](SKILL.md)：clone 相关请求的根路由入口
+- [mind-clone-creator/README.md](mind-clone-creator/README.md)：自我 clone 工作流总览
+- [mind-clone-creator/SKILL.md](mind-clone-creator/SKILL.md)：自我 clone 的完整 skill 说明
+- [mind-clone-advisor/SKILL.md](mind-clone-advisor/SKILL.md)：基于公开资料的 advisor workflow 入口
+- [mind-clone-advisor/思维克隆_私人顾问构建指南.md](mind-clone-advisor/思维克隆_私人顾问构建指南.md)：更完整的中文操作指南
+
 ## 边界说明
 
 - 这个仓库默认不承诺交付一个可完全替代人工工作的自治 Agent。

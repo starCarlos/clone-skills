@@ -49,6 +49,14 @@ clone-skills/
 └── mind-clone-creator/
 ```
 
+## Related Docs
+
+- [SKILL.md](SKILL.md): the root router for clone-related requests
+- [mind-clone-creator/README.md](mind-clone-creator/README.md): the self-clone workflow overview
+- [mind-clone-creator/SKILL.md](mind-clone-creator/SKILL.md): the full skill contract for self-clone creation
+- [mind-clone-advisor/SKILL.md](mind-clone-advisor/SKILL.md): the public-materials-based advisor workflow
+- [mind-clone-advisor/references/guide.md](mind-clone-advisor/references/guide.md): the longer Chinese guide for building a public-materials-based mind clone
+
 ## Boundaries
 
 - This repository does not claim a fully autonomous work-replacing agent by default.
