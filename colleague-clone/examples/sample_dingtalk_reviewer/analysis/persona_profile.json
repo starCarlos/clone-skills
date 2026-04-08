@@ -1,0 +1,508 @@
+{
+  "expression_style": {
+    "summary": "Direct and conclusion-first when evidence mentions blocking language or explicit action items.",
+    "questioning_tendency": "high",
+    "emoji_usage": "none_detected",
+    "confidence": 0.85,
+    "confidence_reason": "supported by 2 evidence item(s)",
+    "evidence": [
+      {
+        "record_id": "src_004_001",
+        "source_id": "src_004",
+        "source_type": "pasted_text",
+        "quote": "结论前置，列表化同步风险。",
+        "confidence": 1.0
+      },
+      {
+        "record_id": "src_002_001",
+        "source_id": "src_002",
+        "source_type": "pasted_text",
+        "quote": "先确认 owner，再同步相关方。",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "decision_patterns": {
+    "summary": "Often asks for context before committing to a path.",
+    "priorities": [
+      "clarity",
+      "correctness"
+    ],
+    "disagreement_style": "question-first",
+    "confidence": 0.65,
+    "confidence_reason": "supported by 1 evidence item(s)",
+    "evidence": [
+      {
+        "record_id": "src_002_001",
+        "source_id": "src_002",
+        "source_type": "pasted_text",
+        "quote": "先确认 owner，再同步相关方。",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "collaboration_style": {
+    "summary": "Uses alignment and ownership language in collaboration.",
+    "coordination_mode": "owner-alignment",
+    "coordination_signals": [
+      "先确认 owner，再同步相关方。",
+      "结论前置，列表化同步风险。"
+    ],
+    "confidence": 0.85,
+    "confidence_reason": "supported by 2 evidence item(s)",
+    "evidence": [
+      {
+        "record_id": "src_002_001",
+        "source_id": "src_002",
+        "source_type": "pasted_text",
+        "quote": "先确认 owner，再同步相关方。",
+        "confidence": 1.0
+      },
+      {
+        "record_id": "src_004_001",
+        "source_id": "src_004",
+        "source_type": "pasted_text",
+        "quote": "结论前置，列表化同步风险。",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "stress_behaviors": {
+    "summary": "Escalation or rollback language appears in high-pressure contexts.",
+    "response_mode": [
+      "rollback-first"
+    ],
+    "confidence": 0.85,
+    "confidence_reason": "supported by 2 evidence item(s)",
+    "evidence": [
+      {
+        "record_id": "src_001_001",
+        "source_id": "src_001",
+        "source_type": "dingtalk_export",
+        "quote": "先止血，再补回滚方案。",
+        "confidence": 1.0
+      },
+      {
+        "record_id": "src_003_001",
+        "source_id": "src_003",
+        "source_type": "pasted_text",
+        "quote": "CR 重点看错误码统一和回滚预案。",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "boundaries_and_taboos": {
+    "summary": "Explicitly marks responsibility boundaries.",
+    "boundary_mode": "explicit",
+    "confidence": 0.65,
+    "confidence_reason": "supported by 1 evidence item(s)",
+    "evidence": [
+      {
+        "record_id": "src_002_001",
+        "source_id": "src_002",
+        "source_type": "pasted_text",
+        "quote": "先确认 owner，再同步相关方。",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "stable_patterns": [
+    {
+      "label": "question-first disagreement",
+      "summary": "Asks for context or impact before agreeing when material is ambiguous.",
+      "evidence": [
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "label": "owner-aligned collaboration",
+      "summary": "Checks owner or synchronizes with stakeholders before execution.",
+      "evidence": [
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_004_001",
+          "source_id": "src_004",
+          "source_type": "pasted_text",
+          "quote": "结论前置，列表化同步风险。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "label": "explicit scope boundary",
+      "summary": "Avoids changing out-of-scope areas before confirming ownership.",
+      "evidence": [
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "label": "incident stabilization",
+      "summary": "Treats incidents with stabilization, rollback, or escalation language first.",
+      "evidence": [
+        {
+          "record_id": "src_001_001",
+          "source_id": "src_001",
+          "source_type": "dingtalk_export",
+          "quote": "先止血，再补回滚方案。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_003_001",
+          "source_id": "src_003",
+          "source_type": "pasted_text",
+          "quote": "CR 重点看错误码统一和回滚预案。",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ],
+  "conditional_patterns": [
+    {
+      "condition": "incident_or_urgent_change",
+      "behavior": "stabilize first, then rollback or escalate as needed",
+      "evidence": [
+        {
+          "record_id": "src_001_001",
+          "source_id": "src_001",
+          "source_type": "dingtalk_export",
+          "quote": "先止血，再补回滚方案。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_003_001",
+          "source_id": "src_003",
+          "source_type": "pasted_text",
+          "quote": "CR 重点看错误码统一和回滚预案。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "unclear_ownership",
+      "behavior": "confirm owner before making changes outside scope",
+      "evidence": [
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "multi_party_work",
+      "behavior": "align with owner or stakeholders before execution",
+      "evidence": [
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_004_001",
+          "source_id": "src_004",
+          "source_type": "pasted_text",
+          "quote": "结论前置，列表化同步风险。",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "resolved_conflicts": [],
+  "resolution_history": [],
+  "manual_overrides": [],
+  "privacy_filter": {
+    "counts": {
+      "work_related": 5,
+      "work_adjacent": 0,
+      "private_sensitive": 0
+    },
+    "excluded_record_ids": [],
+    "entries": [
+      {
+        "record_id": "src_001_001",
+        "source_id": "src_001",
+        "category": "work_related",
+        "reason": "no private-sensitive markers detected",
+        "private_hits": [],
+        "work_hits": [
+          "回滚"
+        ],
+        "title": "先止血，再补回滚方案。"
+      },
+      {
+        "record_id": "src_001_002",
+        "source_id": "src_001",
+        "category": "work_related",
+        "reason": "no private-sensitive markers detected",
+        "private_hits": [],
+        "work_hits": [],
+        "title": "错误码要统一收口。"
+      },
+      {
+        "record_id": "src_002_001",
+        "source_id": "src_002",
+        "category": "work_related",
+        "reason": "no private-sensitive markers detected",
+        "private_hits": [],
+        "work_hits": [
+          "owner"
+        ],
+        "title": "先确认 owner，再同步相关方。"
+      },
+      {
+        "record_id": "src_003_001",
+        "source_id": "src_003",
+        "category": "work_related",
+        "reason": "no private-sensitive markers detected",
+        "private_hits": [],
+        "work_hits": [
+          "cr",
+          "回滚"
+        ],
+        "title": "CR 重点看错误码统一和回滚预案。"
+      },
+      {
+        "record_id": "src_004_001",
+        "source_id": "src_004",
+        "category": "work_related",
+        "reason": "no private-sensitive markers detected",
+        "private_hits": [],
+        "work_hits": [
+          "风险"
+        ],
+        "title": "结论前置，列表化同步风险。"
+      }
+    ]
+  },
+  "semantic_view": {
+    "communication_style": {
+      "summary": "Direct and conclusion-first when evidence mentions blocking language or explicit action items.",
+      "questioning_tendency": "high",
+      "disagreement_style": "question-first",
+      "confidence": 0.65,
+      "confidence_reason": "derived from expression_style and decision_patterns",
+      "evidence": [
+        {
+          "record_id": "src_004_001",
+          "source_id": "src_004",
+          "source_type": "pasted_text",
+          "quote": "结论前置，列表化同步风险。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    "collaboration_style": {
+      "summary": "Uses alignment and ownership language in collaboration.",
+      "coordination_mode": "owner-alignment",
+      "conditional_patterns": [
+        {
+          "condition": "incident_or_urgent_change",
+          "behavior": "stabilize first, then rollback or escalate as needed",
+          "evidence": [
+            {
+              "record_id": "src_001_001",
+              "source_id": "src_001",
+              "source_type": "dingtalk_export",
+              "quote": "先止血，再补回滚方案。",
+              "confidence": 1.0
+            },
+            {
+              "record_id": "src_003_001",
+              "source_id": "src_003",
+              "source_type": "pasted_text",
+              "quote": "CR 重点看错误码统一和回滚预案。",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "condition": "unclear_ownership",
+          "behavior": "confirm owner before making changes outside scope",
+          "evidence": [
+            {
+              "record_id": "src_002_001",
+              "source_id": "src_002",
+              "source_type": "pasted_text",
+              "quote": "先确认 owner，再同步相关方。",
+              "confidence": 1.0
+            }
+          ]
+        },
+        {
+          "condition": "multi_party_work",
+          "behavior": "align with owner or stakeholders before execution",
+          "evidence": [
+            {
+              "record_id": "src_002_001",
+              "source_id": "src_002",
+              "source_type": "pasted_text",
+              "quote": "先确认 owner，再同步相关方。",
+              "confidence": 1.0
+            },
+            {
+              "record_id": "src_004_001",
+              "source_id": "src_004",
+              "source_type": "pasted_text",
+              "quote": "结论前置，列表化同步风险。",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ],
+      "confidence": 0.85,
+      "confidence_reason": "supported by 2 evidence item(s)",
+      "evidence": [
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_004_001",
+          "source_id": "src_004",
+          "source_type": "pasted_text",
+          "quote": "结论前置，列表化同步风险。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    "boundary_constraints": {
+      "summary": "Explicitly marks responsibility boundaries.",
+      "boundary_mode": "explicit",
+      "stress_response_modes": [
+        "rollback-first"
+      ],
+      "confidence": 0.65,
+      "confidence_reason": "derived from boundaries_and_taboos and stress_behaviors",
+      "evidence": [
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_001_001",
+          "source_id": "src_001",
+          "source_type": "dingtalk_export",
+          "quote": "先止血，再补回滚方案。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_003_001",
+          "source_id": "src_003",
+          "source_type": "pasted_text",
+          "quote": "CR 重点看错误码统一和回滚预案。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    "temperament_profile": {
+      "summary": "Question-first, owner-aware, and boundary-conscious in work interactions.",
+      "tendency_tags": [
+        "question-first",
+        "owner-aligned",
+        "boundary-conscious",
+        "rollback-first"
+      ],
+      "pressure_mode": [
+        "rollback-first"
+      ],
+      "confidence": 0.65,
+      "confidence_reason": "derived from decision_patterns, collaboration_style, and stress_behaviors",
+      "evidence": [
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_004_001",
+          "source_id": "src_004",
+          "source_type": "pasted_text",
+          "quote": "结论前置，列表化同步风险。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_001_001",
+          "source_id": "src_001",
+          "source_type": "dingtalk_export",
+          "quote": "先止血，再补回滚方案。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    "family_boundary_profile": {
+      "summary": "Family and private-life material is outside the modeled scope; only work-safe boundaries are retained.",
+      "policy": "refuse_and_redirect",
+      "private_signal_present": false,
+      "allowed_scope": [
+        "role scope",
+        "work method",
+        "review preferences",
+        "communication style",
+        "boundary constraints"
+      ],
+      "confidence": 1.0,
+      "confidence_reason": "policy-driven boundary derived from privacy filtering rules",
+      "evidence": [
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+Source: https://en.wikipedia.org/wiki/Charlie_Munger
+
+The Munger Hall design ignores this evidence and seems to take the position that it doesn't matter ...

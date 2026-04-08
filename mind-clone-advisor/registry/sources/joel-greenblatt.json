@@ -1,0 +1,314 @@
+{
+  "sources": [
+    {
+      "id": "mib-greenblatt-relative-value-2020",
+      "title": "Transcript: Joel Greenblatt on Relative Value Investing - Masters in Business",
+      "url": "https://ritholtz.com/2020/10/transcript-joel-greenblatt-2/",
+      "date": "2020-10-11",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["value-investing", "relative-value", "growth-vs-value", "active-vs-passive"]
+    },
+    {
+      "id": "mib-greenblatt-thrill-of-investing-2018",
+      "title": "Transcript: Joel Greenblatt Discusses the Thrill of Investing - Masters in Business",
+      "url": "https://ritholtz.com/2018/04/transcript-joel-greenblatt/",
+      "date": "2018-04-22",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["value-investing", "index-plus", "concentrated-portfolio", "spinoffs", "gotham-capital"]
+    },
+    {
+      "id": "knowledge-project-greenblatt-111",
+      "title": "Joel Greenblatt: Investing Made Simple - The Knowledge Project Ep. #111",
+      "url": "https://fs.blog/knowledge-project-podcast/joel-greenblatt/",
+      "date": "2021-05-13",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["investing-philosophy", "luck-vs-skill", "management-teams", "warren-buffett-lessons"]
+    },
+    {
+      "id": "rwh-greenblatt-winning-investing-game",
+      "title": "RWH003: How To Win The Investing Game w/ Joel Greenblatt",
+      "url": "https://www.theinvestorspodcast.com/richer-wiser-happier/how-to-win-the-investing-game-w-joel-greenblatt/",
+      "date": "2022-03-29",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["magic-formula", "concentrated-betting", "coca-cola", "patience"]
+    },
+    {
+      "id": "tip-greenblatt-behind-magic-formula-2024",
+      "title": "MI381: Joel Greenblatt - Behind the Magic Formula",
+      "url": "https://www.theinvestorspodcast.com/millennial-investing/joel-greenblatt-behind-the-magic-formula-w-shawn-omalley/",
+      "date": "2024-12",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["magic-formula", "columbia-lectures", "valuation", "teaching-investing"]
+    },
+    {
+      "id": "cnbc-greenblatt-defends-value-2025",
+      "title": "Joel Greenblatt Defends Value Investing: It's Not Difficult to Beat the Market",
+      "url": "https://www.cnbc.com/2025/03/28/joel-greenblatt-defends-value-investing-its-not-difficult-to-beat-the-market.html",
+      "date": "2025-03-28",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["value-investing", "active-management", "market-emotions", "cash-flow"]
+    },
+    {
+      "id": "cnbc-greenblatt-investing-mistake-2016",
+      "title": "Joel Greenblatt: Don't Make This Investing Mistake - CNBC",
+      "url": "https://www.cnbc.com/2016/06/03/joel-greenblatt-dont-make-this-investing-mistake.html",
+      "date": "2016-06-03",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["magic-formula", "overvalued-stocks", "value-investing", "margin-of-safety"]
+    },
+    {
+      "id": "globe-mail-invest-like-legend-greenblatt",
+      "title": "Invest Like a Legend: Joel Greenblatt - The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/report-on-business/rob-magazine/invest-like-a-legend-joel-greenblatt/article37716575/",
+      "date": "2018-01-25",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["active-vs-passive", "index-plus", "market-outlook", "portfolio-construction"]
+    },
+    {
+      "id": "hedge-fund-journal-gotham-detachment",
+      "title": "Detachment Rewarded at Gotham Asset Management - The Hedge Fund Journal",
+      "url": "https://thehedgefundjournal.com/detachment-rewarded-at-gotham-asset-management/",
+      "date": "2014-10",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["gotham-asset-management", "long-short", "diversification", "risk-management"]
+    },
+    {
+      "id": "marketfolly-greenblatt-vic-2011",
+      "title": "Joel Greenblatt: The Big Secret For Value Investors - Value Investing Congress 2011",
+      "url": "https://www.marketfolly.com/2011/10/joel-greenblatt-big-secret-for-value.html",
+      "date": "2011-10-17",
+      "type": "presentation",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["magic-formula", "earnings-yield", "return-on-capital", "market-valuation"]
+    },
+    {
+      "id": "marketfolly-greenblatt-vic-2009",
+      "title": "Joel Greenblatt at the Value Investing Congress 2009",
+      "url": "https://www.marketfolly.com/2009/09/joel-greenblatt-at-value-investing.html",
+      "date": "2009-09-23",
+      "type": "presentation",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["magic-formula", "backtesting", "market-returns"]
+    },
+    {
+      "id": "wealthtrack-greenblatt-strategy-change-2014",
+      "title": "Greenblatt: Strategy Change - WealthTrack",
+      "url": "https://wealthtrack.com/greenblatt-strategy-change/",
+      "date": "2014-11-14",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["concentrated-vs-diversified", "gotham-capital", "gotham-funds", "strategy-evolution"]
+    },
+    {
+      "id": "wealthtrack-greenblatt-passive-active-2018",
+      "title": "A Legendary Value Investor Mixes Passive With Active - WealthTrack",
+      "url": "https://wealthtrack.com/a-legendary-value-investor-mixes-passive-with-active-to-overcome-destructive-investor-behavior/",
+      "date": "2018-04-29",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["active-vs-passive", "investor-behavior", "index-plus", "behavioral-finance"]
+    },
+    {
+      "id": "wealthtrack-greenblatt-2-secrets-beating-market",
+      "title": "Joel Greenblatt Reveals the 2 Secrets to Beating the Market - WealthTrack",
+      "url": "https://wealthtrack.com/great-value-investor-joel-greenblatt-reveals-the-2-secrets-to-beating-the-market/",
+      "date": "2016-11",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["magic-formula", "return-on-capital", "earnings-yield", "value-investing"]
+    },
+    {
+      "id": "money-maze-greenblatt-patience-2024",
+      "title": "Joel Greenblatt: Legendary Investor on Patience - Money Maze Podcast",
+      "url": "https://www.moneymazepodcast.com/podcast/joel-greenblatt",
+      "date": "2024-10-24",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["patience", "active-vs-passive", "concentration", "margin-of-safety"]
+    },
+    {
+      "id": "archive-org-greenblatt-columbia-class-notes",
+      "title": "Joel Greenblatt Class Notes on Special Situation Investing - Columbia Business School",
+      "url": "https://archive.org/details/JoelGreenblattClassNotesOnSpecialSituationInvesting",
+      "date": "2005",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["special-situations", "spinoffs", "columbia-lectures", "valuation", "margin-of-safety"]
+    },
+    {
+      "id": "focused-compounding-greenblatt-class-pdf",
+      "title": "Joel Greenblatt Class Notes PDF - Special Situations at Columbia",
+      "url": "https://focusedcompounding.com/wp-content/uploads/2018/03/Joel-Greenblatt-Class.pdf",
+      "date": "2005",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "pdf",
+      "tags": ["special-situations", "spinoffs", "columbia-lectures", "valuation", "dcf"]
+    },
+    {
+      "id": "thematic-edge-greenblatt-columbia-class1",
+      "title": "How Joel Greenblatt Teaches You to Think: Class #1 at Columbia",
+      "url": "https://thematicedge.substack.com/p/how-joel-greenblatt-teaches-you-to",
+      "date": "2024",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["columbia-lectures", "teaching-investing", "valuation", "special-situations"]
+    },
+    {
+      "id": "gurufocus-greenblatt-interview-original",
+      "title": "Joel Greenblatt Interview with GuruFocus.com",
+      "url": "https://www.gurufocus.com/news/59839/joel-greenblatt-interview-with-gurufocuscom",
+      "date": "2011",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["magic-formula", "formula-investing", "gotham-capital", "investing-principles"]
+    },
+    {
+      "id": "gurufocus-greenblatt-state-of-value",
+      "title": "Joel Greenblatt: The State of Value Investing Today",
+      "url": "https://www.gurufocus.com/news/1215229/joel-greenblatt-the-state-of-value-investing-today",
+      "date": "2021",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["value-investing", "growth-vs-value", "tech-valuations", "market-outlook"]
+    },
+    {
+      "id": "gurufocus-greenblatt-hfa-interview-part1",
+      "title": "Tips From Joel Greenblatt's Hedge Fund Association Interview, Part 1",
+      "url": "https://www.gurufocus.com/news/2017908/tips-from-joel-greenblatts-hedge-fund-association-interview-part-1",
+      "date": "2023",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["margin-of-safety", "diversification", "graham-buffett", "investing-philosophy"]
+    },
+    {
+      "id": "gurufocus-greenblatt-hfa-interview-part2",
+      "title": "Tips From Joel Greenblatt's Hedge Fund Association Interview, Part 2",
+      "url": "https://www.gurufocus.com/news/2023697/tips-from-joel-greenblatts-hedge-fund-association-interview-part-2",
+      "date": "2023",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["margin-of-safety", "investing-process", "value-investing"]
+    },
+    {
+      "id": "gurufocus-greenblatt-investing-2023",
+      "title": "Joel Greenblatt on Investing and Expected Returns in 2023",
+      "url": "https://www.gurufocus.com/news/1988082/joel-greenblatt-on-investing-and-expected-returns-in-2023",
+      "date": "2023",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["hurdle-rate", "margin-of-safety", "expected-returns", "value-stocks"]
+    },
+    {
+      "id": "gurufocus-greenblatt-value-weighted-indexing",
+      "title": "Joel Greenblatt: Value-Weighted Indexing Just Makes Sense",
+      "url": "https://www.gurufocus.com/news/128114/joel-greenblatt-valueweighted-indexing-just-makes-sense",
+      "date": "2011",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["value-weighted-indexing", "active-vs-passive", "index-investing"]
+    },
+    {
+      "id": "gurufocus-greenblatt-focus-cash-flow",
+      "title": "Joel Greenblatt: Focus on the Cash Flow",
+      "url": "https://www.gurufocus.com/news/846490",
+      "date": "2019",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["cash-flow", "value-traps", "return-on-capital", "valuation"]
+    },
+    {
+      "id": "netnethunter-greenblatt-original-magic-formula",
+      "title": "Joel Greenblatt's Forgotten Original Magic Formula",
+      "url": "https://www.netnethunter.com/joel-greenblatt-original-magic-formula/",
+      "date": "2020",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["magic-formula", "net-nets", "ben-graham", "gotham-capital"]
+    },
+    {
+      "id": "acquirers-multiple-greenblatt-spinoffs-special-situations",
+      "title": "Joel Greenblatt: How Spinoffs and Special Situations Beat the Market",
+      "url": "https://acquirersmultiple.com/2025/07/joel-greenblatt-how-spinoffs-and-special-situations-beat-the-market/",
+      "date": "2025-07",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["spinoffs", "special-situations", "market-inefficiency", "mispricing"]
+    },
+    {
+      "id": "acquirers-multiple-greenblatt-largest-positions",
+      "title": "Joel Greenblatt: My Largest Positions Are The Ones I'm Confident Won't Lose Money",
+      "url": "https://acquirersmultiple.com/2024/12/joel-greenblatt-my-largest-positions-are-the-ones-im-confident-wont-lose-money/",
+      "date": "2024-12",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["position-sizing", "downside-protection", "risk-management"]
+    },
+    {
+      "id": "acquirers-multiple-greenblatt-buffett-pay-up",
+      "title": "Joel Greenblatt: How Warren Buffett Taught Me To Pay Up For Good Businesses",
+      "url": "https://acquirersmultiple.com/2024/09/joel-greenblatt-how-warren-buffett-taught-me-to-pay-up-for-good-businesses/",
+      "date": "2024-09",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["warren-buffett", "quality-investing", "paying-up"]
+    },
+    {
+      "id": "acquirers-multiple-greenblatt-simplest-valuation",
+      "title": "Joel Greenblatt: The Simplest Way to Think About Business Valuation",
+      "url": "https://acquirersmultiple.com/2025/01/joel-greenblatt-the-simplest-way-to-think-about-business-valuation/",
+      "date": "2025-01",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["valuation", "teaching-investing", "simplicity"]
+    },
+    {
+      "id": "acquirers-multiple-greenblatt-margin-of-safety",
+      "title": "Joel Greenblatt: Great Businesses Expand Their Margin Of Safety",
+      "url": "https://acquirersmultiple.com/2024/10/joel-greenblatt-great-businesses-expand-their-margin-of-safety/",
+      "date": "2024-10",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["margin-of-safety", "compounding", "long-term-holding"]
+    }
+  ]
+}

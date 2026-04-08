@@ -1,0 +1,377 @@
+{
+  "sources": [
+    {
+      "id": "sina-stabilize-realestate-2026",
+      "title": "稳股市更要稳楼市",
+      "url": "https://cj.sina.com.cn/articles/view/1279746217/m4c4760a903301dofg",
+      "date": "2026-02-12",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "房地产",
+        "股市",
+        "政策",
+        "稳增长"
+      ]
+    },
+    {
+      "id": "sina-trade-in-program-2026",
+      "title": "如何让“以旧换新”受益覆盖面更广",
+      "url": "https://finance.sina.com.cn/roll/2026-02-07/doc-inhkxymp4397978.shtml",
+      "date": "2026-02-07",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "消费",
+        "以旧换新",
+        "收入分配"
+      ]
+    },
+    {
+      "id": "sina-usd-rmb-2026",
+      "title": "被高估的美元走弱，人民币如何应对",
+      "url": "https://finance.sina.com.cn/zl/bank/2026-02-06/zl-inhkupsz8768299.shtml",
+      "date": "2026-02-05",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "汇率",
+        "美元",
+        "人民币",
+        "货币政策"
+      ]
+    },
+    {
+      "id": "sina-realestate-fiscal-monetary-2026",
+      "title": "楼市需要财政与货币政策双管齐下",
+      "url": "https://finance.sina.com.cn/stock/estate/integration/2026-02-03/doc-inhkpqwz3443510.shtml",
+      "date": "2026-02-03",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "房地产",
+        "财政政策",
+        "货币政策"
+      ]
+    },
+    {
+      "id": "sina-ppi-lost-15years-2026",
+      "title": "PPI的“失去的十五年”之谜",
+      "url": "https://finance.sina.com.cn/roll/2026-02-01/doc-inhkhmvi8497794.shtml",
+      "date": "2026-02-01",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "PPI",
+        "通缩",
+        "结构分化",
+        "制造业"
+      ]
+    },
+    {
+      "id": "sina-rent-vs-buy-2026",
+      "title": "2026年租房好过买房",
+      "url": "https://finance.sina.com.cn/stock/roll/2026-01-20/doc-inhhxznr7104108.shtml",
+      "date": "2026-01-20",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "房地产",
+        "租售比",
+        "资产配置"
+      ]
+    },
+    {
+      "id": "sina-low-valuation-caution-2026",
+      "title": "市场谨慎情绪反映在低估值指标中",
+      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-01-19/doc-inhhvwpr1154712.shtml",
+      "date": "2026-01-19",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "估值",
+        "市场情绪",
+        "A股"
+      ]
+    },
+    {
+      "id": "sina-central-bank-gold-2026",
+      "title": "央行将抛售还是增持黄金",
+      "url": "https://finance.sina.com.cn/zl/china/2026-01-08/zl-inhfqcaz1447402.shtml",
+      "date": "2026-01-08",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "黄金",
+        "央行",
+        "资产配置"
+      ]
+    },
+    {
+      "id": "sina-2026-outlook",
+      "title": "大国博弈，科技领航——2026年中国经济展望",
+      "url": "https://finance.sina.com.cn/zl/china/2026-01-04/zl-inhfawky7709582.shtml",
+      "date": "2026-01-04",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "年度展望",
+        "科技",
+        "大国博弈",
+        "宏观经济"
+      ]
+    },
+    {
+      "id": "sina-price-recovery-2025",
+      "title": "如何让物价合理回升——难点在哪里",
+      "url": "https://finance.sina.com.cn/zl/china/2025-12-22/zl-inhcrpzv6549812.shtml",
+      "date": "2025-12-22",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "通缩",
+        "物价",
+        "CPI",
+        "政策"
+      ]
+    },
+    {
+      "id": "sina-supply-demand-rebalance-2025",
+      "title": "破局之道在于供需再平衡与服务业突破",
+      "url": "https://finance.sina.com.cn/roll/2025-12-17/doc-inhcaekv7484012.shtml",
+      "date": "2025-12-17",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "供需",
+        "服务业",
+        "结构改革"
+      ]
+    },
+    {
+      "id": "sina-cewc-stock-incremental-2025",
+      "title": "中央经济工作会议将如何优化“存量”与“增量”",
+      "url": "https://k.sina.com.cn/article_5953190046_162d6789e06702exle.html",
+      "date": "2025-12-11",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "存量经济",
+        "中央经济工作会议",
+        "政策"
+      ]
+    },
+    {
+      "id": "sina-service-sector-employment-2025",
+      "title": "发展服务业是扩就业、稳消费关键",
+      "url": "https://finance.sina.com.cn/roll/2025-12-11/doc-inhakruk9776680.shtml",
+      "date": "2025-12-11",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "服务业",
+        "就业",
+        "消费"
+      ]
+    },
+    {
+      "id": "sina-bull-market-not-value-2025",
+      "title": "当前“牛市”：更多还在追求热点，价值投资不明显",
+      "url": "https://cj.sina.com.cn/articles/view/7317133861/m1b4229a2503301eql0",
+      "date": "2025-12-08",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "牛市",
+        "价值投资",
+        "A股",
+        "市场结构"
+      ]
+    },
+    {
+      "id": "sina-activate-private-consumption-2025",
+      "title": "当务之急是让民间消费投资活跃起来",
+      "url": "https://cj.sina.com.cn/articles/view/7317133861/m1b4229a2503301eqk8",
+      "date": "2025-12-08",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "消费",
+        "民间投资",
+        "内需"
+      ]
+    },
+    {
+      "id": "sina-china-consumption-vs-us-2025",
+      "title": "中国消费总量不及美国，应加大投入力度",
+      "url": "https://cj.sina.com.cn/articles/view/7317133861/m1b4229a2503301eqje",
+      "date": "2025-12-08",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "消费",
+        "中美比较",
+        "内需"
+      ]
+    },
+    {
+      "id": "sina-realestate-not-replaceable-2025",
+      "title": "房地产可被高科技替代纯粹无稽之谈",
+      "url": "https://finance.sina.com.cn/tech/roll/2025-12-08/doc-inhaaexh3699709.shtml",
+      "date": "2025-12-08",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "房地产",
+        "科技",
+        "经济结构"
+      ]
+    },
+    {
+      "id": "sina-slow-bull-profit-growth-2025",
+      "title": "要成为“慢牛”须有上市公司整体盈利持续上升",
+      "url": "https://k.sina.com.cn/article_5952915720_v162d2490806702vlk2.html",
+      "date": "2025-12-07",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "慢牛",
+        "企业盈利",
+        "A股"
+      ]
+    },
+    {
+      "id": "sina-ai-not-bubble-2025",
+      "title": "AI不是泡沫",
+      "url": "https://k.sina.com.cn/article_5953741034_162dee0ea06702svpc.html",
+      "date": "2025-12-02",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "AI",
+        "科技",
+        "泡沫"
+      ]
+    },
+    {
+      "id": "sina-optimistic-ashares-2026-2025",
+      "title": "明年对A股可以更乐观一些",
+      "url": "https://k.sina.com.cn/article_5952915720_162d2490806702uils.html",
+      "date": "2025-12-02",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "A股",
+        "年度展望",
+        "乐观"
+      ]
+    },
+    {
+      "id": "sina-debt-driven-era-2025",
+      "title": "全球经济步入债务驱动时代",
+      "url": "https://cj.sina.com.cn/articles/view/1887344341/707e96d502001p648",
+      "date": "2025-12-06",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "债务",
+        "全球经济",
+        "杠杆",
+        "宏观"
+      ]
+    },
+    {
+      "id": "guancha-trade-in-wealthy-2026",
+      "title": "过去“以旧换新”受益者多为中高收入，该改了",
+      "url": "https://www.guancha.cn/economy/2026_02_07_806399.shtml",
+      "date": "2026-02-07",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "以旧换新",
+        "收入分配",
+        "消费"
+      ]
+    },
+    {
+      "id": "guancha-debt-growth-era-2012",
+      "title": "“负债增长”时代已来临？",
+      "url": "https://www.guancha.cn/LiXunLei/2012_12_20_240811.shtml",
+      "date": "2012-12-20",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "债务",
+        "杠杆",
+        "经济增长"
+      ]
+    },
+    {
+      "id": "guancha-economic-structure-misjudge-2012",
+      "title": "中国经济结构存在误判",
+      "url": "https://www.guancha.cn/LiXunLei/2012_06_05_240813.shtml",
+      "date": "2012-06-05",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "经济结构",
+        "误判",
+        "结构分化"
+      ]
+    },
+    {
+      "id": "guancha-monetary-creation-wealth-2011",
+      "title": "中国式货币创造与财富神话",
+      "url": "https://www.guancha.cn/Macroeconomy/2011_05_13_240815.shtml",
+      "date": "2011-05-13",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "货币创造",
+        "财富",
+        "M2",
+        "信用"
+      ]
+    },
+    {
+      "id": "guancha-moutai-pork-wealth-gap-2010",
+      "title": "从茅台和猪肉涨幅看贫富差距",
+      "url": "https://www.guancha.cn/Macroeconomy/2010_12_23_240821.shtml",
+      "date": "2010-12-23",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": [
+        "贫富差距",
+        "通胀",
+        "消费分化",
+        "茅台"
+      ]
+    }
+  ]
+}

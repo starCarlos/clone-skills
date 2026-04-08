@@ -1,0 +1,73 @@
+{
+  "profession_aliases": [
+    "Product Manager",
+    "产品经理",
+    "PM"
+  ],
+  "preferred_repo_types": [
+    "node",
+    "python"
+  ],
+  "preferred_test_commands": [
+    ["npm", "test", "--", "--help"],
+    ["npx", "vitest", "--help"],
+    ["pytest", "--collect-only", "-q"]
+  ],
+  "preferred_run_commands": [
+    ["npm", "run", "dev", "--", "--help"],
+    ["python", "--version"]
+  ],
+  "notes": [
+    "优先寻找需求文档、任务卡片、原型或前端运行入口",
+    "更关注验收标准、需求澄清和交付对齐，而不是底层模型调参"
+  ],
+  "stage_overrides": {
+    "接收需求": {
+      "preferred_tools": [
+        "文档/IM",
+        "任务系统"
+      ],
+      "extra_produce": [
+        "背景摘要",
+        "需求目标"
+      ],
+      "notes": [
+        "优先把业务背景和目标对象写清楚，再继续推进"
+      ]
+    },
+    "澄清验收标准": {
+      "preferred_tools": [
+        "文档/IM",
+        "会议/聊天",
+        "任务系统"
+      ],
+      "extra_read": [
+        "历史 PRD",
+        "验收口径"
+      ],
+      "extra_produce": [
+        "验收标准",
+        "范围边界",
+        "待确认项"
+      ],
+      "notes": [
+        "这一阶段优先追齐验收口径、边界和未决问题"
+      ]
+    }
+  },
+  "execution_overrides": {
+    "tool_preferences": {
+      "文档/IM": {
+        "prefer_mode": "file_artifact"
+      },
+      "任务系统": {
+        "prefer_mode": "file_artifact"
+      }
+    },
+    "artifact_templates": {
+      "文档/IM": "workflow_clarification_note_template.md",
+      "会议/聊天": "workflow_clarification_note_template.md",
+      "任务系统": "workflow_task_card_template.md"
+    }
+  }
+}

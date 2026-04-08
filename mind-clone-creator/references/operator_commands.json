@@ -1,0 +1,1134 @@
+{
+  "commands": {
+    "docs_validate": {
+      "label": "文档防漂移",
+      "command": "python3 scripts/validate_repo_docs.py --format json",
+      "surface": "validate_repo_docs"
+    },
+    "sample_rebuild": {
+      "label": "sample root 重建",
+      "command": "python3 scripts/rebuild_sample_stack.py --output-root /tmp/mind-clone-sample-stack",
+      "surface": "rebuild_sample_stack"
+    },
+    "sample_doctor": {
+      "label": "sample stack 校验",
+      "command": "python3 scripts/clone_ops.py doctor sample-stack --sample-summary /tmp/mind-clone-sample-stack/SAMPLE_STACK_SUMMARY.json --summary-json /tmp/sample-stack-doctor.json",
+      "surface": "doctor sample-stack"
+    },
+    "current_doctor": {
+      "label": "current stack 校验",
+      "command": "python3 scripts/clone_ops.py doctor current-stack --bundle-dir /tmp/mind-clone-sample-stack/working-clone-bundle --summary-json /tmp/current-stack-summary.json",
+      "surface": "doctor current-stack"
+    },
+    "latest_doctor": {
+      "label": "latest stack 解释式校验",
+      "command": "python3 scripts/clone_ops.py doctor latest-stack --explain --summary-json /tmp/latest-stack-summary.json",
+      "surface": "doctor latest-stack",
+      "route_surface": "doctor latest-stack --explain"
+    },
+    "latest_validate": {
+      "label": "latest stack 对称校验",
+      "command": "python3 scripts/clone_ops.py validate latest-stack --summary-json /tmp/latest-stack-validate-summary.json",
+      "surface": "validate latest-stack"
+    },
+    "latest_explain": {
+      "label": "latest stack 人类解释",
+      "command": "python3 scripts/clone_ops.py explain latest-stack --summary-json /tmp/latest-stack-explain-summary.json",
+      "surface": "explain latest-stack"
+    },
+    "stack_diff": {
+      "label": "coherent stack 对比",
+      "command": "python3 scripts/clone_ops.py diff stack --left-summary /tmp/mind-clone-sample-stack/SAMPLE_STACK_SUMMARY.json --right-summary /tmp/current-stack-summary.json",
+      "surface": "diff stack"
+    },
+    "release_readiness": {
+      "label": "标准 release-readiness",
+      "command": "python3 scripts/clone_ops.py validate release-readiness --output-root /tmp/mind-clone-sample-stack-release --summary-json /tmp/mind-clone-release-readiness.json",
+      "surface": "validate release-readiness"
+    },
+    "release_readiness_text": {
+      "label": "release-readiness 文本人类摘要",
+      "command": "python3 scripts/clone_ops.py validate release-readiness --output-root /tmp/mind-clone-sample-stack-release --format text",
+      "surface": "validate release-readiness"
+    },
+    "release_readiness_skip_tests": {
+      "label": "只复跑 operator，不跑单测",
+      "command": "python3 scripts/clone_ops.py validate release-readiness --output-root /tmp/mind-clone-sample-stack-release --skip-tests --summary-json /tmp/mind-clone-release-readiness.json",
+      "surface": "validate release-readiness"
+    },
+    "release_readiness_skip_tests_skip_rebuild": {
+      "label": "sample stack 已存在，只复跑 doctor/validate/explain",
+      "command": "python3 scripts/clone_ops.py validate release-readiness --output-root /tmp/mind-clone-sample-stack-release --skip-tests --skip-rebuild --summary-json /tmp/mind-clone-release-readiness.json",
+      "surface": "validate release-readiness"
+    },
+    "release_readiness_keep_success_logs": {
+      "label": "显式保留成功日志",
+      "command": "python3 scripts/clone_ops.py validate release-readiness --output-root /tmp/mind-clone-sample-stack-release --keep-success-logs --summary-json /tmp/mind-clone-release-readiness.json",
+      "surface": "validate release-readiness"
+    },
+    "blueprint_validate": {
+      "label": "workflow blueprint gate",
+      "command": "python3 scripts/clone_ops.py validate workflow-blueprint --input /tmp/mind-clone-sample-stack-release/working-clone-bundle/workflow-blueprint-pipeline/workflow_blueprint.md --format json",
+      "surface": "validate workflow-blueprint"
+    },
+    "blueprint_validate_generic": {
+      "label": "通用 workflow blueprint 校验",
+      "command": "python3 scripts/clone_ops.py validate workflow-blueprint --input <workflow_blueprint.md> --format json",
+      "surface": "validate workflow-blueprint"
+    },
+    "stack_test_suite": {
+      "label": "stack 回归测试套件",
+      "command": "python3 -m unittest tests.test_stack_discovery tests.test_stack_validators tests.test_stack_operator_flow",
+      "surface": "unit test stack suite"
+    },
+    "bundle_bootstrap_persona": {
+      "label": "从空白开始做人格层分身",
+      "command": "python3 scripts/bootstrap_working_clone_bundle.py --output-dir /tmp/my-clone-bundle --name \"我的分身\"",
+      "surface": "bootstrap_working_clone_bundle persona"
+    },
+    "bundle_bootstrap_workflow": {
+      "label": "从空白开始就开启人格 + workflow 双轨",
+      "command": "python3 scripts/bootstrap_working_clone_bundle.py --output-dir /tmp/my-clone-bundle --name \"我的分身\" --target-mode persona-plus-workflow --work-unit \"接到一类典型工作后完成第一版交付\"",
+      "surface": "bootstrap_working_clone_bundle persona-plus-workflow"
+    },
+    "bundle_refresh": {
+      "label": "已有 working bundle，按 manifest 重算",
+      "command": "python3 scripts/refresh_working_clone_bundle.py --manifest /tmp/my-clone-bundle/working_clone_bundle_manifest.json",
+      "surface": "refresh_working_clone_bundle"
+    },
+    "bundle_run_until_final": {
+      "label": "持续刷新人格层，直到 `final` 或人工阻塞",
+      "command": "python3 scripts/run_working_clone_until_final.py --manifest /tmp/my-clone-bundle/working_clone_bundle_manifest.json --output /tmp/my-clone-bundle/until-final-summary.json",
+      "surface": "run_working_clone_until_final"
+    },
+    "workflow_pipeline_bootstrap": {
+      "label": "人格层已具备，开始 workflow 蓝图链路",
+      "command": "python3 scripts/bootstrap_workflow_blueprint.py --work-unit \"接到一类典型工作后完成第一版交付\" --output-dir /tmp/my-workflow-pipeline",
+      "surface": "bootstrap_workflow_blueprint"
+    },
+    "workflow_pipeline_refresh": {
+      "label": "已有 workflow pipeline，按 manifest 重算",
+      "command": "python3 scripts/refresh_workflow_blueprint_pipeline.py --manifest /tmp/my-workflow-pipeline/workflow_blueprint_pipeline_manifest.json",
+      "surface": "refresh_workflow_blueprint_pipeline"
+    },
+    "workflow_runtime_refresh": {
+      "label": "已有 workflow runtime，按 manifest 重算",
+      "command": "python3 scripts/refresh_workflow_runtime_bundle.py --manifest /tmp/my-workflow-runtime/workflow_runtime_manifest.json",
+      "surface": "refresh_workflow_runtime_bundle"
+    },
+    "workflow_runtime_bootstrap": {
+      "label": "已有 blueprint，开始编译 runtime bundle",
+      "command": "python3 scripts/bootstrap_workflow_clone_runtime.py --clone-config /tmp/my-clone-bundle/personal-clone-skill/clone_config.yaml --workflow-blueprint /tmp/my-workflow-pipeline/workflow_blueprint.md --output-dir /tmp/my-workflow-runtime --execute-safe",
+      "surface": "bootstrap_workflow_clone_runtime"
+    },
+    "workflow_turn_run": {
+      "label": "只推进 workflow 一轮",
+      "command": "python3 scripts/run_workflow_turn.py --workflow-blueprint /tmp/my-workflow-runtime/workflow_blueprint.md --state /tmp/my-workflow-runtime/workflow_task_state.yaml --input \"继续推进下一步\" --output-dir /tmp/my-workflow-runtime/turn-output --execute-safe",
+      "surface": "run_workflow_turn"
+    },
+    "workflow_until_stop": {
+      "label": "让 workflow 连续跑到停",
+      "command": "python3 scripts/run_workflow_until_stop.py --workflow-blueprint /tmp/my-workflow-runtime/workflow_blueprint.md --state /tmp/my-workflow-runtime/workflow_task_state.yaml --initial-input \"继续推进直到需要人工介入\" --output-dir /tmp/my-workflow-runtime/until-stop-output --execute-safe",
+      "surface": "run_workflow_until_stop"
+    },
+    "operator_partial_checks_generic": {
+      "label": "只做局部 stack 检查",
+      "command": "doctor / validate / explain",
+      "surface": "doctor / validate / explain"
+    },
+    "release_readiness_generic": {
+      "label": "整套发布检查",
+      "command": "validate release-readiness",
+      "surface": "validate release-readiness"
+    }
+  },
+  "doc_refs": {
+    "readme": "README.md",
+    "release_checklist": "RELEASE_READINESS_CHECKLIST.md",
+    "doc_router": "references/doc_router.md",
+    "current_flow": "references/current_system_flow.md",
+    "failure_guide": "references/failure_path_guide.md",
+    "glossary": "references/glossary.md",
+    "example_index": "references/example_index.md",
+    "operator_playbook": "references/operator_playbook.md",
+    "operator_contract": "references/operator_command_contract.md",
+    "operator_summary": "references/operator_command_summary.md",
+    "new_maintainer": "references/new_maintainer_first_15_minutes.md",
+    "capability_index": "references/capability_index.md",
+    "workflow_design": "steps/07_workflow_agent_design.md"
+  },
+  "inspect_refs": {
+    "personal_interview": "`personal_interview.md`",
+    "working_clone_bundle_manifest": "`working_clone_bundle_manifest.json`",
+    "next_interview_update": "`NEXT_INTERVIEW_UPDATE.md`",
+    "pending_interview_actions": "`PENDING_INTERVIEW_ACTIONS.json`",
+    "clone_interview_state": "`clone_interview_state.json`",
+    "eval_report": "`eval_report.md`",
+    "clone_config": "`clone_config.yaml`",
+    "workflow_interview": "`workflow_interview.md`",
+    "stage_confirmation": "`stage_confirmation.md`",
+    "workflow_blueprint": "`workflow_blueprint.md`",
+    "workflow_task_state": "`workflow_task_state.yaml`"
+  },
+  "canonical_command_ids": [
+    "docs_validate",
+    "sample_rebuild",
+    "sample_doctor",
+    "current_doctor",
+    "latest_doctor",
+    "latest_validate",
+    "latest_explain",
+    "stack_diff",
+    "release_readiness"
+  ],
+  "daily_stack_command_ids": [
+    "docs_validate",
+    "sample_rebuild",
+    "sample_doctor",
+    "current_doctor",
+    "latest_doctor",
+    "latest_validate",
+    "latest_explain"
+  ],
+  "release_command_ids": [
+    "release_readiness",
+    "release_readiness_text",
+    "release_readiness_skip_tests",
+    "release_readiness_skip_tests_skip_rebuild",
+    "release_readiness_keep_success_logs"
+  ],
+  "summary": {
+    "top_command_ids": [
+      "docs_validate",
+      "sample_rebuild",
+      "latest_doctor",
+      "release_readiness"
+    ],
+    "stack_entry_ids": [
+      "sample_doctor",
+      "current_doctor",
+      "latest_validate",
+      "latest_explain",
+      "stack_diff"
+    ]
+  },
+  "readme": {
+    "coverage_command_ids": [
+      "sample_doctor",
+      "current_doctor",
+      "latest_doctor",
+      "latest_validate",
+      "latest_explain",
+      "stack_diff"
+    ]
+  },
+  "playbook": {
+    "daily_path_items": [
+      {
+        "command_id": "sample_rebuild",
+        "description": "重建一份可移植 sample stack，并同步导出新的 `/tmp/*-vN` latest-stack 兼容目录"
+      },
+      {
+        "command_id": "sample_doctor",
+        "description": "校验当前 sample stack"
+      },
+      {
+        "command_id": "current_doctor",
+        "description": "校验指定 bundle 所属的 coherent stack"
+      },
+      {
+        "command_id": "latest_doctor",
+        "description": "解释并校验 `/tmp` 下最新 coherent stack"
+      },
+      {
+        "command_id": "latest_validate",
+        "description": "只做 latest-stack 校验"
+      },
+      {
+        "command_id": "latest_explain",
+        "description": "只输出 latest-stack 的人类可读解释"
+      },
+      {
+        "command_id": "stack_diff",
+        "description": "对比两份 coherent stack 摘要"
+      }
+    ],
+    "release_core_items": [
+      {
+        "command_id": "docs_validate",
+        "description": "单独做文档防漂移校验"
+      },
+      {
+        "command_id": "release_readiness",
+        "description": "一次性执行当前所有可自动化的 release-readiness 检查"
+      },
+      {
+        "command_id": "release_readiness_text",
+        "description": "如果你想看更适合人工扫读的终端摘要，可以直接用"
+      }
+    ],
+    "release_variant_items": [
+      {
+        "command_id": "release_readiness_keep_success_logs",
+        "description": "如果你明确想保留成功日志，再显式加"
+      },
+      {
+        "command_id": "release_readiness_skip_tests",
+        "description": "如果只想复跑 operator 检查而不重复跑单测"
+      },
+      {
+        "command_id": "release_readiness_skip_tests_skip_rebuild",
+        "description": "如果 sample stack 已存在，只想复跑 doctor/validate/explain"
+      },
+      {
+        "command_id": "blueprint_validate",
+        "description": "单独校验某个 workflow blueprint 是否还是占位骨架"
+      }
+    ],
+    "release_behavior_lines": [
+      "release-readiness 汇总 JSON 现在会为每一步输出 `compact_summary`，方便先扫 headline 和 detail 再决定是否打开日志",
+      "latest-stack 相关步骤的摘要细节现在会优先使用单条 `stack_ref:`，不再重复拆成 `selection / stack / skills`",
+      "同一轮 `release-readiness` 里的 latest doctor/validate/explain 现在会复用一份 pinned latest summary，保证三步看到的是同一个 coherent stack",
+      "latest coherent stack 现在会在“最新内容签名组”内优先选择版本更整齐的 bundle/pipeline/runtime/personal/workflow cohort，减少 `bundle vN` 搭配 `pipeline/runtime vN+1` 的混搭",
+      "latest-stack 的 freshness 报告现在会把“为了 cohort 对齐而选旧”降级成 `notes`，只把真正落后于同签名组更优候选的情况记成 `warnings`",
+      "`explain latest-stack` / `--format text` 里的 freshness 摘要现在会按状态聚合，例如 `aligned_to_v144=pipeline,runtime,personal,workflow`，不再只显示一个裸计数",
+      "原始 `clone_ops.py explain latest-stack` 文本现在也复用同一套 grouped freshness 语义，并且不会再把整份 explain 打印两次",
+      "原始 explain 里的 `candidate_rejections` 现在也会压成单行非零摘要；如果所有类别都是 `0`，该段会直接省略",
+      "原始 explain 里的 `*_rejected_candidates` 现在会按 rejection reason 分组，并只保留代表性样本名，不再展开成长 bullet 列表",
+      "`rebuild_sample_stack` 的成功摘要也已进一步压缩，不再重复输出 bundle/signature 细节",
+      "`doctor sample-stack` / `doctor current-stack` / `doctor latest-stack` / `validate latest-stack` 的成功摘要都已下沉 `signatures:`，把这类细节主要留给 `explain latest-stack`",
+      "成功的 `explain latest-stack` 摘要现在会额外输出一条 `refresh_hotspots:`，帮助维护者直接扫描最近 refresh churn 的主因",
+      "成功步骤默认不再写 preview，也不再保留 success logs；失败步骤或显式 `--keep-success-logs` 时才会把 stdout/stderr 落到 `release-logs/`",
+      "默认成功路径下如果没有失败步骤，`release-logs/` 目录也不会预先创建",
+      "`--format text` 现在会输出更短的 operator 视图：成功步骤只显示摘要，失败步骤才展开命令和排障线索",
+      "`validate release-readiness` 会把完整命令日志落到 `release-logs/`，同时保持 summary JSON 适合快速扫读",
+      "Workflow clone validators reject placeholder-heavy blueprints instead of treating them as release-ready.",
+      "父级 refresh 现在会把匹配下层 `refresh_dependency_groups` 的变更传播到被重建的 child manifest，避免 pipeline/runtime 的 `refresh_history` 被低估",
+      "`/tmp/*-vN` 兼容导出现在会在并发版本冲突时自动重试，避免并行 rebuild/sample release 检查互相撞号"
+    ],
+    "refresh_entry_items": [
+      {
+        "command_id": "bundle_refresh",
+        "description": "刷新整套 working bundle"
+      },
+      {
+        "command_id": "workflow_pipeline_refresh",
+        "description": "刷新 workflow pipeline"
+      },
+      {
+        "command_id": "workflow_runtime_refresh",
+        "description": "刷新 workflow runtime bundle"
+      }
+    ]
+  },
+  "new_maintainer": {
+    "map_reading_paths": [
+      {
+        "doc_ref": "doc_router"
+      },
+      {
+        "doc_ref": "current_flow"
+      },
+      {
+        "doc_ref": "operator_summary"
+      },
+      {
+        "doc_ref": "operator_contract"
+      },
+      {
+        "doc_ref": "operator_playbook"
+      },
+      {
+        "doc_ref": "failure_guide"
+      }
+    ],
+    "preflight_items": [
+      {
+        "command_id": "docs_validate",
+        "description": "先跑文档防漂移校验"
+      },
+      {
+        "command_id": "sample_rebuild",
+        "description": "再重建一份 sample stack"
+      }
+    ],
+    "map_goal_items": [
+      "当前系统的主产物是什么",
+      "operator 常用命令的快速摘要是什么",
+      "operator 命令的标准写法是什么",
+      "operator 最常跑的命令是什么",
+      "如果失败，日志和下一步一般看哪里"
+    ],
+    "operator_path_command_ids": [
+      "sample_doctor",
+      "latest_doctor",
+      "release_readiness"
+    ],
+    "confirmation_items": [
+      "`doctor sample-stack` 能过，说明 sample root 可用",
+      "`doctor latest-stack --explain` 有稳定的 `stack_ref`、`rejections`、`freshness` 和 `refresh_hotspots`",
+      "`validate release-readiness` 能把文档校验、sample rebuild、blueprint gate、doctor/validate/explain 收进同一份总报告"
+    ],
+    "failure_items": [
+      "如果是文档问题，先回到 `validate_repo_docs.py` 的输出，看缺的是哪份文档或哪个模式",
+      "如果是 stack 问题，先看 `compact_summary`，再看 `summary_json_path`",
+      "如果是命令失败，再看 `release-logs/`",
+      {
+        "prefix": "如果你只想快定位，不想重读整套文档，直接回",
+        "doc_ref": "failure_guide"
+      }
+    ],
+    "after_15_minutes_items": [
+      "仓库当前主链路能不能从文档、样例和 operator 视角同时走通",
+      "出问题时先去哪份文档、哪个 JSON、哪个日志目录",
+      "接下来该继续修文档、修 sample stack，还是修 operator/validator"
+    ]
+  },
+  "release_checklist": {
+    "metadata_command_ids": [
+      "docs_validate"
+    ],
+    "validation_command_ids": [
+      "release_readiness",
+      "blueprint_validate",
+      "stack_test_suite",
+      "sample_rebuild",
+      "sample_doctor",
+      "current_doctor",
+      "latest_doctor",
+      "latest_validate",
+      "latest_explain"
+    ],
+    "handoff_intro_items": [
+      "`doctor latest-stack --explain` shows candidate rejection counts and freshness information instead of silent failure."
+    ],
+    "handoff_outro_items": [
+      "`diff stack` can compare either two summary JSON files or two bundle-root-derived summaries.",
+      "The known-good sample output root is documented and reproducible.",
+      "`/tmp/*-vN` export retention is visible in `rebuild_sample_stack.py` output, and pruning only happens with explicit `--prune-tmp`.",
+      "A maintainer can rebuild, validate, explain, and diff the stack without editing script internals."
+    ]
+  },
+  "current_flow": {
+    "entry_choice_rows": [
+      {
+        "goal": "从空白开始做人格层分身",
+        "entry": "`scripts/bootstrap_working_clone_bundle.py`",
+        "when": "还没有成型 bundle，想从访谈一路建到可交付 working bundle",
+        "stop_point": "`personal_interview.md`、`NEXT_INTERVIEW_UPDATE.md`、working bundle"
+      },
+      {
+        "goal": "从空白开始就开启人格 + workflow 双轨",
+        "entry": "`scripts/bootstrap_working_clone_bundle.py`",
+        "when": "一开始就知道目标不是纯顾问分身，而是后面要继续做工作型替身",
+        "stop_point": "`personal_interview.md`、`workflow_interview.md`、workflow blocker 或 working bundle"
+      },
+      {
+        "goal": "已有 working bundle，只想继续补到更完整",
+        "entry": "`scripts/refresh_working_clone_bundle.py`",
+        "when": "你已经改过访谈或上游材料，只想重算 bundle",
+        "stop_point": "更新后的 bundle 产物与 `recommended_next_command`"
+      },
+      {
+        "goal": "想自动循环推进人格层，直到遇到人工阻塞",
+        "entry": "`scripts/run_working_clone_until_final.py`",
+        "when": "想让系统持续刷新，直到 `final` 或明确停在人工输入点",
+        "stop_point": "`working_clone_until_final_summary.json`、待补问题队列"
+      },
+      {
+        "goal": "人格层已具备，开始做 workflow 访谈和蓝图",
+        "entry": "`scripts/bootstrap_workflow_blueprint.py`",
+        "when": "已经明确要做某类工作型替身，开始 workflow 轨道",
+        "stop_point": "`workflow_interview.md`、`stage_confirmation.md`、pipeline README"
+      },
+      {
+        "goal": "已有 workflow pipeline，只想根据变更重算",
+        "entry": "`scripts/refresh_workflow_blueprint_pipeline.py`",
+        "when": "改了 workflow 访谈、确认稿、blueprint 上游材料",
+        "stop_point": "更新后的 `workflow_blueprint.md` 与 pipeline manifest"
+      },
+      {
+        "goal": "已有 blueprint，开始做 runtime",
+        "entry": "`scripts/bootstrap_workflow_clone_runtime.py`",
+        "when": "workflow blueprint 已确认，想继续编译 runtime bundle",
+        "stop_point": "runtime bundle、`workflow_task_state.yaml`、runtime README"
+      },
+      {
+        "goal": "已有 runtime bundle，只想根据变更重算",
+        "entry": "`scripts/refresh_workflow_runtime_bundle.py`",
+        "when": "改了 runtime 上游材料、task 配置，或想按 manifest 重算 runtime",
+        "stop_point": "更新后的 runtime bundle、`workflow_task_state.yaml`、runtime manifest"
+      },
+      {
+        "goal": "只想跑 workflow 的下一轮",
+        "entry": "`scripts/run_workflow_turn.py`",
+        "when": "已有 runtime bundle / task state，只推进一轮",
+        "stop_point": "更新后的 `workflow_task_state.yaml` 与本轮执行摘要"
+      },
+      {
+        "goal": "想让 workflow 连续跑到停",
+        "entry": "`scripts/run_workflow_until_stop.py`",
+        "when": "想让 workflow 持续推进到完成、人工介入或回合上限",
+        "stop_point": "多轮累计后的 task state 与执行摘要"
+      },
+      {
+        "goal": "想做 sample/latest-stack/operator 检查",
+        "entry": "`scripts/clone_ops.py`、`scripts/rebuild_sample_stack.py`",
+        "when": "维护 sample stack、latest coherent stack、release-readiness",
+        "stop_point": "sample stack、stack summaries、release report"
+      }
+    ],
+    "short_example_items": [
+      {
+        "command_id": "bundle_bootstrap_persona",
+        "description": "从空白开始做人格层分身"
+      },
+      {
+        "command_id": "bundle_bootstrap_workflow",
+        "description": "从空白开始就开启人格 + workflow 双轨"
+      },
+      {
+        "command_id": "bundle_refresh",
+        "description": "已有 working bundle，按 manifest 重算"
+      },
+      {
+        "command_id": "bundle_run_until_final",
+        "description": "持续刷新人格层，直到 `final` 或人工阻塞"
+      },
+      {
+        "command_id": "workflow_pipeline_bootstrap",
+        "description": "人格层已具备，开始 workflow 蓝图链路"
+      },
+      {
+        "command_id": "workflow_pipeline_refresh",
+        "description": "已有 workflow pipeline，按 manifest 重算"
+      },
+      {
+        "command_id": "workflow_runtime_bootstrap",
+        "description": "已有 blueprint，开始编译 runtime bundle"
+      },
+      {
+        "command_id": "workflow_runtime_refresh",
+        "description": "已有 runtime bundle，按 manifest 重算"
+      },
+      {
+        "command_id": "workflow_turn_run",
+        "description": "只推进 workflow 一轮"
+      },
+      {
+        "command_id": "workflow_until_stop",
+        "description": "让 workflow 连续跑到停"
+      },
+      {
+        "command_id": "release_readiness",
+        "description": "做 operator / release 检查"
+      }
+    ],
+    "persona_file_rows": [
+      {
+        "file": {
+          "inspect_ref": "personal_interview"
+        },
+        "location": "`<bundle-root>/personal_interview.md`",
+        "writer": "`bootstrap_working_clone_bundle.py`",
+        "meaning": "人格层访谈入口，空白时说明还没开始正式采集",
+        "next_step": "编辑后跑 `refresh_working_clone_bundle.py`"
+      },
+      {
+        "file": {
+          "inspect_ref": "next_interview_update"
+        },
+        "location": "`<bundle-root>/NEXT_INTERVIEW_UPDATE.md`",
+        "writer": "`bootstrap_working_clone_bundle.py` / `refresh_working_clone_bundle.py`",
+        "meaning": "当前最该补的下一块访谈内容",
+        "next_step": "按提示补访谈，再 refresh"
+      },
+      {
+        "file": {
+          "inspect_ref": "pending_interview_actions"
+        },
+        "location": "`<bundle-root>/PENDING_INTERVIEW_ACTIONS.json`",
+        "writer": "`bootstrap_working_clone_bundle.py` / `refresh_working_clone_bundle.py`",
+        "meaning": "全部未完成访谈动作队列",
+        "next_step": "看 blocker 和 `manual_edit_required`，决定人工补料还是继续刷新"
+      },
+      {
+        "file": "`working_clone_until_final_summary.json`",
+        "location": "`<bundle-root>/working_clone_until_final_summary.json`",
+        "writer": "`bootstrap_working_clone_bundle.py` / `run_working_clone_until_final.py`",
+        "meaning": "人格层循环推进后的汇总状态",
+        "next_step": "继续按 `recommended_next_command` 走"
+      },
+      {
+        "file": {
+          "inspect_ref": "working_clone_bundle_manifest"
+        },
+        "location": "`<bundle-root>/working_clone_bundle_manifest.json`",
+        "writer": "`bootstrap_working_clone_bundle.py`",
+        "meaning": "working bundle 的主清单，也是后续 refresh 的入口",
+        "next_step": "用它跑 `refresh_working_clone_bundle.py` 或 `run_working_clone_until_final.py`"
+      },
+      {
+        "file": {
+          "inspect_ref": "clone_config"
+        },
+        "location": "`<bundle-root>/personal-clone-skill/clone_config.yaml`",
+        "writer": "`build_clone_config.py` / `bootstrap_working_clone_bundle.py`",
+        "meaning": "人格层配置主文件，后续 personal/workflow 编译都会依赖它",
+        "next_step": "编译 personal clone skill，或继续喂给 workflow/runtime"
+      },
+      {
+        "file": "`mind_profile.md`",
+        "location": "`<bundle-root>/personal-clone-skill/mind_profile.md`",
+        "writer": "`bootstrap_working_clone_bundle.py`",
+        "meaning": "思维画像已生成",
+        "next_step": "审看画像是否准确，必要时继续修正访谈"
+      },
+      {
+        "file": "`system_prompt.md`",
+        "location": "`<bundle-root>/personal-clone-skill/system_prompt.md`",
+        "writer": "`bootstrap_working_clone_bundle.py`",
+        "meaning": "人格层 system prompt 已生成",
+        "next_step": "交付到支持自定义 system prompt 的环境，或继续编译 skill"
+      },
+      {
+        "file": {
+          "inspect_ref": "eval_report"
+        },
+        "location": "`<bundle-root>/personal-clone-skill/eval_report.md`",
+        "writer": "`bootstrap_working_clone_bundle.py`",
+        "meaning": "当前更接近 `final` 还是 `draft` 的评估结果",
+        "next_step": "读失败项，决定继续补料还是直接交付"
+      }
+    ],
+    "workflow_file_rows": [
+      {
+        "file": {
+          "inspect_ref": "workflow_interview"
+        },
+        "location": "`<bundle-root>/workflow_interview.md` 或 `<pipeline-root>/workflow_interview.md`",
+        "writer": "`bootstrap_working_clone_bundle.py` / `bootstrap_workflow_blueprint.py`",
+        "meaning": "workflow 轨道的访谈入口；空白或 blocker 时说明工作单元还没定清",
+        "next_step": "补 `target_work_unit` 和 W1-W7，再 refresh pipeline"
+      },
+      {
+        "file": {
+          "inspect_ref": "stage_confirmation"
+        },
+        "location": "`<pipeline-root>/stage_confirmation.md`",
+        "writer": "`build_workflow_stage_confirmation.py` / `bootstrap_workflow_blueprint.py`",
+        "meaning": "阶段草稿已生成，等待用户确认“像不像”",
+        "next_step": "修改确认稿，再跑 `refresh_workflow_blueprint_pipeline.py`"
+      },
+      {
+        "file": {
+          "inspect_ref": "workflow_blueprint"
+        },
+        "location": "`<bundle-root>/workflow-blueprint-pipeline/workflow_blueprint.md` 或 `<pipeline-root>/workflow_blueprint.md`",
+        "writer": "`build_workflow_blueprint.py` / `bootstrap_workflow_blueprint.py`",
+        "meaning": "workflow 蓝图已成型",
+        "next_step": "编译 workflow clone skill 或 runtime bundle"
+      },
+      {
+        "file": "`workflow_blueprint_pipeline_manifest.json`",
+        "location": "`<bundle-root>/workflow-blueprint-pipeline/workflow_blueprint_pipeline_manifest.json` 或 `<pipeline-root>/workflow_blueprint_pipeline_manifest.json`",
+        "writer": "`bootstrap_workflow_blueprint.py`",
+        "meaning": "workflow pipeline 的主清单，也是 pipeline refresh 的入口",
+        "next_step": "用它跑 `refresh_workflow_blueprint_pipeline.py`"
+      },
+      {
+        "file": {
+          "inspect_ref": "workflow_task_state"
+        },
+        "location": "`<runtime-root>/workflow_task_state.yaml` 或 `<bundle-root>/workflow-blueprint-pipeline/workflow-runtime-bundle/workflow_task_state.yaml`",
+        "writer": "`bootstrap_workflow_clone_runtime.py` / `init_workflow_task_state.py`",
+        "meaning": "workflow runtime 已初始化，可开始单轮或多轮推进",
+        "next_step": "跑 `run_workflow_turn.py` 或 `run_workflow_until_stop.py`"
+      },
+      {
+        "file": "`workflow_runtime_manifest.json`",
+        "location": "`<runtime-root>/workflow_runtime_manifest.json` 或 `<bundle-root>/workflow-blueprint-pipeline/workflow-runtime-bundle/workflow_runtime_manifest.json`",
+        "writer": "`bootstrap_workflow_clone_runtime.py`",
+        "meaning": "runtime bundle 的主清单，也是 runtime refresh 的锚点",
+        "next_step": "用它跑 `refresh_workflow_runtime_bundle.py`，或核对 runtime provenance"
+      }
+    ],
+    "operator_file_rows": [
+      {
+        "file": "`SAMPLE_STACK_SUMMARY.json`",
+        "location": "`<sample-root>/SAMPLE_STACK_SUMMARY.json`",
+        "writer": "`rebuild_sample_stack.py`",
+        "meaning": "sample stack 已重建完成，可用于 sample/current/latest 校验",
+        "next_step": "跑 `doctor sample-stack` 或继续 release-readiness"
+      }
+    ],
+    "persona_stop_items": [
+      "访谈还空白：停在 `personal_interview.md`",
+      "访谈不完整：停在 `NEXT_INTERVIEW_UPDATE.md` 与 `PENDING_INTERVIEW_ACTIONS.json`",
+      "已可编译但未最终就绪：停在带 `recommended_next_command` 的 working bundle",
+      "已达到当前发布要求：继续产出 `clone_config.yaml`、`mind_profile.md`、`system_prompt.md`、personal clone skill"
+    ],
+    "pipeline_stop_items": [
+      "workflow 还没开始：停在 `workflow_interview.md`",
+      "`target_work_unit` 还不明确：停在 workflow blocker 与下一条建议命令",
+      "阶段草稿还没确认：停在 `stage_confirmation.md`",
+      "阶段已确认但还没扩展到 runtime：停在 `workflow_blueprint.md` 与 pipeline README"
+    ],
+    "runtime_stop_items": [
+      "runtime 刚初始化：停在 runtime bundle 和 `workflow_task_state.yaml`",
+      "只执行了一轮：停在更新后的 task state 与单轮摘要",
+      "连续执行后触发人工介入：停在 task state、执行证据和人工待办"
+    ],
+    "operator_stop_items": [
+      "sample stack 已重建：停在 sample output root 和 `SAMPLE_STACK_SUMMARY.json`",
+      "latest-stack 已解释：停在 `release_doctor_latest_stack.json` 或对应 summary JSON",
+      "release-readiness 已执行：停在 release report、失败日志或 compact summary"
+    ],
+    "persona_resume_items": [
+      {
+        "command_id": "bundle_refresh",
+        "description": "用户继续补访谈后，跑"
+      },
+      {
+        "command_id": "bundle_run_until_final",
+        "description": "想让系统自己持续推进到下一个人工阻塞点，跑"
+      }
+    ],
+    "pipeline_resume_items": [
+      {
+        "command_id": "workflow_pipeline_refresh",
+        "description": "修改 workflow 访谈或阶段确认后，跑"
+      },
+      {
+        "command_id": "workflow_runtime_bootstrap",
+        "description": "想从蓝图继续下沉到 runtime，跑"
+      }
+    ],
+    "runtime_resume_items": [
+      {
+        "command_id": "workflow_runtime_refresh",
+        "description": "改了 runtime 上游材料或想按 manifest 重算，跑"
+      },
+      {
+        "command_id": "workflow_turn_run",
+        "description": "单轮推进时，跑"
+      },
+      {
+        "command_id": "workflow_until_stop",
+        "description": "连续推进到 stop condition 时，跑"
+      }
+    ],
+    "operator_resume_items": [
+      {
+        "command_id": "operator_partial_checks_generic",
+        "description": "只做局部 stack 检查，继续"
+      },
+      {
+        "command_id": "release_readiness_generic",
+        "description": "做整套发布检查，继续"
+      }
+    ],
+    "operator_chain_items": [
+      {
+        "command_id": "docs_validate",
+        "description": "`validate_repo_docs.py` 先挡住 README / references / examples 的文档漂移"
+      },
+      {
+        "command_id": "sample_rebuild",
+        "description": "`rebuild_sample_stack.py` 重建 sample stack，并导出一组 `/tmp/*-vN`"
+      },
+      {
+        "command_id": "sample_doctor",
+        "description": "`clone_ops.py doctor sample-stack` 校验 sample stack"
+      },
+      {
+        "command_id": "current_doctor",
+        "description": "`clone_ops.py doctor current-stack` 从某个 bundle 反推整条 coherent stack"
+      },
+      {
+        "command_id": "latest_doctor",
+        "description": "`clone_ops.py doctor latest-stack --explain` 选择并解释 `/tmp` 下最新 coherent stack"
+      },
+      {
+        "command_id": "latest_validate",
+        "description": "`clone_ops.py validate latest-stack` 做 latest-stack 对称校验"
+      },
+      {
+        "command_id": "latest_explain",
+        "description": "`clone_ops.py explain latest-stack` 输出更偏人工阅读的解释"
+      },
+      {
+        "command_id": "release_readiness",
+        "description": "`clone_ops.py validate release-readiness` 汇总文档校验、单测、重建、blueprint gate、doctor/validate/explain 等总检查"
+      }
+    ]
+  },
+  "doc_router": {
+    "question_rows": [
+      {
+        "question": "这套系统现在到底做到了哪一步？",
+        "doc_ref": "current_flow",
+        "reason": "这是当前实现地图，不是设计稿"
+      },
+      {
+        "question": "我不知道该从哪个脚本入口开始",
+        "doc_ref": "current_flow",
+        "reason": "第 6 节有入口选择和最短命令"
+      },
+      {
+        "question": "我卡住了，只想知道下一步怎么跑",
+        "doc_ref": "failure_guide",
+        "reason": "这里按失败点给了最快排障路径和命令"
+      },
+      {
+        "question": "我看不懂 bundle / pipeline / runtime 是什么",
+        "doc_ref": "glossary",
+        "reason": "先对齐术语，再看流程"
+      },
+      {
+        "question": "我想看一份完整示例到底长什么样",
+        "doc_ref": "example_index",
+        "reason": "这里告诉你先读哪些 example 文件"
+      },
+      {
+        "question": "我是维护者，只关心 operator 命令",
+        "doc_ref": "operator_playbook",
+        "reason": "这里收拢了最短运维命令"
+      },
+      {
+        "question": "我只想查 operator 命令的标准写法",
+        "doc_ref": "operator_contract",
+        "reason": "这里是 operator 命令的单一真源"
+      },
+      {
+        "question": "我只想先扫一页常用 operator 命令摘要",
+        "doc_ref": "operator_summary",
+        "reason": "这里是从命令数据源自动生成的快速摘要"
+      },
+      {
+        "question": "我是第一次接手维护这个仓库",
+        "doc_ref": "new_maintainer",
+        "reason": "先用 15 分钟建立地图并确认主链路可跑"
+      },
+      {
+        "question": "我准备发布，想知道上线前还要核对什么",
+        "doc_ref": "release_checklist",
+        "reason": "这里是发布前人工检查清单"
+      },
+      {
+        "question": "我想知道仓库已经具备哪些能力",
+        "doc_ref": "capability_index",
+        "reason": "这里按能力面和脚本分层"
+      },
+      {
+        "question": "我想看工作型替身是怎么建模的",
+        "doc_ref": "workflow_design",
+        "reason": "这里是 workflow 建模方法和访谈框架"
+      }
+    ],
+    "user_value_path": [
+      {
+        "doc_ref": "readme"
+      },
+      {
+        "doc_ref": "current_flow"
+      },
+      {
+        "doc_ref": "example_index"
+      }
+    ],
+    "workflow_path": [
+      {
+        "doc_ref": "current_flow"
+      },
+      {
+        "doc_ref": "workflow_design"
+      },
+      {
+        "doc_ref": "failure_guide"
+      }
+    ],
+    "maintainer_reading_path": [
+      {
+        "doc_ref": "new_maintainer"
+      },
+      {
+        "doc_ref": "operator_summary"
+      },
+      {
+        "doc_ref": "operator_contract"
+      },
+      {
+        "doc_ref": "operator_playbook"
+      },
+      {
+        "doc_ref": "release_checklist"
+      }
+    ],
+    "single_read_items": [
+      {
+        "label": "想理解当前系统",
+        "doc_ref": "current_flow"
+      },
+      {
+        "label": "想最快排障",
+        "doc_ref": "failure_guide"
+      },
+      {
+        "label": "想第一次接手维护",
+        "doc_ref": "new_maintainer"
+      }
+    ]
+  },
+  "failure_guide": {
+    "quick_reference_rows": [
+      {
+        "problem": "人格层还没达到 `final`，`eval_report.md` 还是 `draft`",
+        "inspect": "`eval_report.md`、`clone_config.yaml`",
+        "command_id": "bundle_refresh"
+      },
+      {
+        "problem": "`target_work_unit` 未定义，workflow 轨道还没起飞",
+        "inspect": "`workflow_interview.md`、`recommended_next_command`",
+        "command_id": "bundle_refresh"
+      },
+      {
+        "problem": "`workflow_blueprint.md` 校验失败",
+        "inspect": "`workflow_blueprint.md`、`stage_confirmation.md`",
+        "command_id": "blueprint_validate_generic"
+      },
+      {
+        "problem": "发布前总检查失败",
+        "inspect": "release report JSON、`compact_summary`、`release-logs/`",
+        "command_id": "release_readiness"
+      }
+    ],
+    "workflow_blocker_command_items": [
+      {
+        "command_id": "bundle_refresh",
+        "description": "已有 bundle，只想重算整套"
+      },
+      {
+        "command_id": "workflow_pipeline_refresh",
+        "description": "已有 pipeline，只想重算 workflow 蓝图"
+      }
+    ],
+    "workflow_blocker_next_step_items": [
+      "先把“第一类典型工作单元”写清楚",
+      "再补 W1-W7",
+      "补完后按下方对应入口重算 bundle 或 pipeline"
+    ],
+    "blueprint_command_items": [
+      {
+        "command_id": "blueprint_validate_generic",
+        "description": "只想看 blueprint 失败细节"
+      },
+      {
+        "command_id": "workflow_pipeline_refresh",
+        "description": "改完后重算 pipeline"
+      }
+    ],
+    "blueprint_inspect_items": [
+      {
+        "inspect_ref": "workflow_blueprint"
+      },
+      {
+        "inspect_ref": "stage_confirmation"
+      },
+      "必要时先跑一次下方 blueprint 校验命令"
+    ],
+    "blueprint_reason_items": [
+      "仍有 placeholder",
+      "还退化成 `阶段1/阶段2/阶段3`",
+      "阶段动作、工具映射、切换规则还是空"
+    ],
+    "blueprint_next_step_items": [
+      "先回到 workflow 访谈或阶段确认稿补实",
+      "再重建 blueprint"
+    ],
+    "personal_empty_inspect_items": [
+      {
+        "inspect_ref": "personal_interview"
+      },
+      {
+        "inspect_ref": "working_clone_bundle_manifest"
+      }
+    ],
+    "personal_empty_next_step_items": [
+      "先补访谈内容"
+    ],
+    "personal_empty_command_items": [
+      {
+        "command_id": "bundle_refresh",
+        "description": "补完访谈后，重算 working bundle，跑"
+      }
+    ],
+    "next_interview_inspect_items": [
+      {
+        "inspect_ref": "next_interview_update"
+      },
+      {
+        "inspect_ref": "pending_interview_actions"
+      },
+      {
+        "inspect_ref": "clone_interview_state"
+      }
+    ],
+    "next_interview_next_step_items": [
+      "优先按 `NEXT_INTERVIEW_UPDATE.md` 补当前最关键的一块",
+      "如果只是想先放行，确认当前流程是否允许临时 accept"
+    ],
+    "next_interview_command_items": [
+      {
+        "command_id": "bundle_refresh",
+        "description": "补完当前最关键的一块后，重算 working bundle，跑"
+      }
+    ],
+    "eval_draft_inspect_items": [
+      {
+        "inspect_ref": "eval_report"
+      },
+      {
+        "inspect_ref": "clone_config"
+      }
+    ],
+    "eval_draft_next_step_items": [
+      "先读 `eval_report.md` 里的失败项或低分项",
+      "按失败项回到对应访谈或画像文件补料"
+    ],
+    "eval_draft_command_items": [
+      {
+        "command_id": "bundle_refresh",
+        "description": "按失败项补料后，重算 working bundle，跑"
+      }
+    ],
+    "workflow_blocker_inspect_items": [
+      {
+        "inspect_ref": "workflow_interview"
+      },
+      "working bundle / pipeline README 里的 `recommended_next_command`"
+    ],
+    "stage_confirmation_inspect_items": [
+      {
+        "inspect_ref": "stage_confirmation"
+      },
+      {
+        "inspect_ref": "workflow_interview"
+      }
+    ],
+    "stage_confirmation_command_items": [
+      {
+        "command_id": "workflow_pipeline_refresh",
+        "description": "改完阶段确认稿后，重算 pipeline，跑"
+      }
+    ],
+    "stage_confirmation_next_step_items": [
+      "改阶段顺序、缺失阶段、回环关系、人工拍板点"
+    ],
+    "runtime_command_items": [
+      {
+        "command_id": "workflow_turn_run",
+        "description": "补完人工输入后，只推进一轮，跑"
+      },
+      {
+        "command_id": "workflow_until_stop",
+        "description": "想继续跑到下一个 stop condition，跑"
+      }
+    ],
+    "runtime_inspect_items": [
+      {
+        "inspect_ref": "workflow_task_state"
+      },
+      "本轮 turn 输出目录"
+    ],
+    "runtime_next_step_items": [
+      "读当前 stage 和 stop reason",
+      "补一条新的人工输入"
+    ],
+    "release_readiness_command_items": [
+      {
+        "command_id": "release_readiness_text",
+        "description": "先看更短的人类摘要"
+      },
+      {
+        "command_id": "release_readiness",
+        "description": "保留汇总 JSON 方便定位失败 step"
+      },
+      {
+        "command_id": "release_readiness_skip_tests",
+        "description": "只复跑 operator 链路，不重复跑单测"
+      },
+      {
+        "command_id": "release_readiness_skip_tests_skip_rebuild",
+        "description": "sample stack 已存在，只复跑 doctor/validate/explain"
+      }
+    ],
+    "release_readiness_inspect_items": [
+      "release report JSON",
+      "失败 step 的 `compact_summary`",
+      "失败 step 的 `summary_json_path`",
+      "`release-logs/`"
+    ],
+    "release_readiness_next_step_items": [
+      "先找第一个失败 step",
+      "先读它的 `compact_summary`",
+      "如果还不够，再打开 `summary_json_path`",
+      "如果是命令失败，再看 `release-logs/` 里的 stdout / stderr",
+      "修完后只重跑对应命令，确认绿了再重跑总检查"
+    ],
+    "latest_stack_command_items": [
+      {
+        "command_id": "latest_explain",
+        "description": "解释当前 latest-stack 选择原因"
+      },
+      {
+        "command_id": "latest_doctor",
+        "description": "先做人类可读的 doctor 解释"
+      }
+    ],
+    "latest_stack_inspect_items": [
+      "`stack_ref`",
+      "`rejections`",
+      "`refresh_hotspots`",
+      "必要时先跑一次下方 explain 命令"
+    ],
+    "latest_stack_next_step_items": [
+      "先确认是不是 mixed-version 或 freshness 对齐导致的选择变化",
+      "再看 rejection summary 是 bundle / pipeline / runtime / skill 哪一层在拦"
+    ],
+    "recent_failure_reading_order_items": [
+      {
+        "lead": "先看",
+        "doc_ref": "current_flow",
+        "note": "第 7 节“各层停点与续跑点”"
+      },
+      {
+        "lead": "再看",
+        "doc_ref": "current_flow",
+        "note": "第 8 节“关键文件速查”"
+      },
+      {
+        "lead": "如果是 operator 问题，再看",
+        "doc_ref": "operator_playbook",
+        "note": ""
+      }
+    ]
+  },
+  "capability_index": {
+    "operator_entry_scripts": [
+      "scripts/clone_ops.py",
+      "scripts/rebuild_sample_stack.py",
+      "scripts/run_release_readiness.py",
+      "scripts/stack_discovery.py"
+    ],
+    "operator_capability_lines": [
+      "统一触发常见 bootstrap / refresh / validate / doctor / explain / diff 动作",
+      "`doctor latest-stack` 会自动选择 `/tmp` 下最新、通过契约校验、且属于同一条内容链的 coherent stack；如果同一内容链存在多个 `-vN` 版本，会优先挑版本更整齐的 cohort，而不是默认拼出 mixed-version 组合",
+      "`doctor current-stack --bundle-dir <bundle-dir>` 可从 working bundle 反推整条 coherent stack",
+      "`validate latest-stack` 可作为 `doctor latest-stack` 的对称别名使用",
+      "`doctor` / `validate latest-stack` / `explain latest-stack` 都支持 `--summary-json`",
+      "`rebuild_sample_stack.py` 会输出 `/tmp/*-vN` 保留报告，并支持 `--tmp-retain` / `--prune-tmp`",
+      "`validate release-readiness` 会收束文档防漂移、单测、sample rebuild、blueprint gate、doctor/validate/explain latest-stack"
+    ]
+  }
+}

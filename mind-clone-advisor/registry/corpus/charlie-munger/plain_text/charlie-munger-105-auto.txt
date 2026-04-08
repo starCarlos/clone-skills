@@ -1,0 +1,3 @@
+Source: https://en.wikipedia.org/wiki/Charlie_Munger
+
+An ample body of documented evidence shows that interior environments with access to natural light, air, and views to nature improve both the physical and mental wellbeing of occupants ...

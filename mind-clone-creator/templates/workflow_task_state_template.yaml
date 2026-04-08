@@ -1,0 +1,15 @@
+workflow_name: "{workflow_name}"
+task_id: "{task_id}"
+task_summary: "{task_summary}"
+status: "active"
+current_stage: "{current_stage}"
+completed_stages: []
+confirmed_requirements: []
+completed_actions: []
+pending_actions:
+  - "{first_pending_action}"
+blockers: []
+waiting_for_user: []
+latest_deliverable: ""
+next_step: "{next_step}"
+last_updated_at: "{last_updated_at}"

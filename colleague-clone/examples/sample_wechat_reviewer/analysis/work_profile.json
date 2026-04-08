@@ -1,0 +1,278 @@
+{
+  "responsibility_scope": {
+    "summary": "Ownership signals appear around APIs, modules, or system boundaries.",
+    "modules": [
+      "owner"
+    ],
+    "confidence": 0.65,
+    "confidence_reason": "supported by 1 evidence item(s)",
+    "evidence": [
+      {
+        "record_id": "src_002_001",
+        "source_id": "src_002",
+        "source_type": "pasted_text",
+        "quote": "先确认 owner，再同步相关方。",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "workflow_patterns": {
+    "summary": "Material suggests a stepwise workflow with risk-first or sequence-first language.",
+    "operating_sequence": [
+      "clarify",
+      "align_owner",
+      "plan"
+    ],
+    "steps_hint": [
+      "先看 impact，再给方案。",
+      "先确认 owner，再同步相关方。"
+    ],
+    "confidence": 0.85,
+    "confidence_reason": "supported by 2 evidence item(s)",
+    "evidence": [
+      {
+        "record_id": "src_001_001",
+        "source_id": "src_001",
+        "source_type": "wechat_export",
+        "quote": "先看 impact，再给方案。",
+        "confidence": 1.0
+      },
+      {
+        "record_id": "src_002_001",
+        "source_id": "src_002",
+        "source_type": "pasted_text",
+        "quote": "先确认 owner，再同步相关方。",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "review_preferences": {
+    "summary": "Recurring review focus areas appear in technical correctness checks.",
+    "focus_areas": [
+      "错误码"
+    ],
+    "confidence": 0.65,
+    "confidence_reason": "supported by 1 evidence item(s)",
+    "evidence": [
+      {
+        "record_id": "src_001_002",
+        "source_id": "src_001",
+        "source_type": "wechat_export",
+        "quote": "CR重点看错误码和回滚预案。",
+        "confidence": 1.0
+      }
+    ]
+  },
+  "delivery_preferences": {
+    "summary": "No delivery preference signal yet.",
+    "format_preferences": [],
+    "confidence": 0.2,
+    "confidence_reason": "no supporting evidence",
+    "evidence": []
+  },
+  "domain_knowledge": [
+    "impact",
+    "owner"
+  ],
+  "explicit_rules": [
+    {
+      "summary": "先看 impact，再给方案。",
+      "evidence": [
+        {
+          "record_id": "src_001_001",
+          "source_id": "src_001",
+          "source_type": "wechat_export",
+          "quote": "先看 impact，再给方案。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "summary": "先确认 owner，再同步相关方。",
+      "evidence": [
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ],
+  "stable_patterns": [
+    {
+      "label": "technical review focus",
+      "summary": "Highlights technical correctness concerns such as idempotency, transactions, or query shape.",
+      "evidence": [
+        {
+          "record_id": "src_001_002",
+          "source_id": "src_001",
+          "source_type": "wechat_export",
+          "quote": "CR重点看错误码和回滚预案。",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ],
+  "conditional_patterns": [],
+  "conflicts": [],
+  "resolved_conflicts": [],
+  "resolution_history": [],
+  "manual_overrides": [],
+  "privacy_filter": {
+    "counts": {
+      "work_related": 3,
+      "work_adjacent": 0,
+      "private_sensitive": 0
+    },
+    "excluded_record_ids": [],
+    "entries": [
+      {
+        "record_id": "src_001_001",
+        "source_id": "src_001",
+        "category": "work_related",
+        "reason": "no private-sensitive markers detected",
+        "private_hits": [],
+        "work_hits": [],
+        "title": "先看 impact，再给方案。"
+      },
+      {
+        "record_id": "src_001_002",
+        "source_id": "src_001",
+        "category": "work_related",
+        "reason": "no private-sensitive markers detected",
+        "private_hits": [],
+        "work_hits": [
+          "cr",
+          "回滚"
+        ],
+        "title": "CR重点看错误码和回滚预案。"
+      },
+      {
+        "record_id": "src_002_001",
+        "source_id": "src_002",
+        "category": "work_related",
+        "reason": "no private-sensitive markers detected",
+        "private_hits": [],
+        "work_hits": [
+          "owner"
+        ],
+        "title": "先确认 owner，再同步相关方。"
+      }
+    ]
+  },
+  "semantic_view": {
+    "role_scope": {
+      "summary": "Ownership signals appear around APIs, modules, or system boundaries.",
+      "modules": [
+        "owner"
+      ],
+      "confidence": 0.65,
+      "confidence_reason": "supported by 1 evidence item(s)",
+      "evidence": [
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    "work_method": {
+      "summary": "Material suggests a stepwise workflow with risk-first or sequence-first language.",
+      "operating_sequence": [
+        "clarify",
+        "align_owner",
+        "plan"
+      ],
+      "rules_of_thumb": [
+        "先看 impact，再给方案。",
+        "先确认 owner，再同步相关方。"
+      ],
+      "confidence": 0.85,
+      "confidence_reason": "supported by 2 evidence item(s)",
+      "evidence": [
+        {
+          "record_id": "src_001_001",
+          "source_id": "src_001",
+          "source_type": "wechat_export",
+          "quote": "先看 impact，再给方案。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    "review_and_delivery": {
+      "summary": "Combines recurring review focus and delivery shape preferences.",
+      "focus_areas": [
+        "错误码"
+      ],
+      "format_preferences": [],
+      "confidence": 0.2,
+      "confidence_reason": "derived from review_preferences and delivery_preferences",
+      "evidence": [
+        {
+          "record_id": "src_001_002",
+          "source_id": "src_001",
+          "source_type": "wechat_export",
+          "quote": "CR重点看错误码和回滚预案。",
+          "confidence": 1.0
+        }
+      ]
+    },
+    "professional_profile": {
+      "summary": "Owns concrete work scope, operates with structured steps, and reviews through recurring technical checks.",
+      "scope_modules": [
+        "owner"
+      ],
+      "operating_sequence": [
+        "clarify",
+        "align_owner",
+        "plan"
+      ],
+      "review_focus_areas": [
+        "错误码"
+      ],
+      "confidence": 0.65,
+      "confidence_reason": "derived from responsibility_scope, workflow_patterns, and review_preferences",
+      "evidence": [
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_001_001",
+          "source_id": "src_001",
+          "source_type": "wechat_export",
+          "quote": "先看 impact，再给方案。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_002_001",
+          "source_id": "src_002",
+          "source_type": "pasted_text",
+          "quote": "先确认 owner，再同步相关方。",
+          "confidence": 1.0
+        },
+        {
+          "record_id": "src_001_002",
+          "source_id": "src_001",
+          "source_type": "wechat_export",
+          "quote": "CR重点看错误码和回滚预案。",
+          "confidence": 1.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "profession_aliases": [
+    "Designer",
+    "设计师",
+    "Product Designer",
+    "UX Designer",
+    "UI Designer"
+  ],
+  "preferred_repo_types": [
+    "node",
+    "python"
+  ],
+  "preferred_test_commands": [
+    ["npm", "test", "--", "--help"],
+    ["npm", "run", "dev", "--", "--help"]
+  ],
+  "preferred_run_commands": [
+    ["npm", "run", "dev", "--", "--help"],
+    ["python", "--version"]
+  ],
+  "notes": [
+    "优先寻找设计 brief、历史方案、评审反馈和可交付素材",
+    "更关注方向探索、评审意见收束、交付一致性，而不是底层工程实现"
+  ],
+  "stage_overrides": {
+    "接收需求": {
+      "preferred_tools": [
+        "文档/IM",
+        "会议/聊天"
+      ],
+      "extra_read": [
+        "设计 brief",
+        "品牌规范"
+      ],
+      "extra_produce": [
+        "目标用户摘要",
+        "设计目标"
+      ],
+      "notes": [
+        "先把目标用户、场景和风格边界说清楚，再进入方案探索"
+      ]
+    },
+    "提出方向": {
+      "preferred_tools": [
+        "文档/IM",
+        "任务系统"
+      ],
+      "extra_read": [
+        "参考案例",
+        "历史反馈"
+      ],
+      "extra_produce": [
+        "设计方向",
+        "取舍理由"
+      ],
+      "notes": [
+        "优先形成少量可比较方向，并明确每个方向的适用场景"
+      ]
+    },
+    "修改与定稿": {
+      "preferred_tools": [
+        "文档/IM",
+        "任务系统"
+      ],
+      "extra_read": [
+        "评审意见",
+        "最新约束"
+      ],
+      "extra_produce": [
+        "修改记录",
+        "定稿说明",
+        "交付清单"
+      ],
+      "notes": [
+        "先收束反馈，再统一整理修改结论和交付范围"
+      ]
+    }
+  },
+  "execution_overrides": {
+    "tool_preferences": {
+      "文档/IM": {
+        "prefer_mode": "file_artifact"
+      },
+      "会议/聊天": {
+        "prefer_mode": "file_artifact"
+      },
+      "任务系统": {
+        "prefer_mode": "file_artifact"
+      }
+    },
+    "artifact_templates": {
+      "文档/IM": "workflow_clarification_note_template.md",
+      "会议/聊天": "workflow_clarification_note_template.md",
+      "任务系统": "workflow_task_card_template.md"
+    }
+  }
+}

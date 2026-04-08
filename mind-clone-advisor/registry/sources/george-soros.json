@@ -1,0 +1,504 @@
+{
+  "sources": [
+    {
+      "id": "soros-capitalist-threat-1997",
+      "title": "The Capitalist Threat",
+      "url": "https://www.georgesoros.com/1997/02/01/the-capitalist-threat/",
+      "date": "1997-02",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["open-society", "market-fundamentalism", "capitalism", "philosophy", "karl-popper"]
+    },
+    {
+      "id": "soros-capitalist-threat-project-syndicate",
+      "title": "The Capitalist Threat (Project Syndicate)",
+      "url": "https://www.project-syndicate.org/commentary/the-capitalist-threat-1997-01",
+      "date": "1997-01",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["open-society", "market-fundamentalism", "capitalism", "philosophy"]
+    },
+    {
+      "id": "soros-crisis-global-capitalism-book-page",
+      "title": "The Crisis of Global Capitalism: Open Society Endangered",
+      "url": "https://www.georgesoros.com/1998/01/01/the_crisis_of_global_capitalism_open_society_endangered1/",
+      "date": "1998",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["global-capitalism", "open-society", "market-fundamentalism", "financial-crisis", "asian-crisis"]
+    },
+    {
+      "id": "soros-international-crisis-interview-nybooks-1999",
+      "title": "The International Crisis: An Interview (with Jeff Madrick)",
+      "url": "https://www.nybooks.com/articles/1999/01/14/the-international-crisis-an-interview/",
+      "date": "1999-01",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["asian-crisis", "global-capitalism", "market-fundamentalism", "regulation", "financial-crisis"]
+    },
+    {
+      "id": "soros-frontline-crash-interview-1999",
+      "title": "George Soros Interview - FRONTLINE: The Crash",
+      "url": "https://www.pbs.org/wgbh/pages/frontline/shows/crash/interviews/soros.html",
+      "date": "1999",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-crisis", "asian-crisis", "reflexivity", "market-fundamentalism", "imf", "ltcm"]
+    },
+    {
+      "id": "soros-bubble-american-supremacy-georgesoros",
+      "title": "The Bubble of American Supremacy",
+      "url": "https://www.georgesoros.com/2004/10/11/the_bubble_of_american_supremacy/",
+      "date": "2004-10",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["geopolitics", "american-foreign-policy", "reflexivity", "bubble-theory"]
+    },
+    {
+      "id": "soros-bubble-american-supremacy-project-syndicate",
+      "title": "The Bubble of American Supremacy (Project Syndicate)",
+      "url": "https://www.project-syndicate.org/commentary/the-bubble-of-american-supremacy",
+      "date": "2003-11",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["geopolitics", "american-foreign-policy", "reflexivity", "bubble-theory"]
+    },
+    {
+      "id": "soros-worst-market-crisis-60-years-2008",
+      "title": "The Worst Market Crisis in 60 Years",
+      "url": "https://www.georgesoros.com/2008/01/22/the_worst_market_crisis_in_60_years/",
+      "date": "2008-01",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-crisis-2008", "superbubble", "credit-crisis", "market-fundamentalism", "reflexivity"]
+    },
+    {
+      "id": "soros-financial-crisis-interview-nybooks-2008",
+      "title": "The Financial Crisis: An Interview with George Soros (with Judy Woodruff)",
+      "url": "https://www.nybooks.com/articles/2008/05/15/the-financial-crisis-an-interview-with-george-soro/",
+      "date": "2008-05",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-crisis-2008", "reflexivity", "superbubble", "market-fundamentalism", "hedge-funds"]
+    },
+    {
+      "id": "soros-npr-superbubble-interview-2008",
+      "title": "Soros: Financial Crisis Stems from 'Super-Bubble' (NPR Morning Edition)",
+      "url": "https://www.npr.org/transcripts/90328243",
+      "date": "2008-05-12",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["superbubble", "financial-crisis-2008", "reflexivity", "credit-expansion"]
+    },
+    {
+      "id": "soros-cfr-credit-crunch-conversation-2008",
+      "title": "Global Economic Trends: The Credit Crunch - A Conversation with George Soros (CFR)",
+      "url": "https://www.cfr.org/event/global-economic-trends-credit-crunch-conversation-george-soros",
+      "date": "2008-05-07",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-crisis-2008", "credit-crunch", "reflexivity", "bubble-theory", "regulation"]
+    },
+    {
+      "id": "soros-perilous-price-of-oil-2008",
+      "title": "The Perilous Price of Oil",
+      "url": "https://www.georgesoros.com/2008/08/27/the_perilous_price_of_oil/",
+      "date": "2008-08",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["commodity-markets", "speculation", "reflexivity", "regulation", "senate-testimony"]
+    },
+    {
+      "id": "soros-senate-commerce-testimony-oil-2008",
+      "title": "Testimony before the U.S. Senate Commerce Committee Oversight Hearing on Oil Speculation",
+      "url": "https://www.commerce.senate.gov/services/files/80AEBF28-67B8-4C5B-84CD-574291807E98",
+      "date": "2008-06-03",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "pdf",
+      "tags": ["commodity-markets", "speculation", "reflexivity", "regulation", "congressional-testimony"]
+    },
+    {
+      "id": "soros-bill-moyers-interview-2008",
+      "title": "Interview with Bill Moyers on Bill Moyers Journal (PBS)",
+      "url": "https://www.pbs.org/moyers/journal/10102008/transcript1.html",
+      "date": "2008-10-10",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-crisis-2008", "market-fundamentalism", "reflexivity", "regulation", "green-investment"]
+    },
+    {
+      "id": "soros-crisis-what-to-do-about-it-2008",
+      "title": "The Crisis & What To Do About It",
+      "url": "https://www.georgesoros.com/2008/11/06/the_crisis_what_to_do_about_it/",
+      "date": "2008-11",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-crisis-2008", "superbubble", "reflexivity", "regulation", "market-fundamentalism"]
+    },
+    {
+      "id": "soros-sixty-year-storm-project-syndicate",
+      "title": "The Sixty-Year Storm (Project Syndicate)",
+      "url": "https://www.project-syndicate.org/commentary/the-sixty-year-storm-2008-01",
+      "date": "2008-01",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-crisis-2008", "superbubble", "credit-expansion", "dollar-reserve-currency"]
+    },
+    {
+      "id": "soros-crash-2008-book-page",
+      "title": "The Crash of 2008 and What it Means",
+      "url": "https://www.georgesoros.com/2009/03/30/the_crash_of_2008_and_what_it_means/",
+      "date": "2009-03",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-crisis-2008", "reflexivity", "new-paradigm", "superbubble"]
+    },
+    {
+      "id": "soros-ceu-lecture-reflexivity-2009",
+      "title": "CEU Lecture 1: General Theory of Reflexivity (Transcript, Open Society Foundations)",
+      "url": "https://www.opensocietyfoundations.org/uploads/9ae17912-2262-4646-8ffc-d01afc934c36/george-soros-general-theory-of-reflexivity-transcript.pdf",
+      "date": "2009-10-26",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "pdf",
+      "tags": ["reflexivity", "philosophy", "karl-popper", "fallibility", "ceu-lectures"]
+    },
+    {
+      "id": "soros-ceu-lecture-financial-markets-2009",
+      "title": "CEU Lecture 2: Financial Markets (Transcript, Open Society Foundations)",
+      "url": "https://www.opensocietyfoundations.org/uploads/2b96bb8c-e2e1-4d88-9eea-badf16d0a2b8/george-soros-financial-markets-transcript.pdf",
+      "date": "2009-10-27",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "pdf",
+      "tags": ["reflexivity", "financial-markets", "efficient-market-hypothesis", "bubbles", "ceu-lectures"]
+    },
+    {
+      "id": "soros-ceu-lecture-open-society-2009",
+      "title": "CEU Lecture 3: Open Society (georgesoros.com)",
+      "url": "https://www.georgesoros.com/2009/10/26/open_society_lecture/",
+      "date": "2009-10-28",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["open-society", "philosophy", "karl-popper", "ceu-lectures"]
+    },
+    {
+      "id": "soros-ceu-lectures-overview-osf",
+      "title": "George Soros: Open Society, the Financial Crisis, and the Way Ahead (Full Lecture Series Overview)",
+      "url": "https://www.opensocietyfoundations.org/voices/george-soros-open-society-the-financial-crisis-and-the-way-ahead",
+      "date": "2009-11",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["reflexivity", "financial-markets", "open-society", "china", "ceu-lectures"]
+    },
+    {
+      "id": "soros-ceu-lecture-way-ahead-transcript",
+      "title": "CEU Lecture 5: The Way Ahead (Transcript, Open Society Foundations)",
+      "url": "https://www.opensocietyfoundations.org/uploads/ff00a4b4-e422-4935-b50d-4e6f72879f71/george-soros-way-ahead-transcript.pdf",
+      "date": "2009-10-30",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "pdf",
+      "tags": ["china", "global-economy", "open-society", "financial-reform", "ceu-lectures"]
+    },
+    {
+      "id": "soros-do-not-ignore-financial-reform-2009",
+      "title": "Do Not Ignore the Need for Financial Reform (Financial Times op-ed)",
+      "url": "https://www.georgesoros.com/2009/10/25/do_not_ignore_the_need_for_financial_reform/",
+      "date": "2009-10",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-reform", "regulation", "superbubble", "reflexivity", "credit-control"]
+    },
+    {
+      "id": "soros-crisis-and-euro-nybooks-2010",
+      "title": "The Crisis & the Euro",
+      "url": "https://www.nybooks.com/articles/2010/08/19/crisis-euro/",
+      "date": "2010-08",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["euro-crisis", "european-union", "reflexivity", "maastricht-treaty"]
+    },
+    {
+      "id": "soros-my-philanthropy-2011",
+      "title": "My Philanthropy",
+      "url": "https://www.georgesoros.com/2011/06/22/my_philanthropy/",
+      "date": "2011-06",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["philanthropy", "open-society", "karl-popper", "reflexivity", "worldview"]
+    },
+    {
+      "id": "soros-road-from-depression-project-syndicate-2011",
+      "title": "The Road from Depression (Project Syndicate)",
+      "url": "https://www.project-syndicate.org/commentary/the-road-from-depression-2011-09",
+      "date": "2011-09",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["euro-crisis", "financial-markets", "regulation", "depression-risk"]
+    },
+    {
+      "id": "soros-fallibility-reflexivity-uncertainty-2014",
+      "title": "Fallibility, Reflexivity, and the Human Uncertainty Principle",
+      "url": "https://www.georgesoros.com/2014/01/13/fallibility-reflexivity-and-the-human-uncertainty-principle-2/",
+      "date": "2014-01",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["reflexivity", "fallibility", "human-uncertainty-principle", "philosophy", "economic-methodology"]
+    },
+    {
+      "id": "soros-fallibility-reflexivity-tandfonline",
+      "title": "Fallibility, Reflexivity, and the Human Uncertainty Principle (Journal of Economic Methodology)",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/1350178X.2013.859415",
+      "date": "2013",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["reflexivity", "fallibility", "human-uncertainty-principle", "academic", "economic-methodology"]
+    },
+    {
+      "id": "soros-regulation-revisited-project-syndicate",
+      "title": "Regulation Revisited (Project Syndicate)",
+      "url": "https://www.project-syndicate.org/commentary/regulation-revisited",
+      "date": "2009",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["regulation", "financial-crisis-2008", "financial-reform"]
+    },
+    {
+      "id": "soros-toward-global-open-society-project-syndicate",
+      "title": "Toward a Global Open Society (Project Syndicate)",
+      "url": "https://www.project-syndicate.org/commentary/toward-a-global-open-society",
+      "date": "1998",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["open-society", "globalization", "financial-markets", "capital-flows"]
+    },
+    {
+      "id": "soros-open-society-needs-defending-2016",
+      "title": "Open Society Needs Defending",
+      "url": "https://www.georgesoros.com/2016/12/30/open-society-needs-defending/",
+      "date": "2016-12",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["open-society", "democracy", "karl-popper", "populism", "worldview"]
+    },
+    {
+      "id": "soros-davos-wef-remarks-2018",
+      "title": "Remarks delivered at the World Economic Forum (Davos 2018)",
+      "url": "https://www.georgesoros.com/2018/01/25/remarks-delivered-at-the-world-economic-forum/",
+      "date": "2018-01-25",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["davos", "open-society", "technology", "surveillance", "china", "authoritarianism"]
+    },
+    {
+      "id": "soros-ecfr-remarks-2018",
+      "title": "Remarks delivered at the European Council on Foreign Relations (May 2018)",
+      "url": "https://www.georgesoros.com/2018/05/29/remarks-delivered-at-the-european-council-on-foreign-relations/",
+      "date": "2018-05-29",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["european-union", "euro-crisis", "migration", "existential-threat"]
+    },
+    {
+      "id": "soros-trento-festival-economics-2018",
+      "title": "Remarks delivered at the Trento Festival of Economics",
+      "url": "https://www.georgesoros.com/2018/06/03/remarks-delivered-at-the-trento-festival-of-economics/",
+      "date": "2018-06-03",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["european-union", "italy", "euro", "migration", "marshall-plan-africa"]
+    },
+    {
+      "id": "soros-better-bailout-was-possible-2018",
+      "title": "A Better Bailout Was Possible",
+      "url": "https://www.georgesoros.com/2018/09/18/a-better-bailout-was-possible/",
+      "date": "2018-09",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-crisis-2008", "bailout", "regulation", "lehman-brothers"]
+    },
+    {
+      "id": "soros-davos-wef-remarks-2019",
+      "title": "Remarks delivered at the World Economic Forum (Davos 2019)",
+      "url": "https://www.georgesoros.com/2019/01/24/remarks-delivered-at-the-world-economic-forum-2/",
+      "date": "2019-01-24",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["davos", "china", "xi-jinping", "open-society", "technology", "surveillance"]
+    },
+    {
+      "id": "soros-europe-please-wake-up-2019",
+      "title": "Europe, Please Wake Up",
+      "url": "https://www.georgesoros.com/2019/02/11/europe-please-wake-up/",
+      "date": "2019-02",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["european-union", "democracy", "open-society", "populism"]
+    },
+    {
+      "id": "soros-npr-in-defense-open-society-2019",
+      "title": "Billionaire Philanthropist George Soros 'In Defense Of Open Society' (NPR Interview)",
+      "url": "https://www.npr.org/transcripts/773454708",
+      "date": "2019-10-26",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["open-society", "philanthropy", "democracy", "technology", "worldview"]
+    },
+    {
+      "id": "soros-davos-wef-remarks-2020",
+      "title": "Remarks delivered at the World Economic Forum (Davos 2020)",
+      "url": "https://www.georgesoros.com/2020/01/23/remarks-delivered-at-the-world-economic-forum-3/",
+      "date": "2020-01-23",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["davos", "china", "surveillance", "open-society", "climate-change", "university-network"]
+    },
+    {
+      "id": "soros-crisis-of-a-lifetime-2020",
+      "title": "The Crisis of a Lifetime (Interview with Gregor Peter Schmitz)",
+      "url": "https://www.georgesoros.com/2020/05/11/the-crisis-of-a-lifetime/",
+      "date": "2020-05",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["covid-19", "pandemic", "financial-crisis", "european-union", "perpetual-bonds", "globalization"]
+    },
+    {
+      "id": "soros-eu-perpetual-bonds-project-syndicate-2020",
+      "title": "The EU Should Issue Perpetual Bonds (Project Syndicate)",
+      "url": "https://www.project-syndicate.org/commentary/finance-european-union-recovery-with-perpetual-bonds-by-george-soros-2020-04",
+      "date": "2020-04",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["european-union", "perpetual-bonds", "covid-19", "fiscal-policy"]
+    },
+    {
+      "id": "soros-great-anticipator-2020",
+      "title": "The Great Anticipator",
+      "url": "https://www.georgesoros.com/2020/08/11/the-great-anticipator/",
+      "date": "2020-08",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-markets", "stock-market", "pandemic", "market-dynamics"]
+    },
+    {
+      "id": "soros-davos-wef-remarks-2022",
+      "title": "Remarks delivered at the 2022 World Economic Forum in Davos",
+      "url": "https://www.georgesoros.com/2022/05/24/remarks-delivered-at-the-2022-world-economic-forum-in-davos/",
+      "date": "2022-05-24",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["davos", "ukraine", "russia", "open-society", "climate-change"]
+    },
+    {
+      "id": "soros-us-democracy-under-attack-2022",
+      "title": "US Democracy Under Concerted Attack",
+      "url": "https://www.georgesoros.com/2022/07/04/us-democracy-under-concerted-attack/",
+      "date": "2022-07",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["democracy", "supreme-court", "open-society", "american-politics"]
+    },
+    {
+      "id": "soros-munich-security-conference-2023",
+      "title": "Remarks Delivered at the 2023 Munich Security Conference",
+      "url": "https://www.georgesoros.com/2023/02/16/remarks-delivered-at-the-2023-munich-security-conference/",
+      "date": "2023-02-16",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["geopolitics", "open-society", "imperfect-understanding", "fallibility", "ukraine"]
+    },
+    {
+      "id": "soros-can-democracy-survive-polycrisis-2023",
+      "title": "Can Democracy Survive the Polycrisis?",
+      "url": "https://www.georgesoros.com/2023/06/06/can-democracy-survive-the-polycrisis/",
+      "date": "2023-06",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["democracy", "ai", "climate-change", "ukraine", "polycrisis", "open-society"]
+    },
+    {
+      "id": "soros-npr-planet-money-broke-bank-england-2024",
+      "title": "How George Soros forced the UK to devalue the pound (NPR Planet Money)",
+      "url": "https://www.npr.org/transcripts/1216966368",
+      "date": "2024-12-04",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["black-wednesday", "pound-sterling", "bank-of-england", "1992-trade", "currency-speculation"]
+    },
+    {
+      "id": "soros-soros-on-soros-chapter-excerpt",
+      "title": "Soros on Soros: Staying Ahead of the Curve (Chapter Excerpt)",
+      "url": "https://www.georgesoros.com/wp-content/uploads/2017/10/soros_on_soros-chap-6-2017_10_05.pdf",
+      "date": "1995",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "pdf",
+      "tags": ["investment-philosophy", "reflexivity", "autobiography", "quantum-fund", "trading-strategy"]
+    },
+    {
+      "id": "soros-bubble-american-supremacy-chapter-excerpt",
+      "title": "The Bubble of American Supremacy (Chapter 2 Excerpt)",
+      "url": "https://www.georgesoros.com/wp-content/uploads/2017/10/the_bubble_of_american_surpremacy-chap-2-2017_10_05.pdf",
+      "date": "2003",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "pdf",
+      "tags": ["geopolitics", "american-foreign-policy", "bubble-theory", "reflexivity"]
+    },
+    {
+      "id": "soros-mit-lecture-financial-crisis-2008",
+      "title": "Soros says crisis underscores need for regulation (MIT News coverage)",
+      "url": "https://news.mit.edu/2008/soros-1029",
+      "date": "2008-10-29",
+      "type": "speech",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-crisis-2008", "regulation", "reflexivity", "bubbles", "greenspan"]
+    }
+  ]
+}

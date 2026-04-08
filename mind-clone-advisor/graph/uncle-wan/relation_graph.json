@@ -1,0 +1,1326 @@
+{
+  "nodes": [
+    {
+      "id": "万叔",
+      "label": "万叔",
+      "type": "keyword",
+      "weight": 385
+    },
+    {
+      "id": "万叔的",
+      "label": "万叔的",
+      "type": "keyword",
+      "weight": 116
+    },
+    {
+      "id": "叔的",
+      "label": "叔的",
+      "type": "keyword",
+      "weight": 116
+    },
+    {
+      "id": "大家",
+      "label": "大家",
+      "type": "keyword",
+      "weight": 71
+    },
+    {
+      "id": "是万叔",
+      "label": "是万叔",
+      "type": "keyword",
+      "weight": 32
+    },
+    {
+      "id": "是万",
+      "label": "是万",
+      "type": "keyword",
+      "weight": 32
+    },
+    {
+      "id": "始人",
+      "label": "始人",
+      "type": "keyword",
+      "weight": 64
+    },
+    {
+      "id": "的第",
+      "label": "的第",
+      "type": "keyword",
+      "weight": 3
+    },
+    {
+      "id": "是万叔的",
+      "label": "是万叔的",
+      "type": "keyword",
+      "weight": 8
+    },
+    {
+      "id": "创始人",
+      "label": "创始人",
+      "type": "keyword",
+      "weight": 63
+    },
+    {
+      "id": "创始",
+      "label": "创始",
+      "type": "keyword",
+      "weight": 63
+    },
+    {
+      "id": "篇原创",
+      "label": "篇原创",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "原创",
+      "label": "原创",
+      "type": "keyword",
+      "weight": 3
+    },
+    {
+      "id": "我是",
+      "label": "我是",
+      "type": "keyword",
+      "weight": 11
+    },
+    {
+      "id": "本文",
+      "label": "本文",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "篇原",
+      "label": "篇原",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "万叔的第",
+      "label": "万叔的第",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "的时",
+      "label": "的时",
+      "type": "keyword",
+      "weight": 473
+    },
+    {
+      "id": "大家好",
+      "label": "大家好",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "家好",
+      "label": "家好",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "文是万叔",
+      "label": "文是万叔",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "本文是万",
+      "label": "本文是万",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "创始人万",
+      "label": "创始人万",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "始人万叔",
+      "label": "始人万叔",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "叔的第",
+      "label": "叔的第",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "人万叔",
+      "label": "人万叔",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "始人万",
+      "label": "始人万",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "阶级",
+      "label": "阶级",
+      "type": "keyword",
+      "weight": 91
+    },
+    {
+      "id": "跃迁",
+      "label": "跃迁",
+      "type": "keyword",
+      "weight": 105
+    },
+    {
+      "id": "的时候",
+      "label": "的时候",
+      "type": "keyword",
+      "weight": 454
+    },
+    {
+      "id": "人万",
+      "label": "人万",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "没有",
+      "label": "没有",
+      "type": "keyword",
+      "weight": 171
+    },
+    {
+      "id": "文是万",
+      "label": "文是万",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "阶级跃迁",
+      "label": "阶级跃迁",
+      "type": "keyword",
+      "weight": 82
+    },
+    {
+      "id": "以下",
+      "label": "以下",
+      "type": "keyword",
+      "weight": 2
+    },
+    {
+      "id": "都是",
+      "label": "都是",
+      "type": "keyword",
+      "weight": 99
+    },
+    {
+      "id": "以下是",
+      "label": "以下是",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "下是",
+      "label": "下是",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "了一",
+      "label": "了一",
+      "type": "keyword",
+      "weight": 94
+    },
+    {
+      "id": "之前",
+      "label": "之前",
+      "type": "keyword",
+      "weight": 114
+    }
+  ],
+  "edges": [
+    {
+      "source": "的时",
+      "target": "的时候",
+      "type": "advice",
+      "weight": 166
+    },
+    {
+      "source": "的时",
+      "target": "的时候",
+      "type": "causal",
+      "weight": 153
+    },
+    {
+      "source": "的时",
+      "target": "的时候",
+      "type": "contrast",
+      "weight": 140
+    },
+    {
+      "source": "的时",
+      "target": "的时候",
+      "type": "analogy",
+      "weight": 71
+    },
+    {
+      "source": "万叔",
+      "target": "万叔的",
+      "type": "advice",
+      "weight": 40
+    },
+    {
+      "source": "万叔",
+      "target": "叔的",
+      "type": "advice",
+      "weight": 40
+    },
+    {
+      "source": "万叔的",
+      "target": "叔的",
+      "type": "advice",
+      "weight": 40
+    },
+    {
+      "source": "万叔",
+      "target": "万叔的",
+      "type": "contrast",
+      "weight": 39
+    },
+    {
+      "source": "万叔",
+      "target": "叔的",
+      "type": "contrast",
+      "weight": 39
+    },
+    {
+      "source": "万叔的",
+      "target": "叔的",
+      "type": "contrast",
+      "weight": 39
+    },
+    {
+      "source": "万叔",
+      "target": "万叔的",
+      "type": "causal",
+      "weight": 35
+    },
+    {
+      "source": "万叔",
+      "target": "叔的",
+      "type": "causal",
+      "weight": 35
+    },
+    {
+      "source": "万叔的",
+      "target": "叔的",
+      "type": "causal",
+      "weight": 35
+    },
+    {
+      "source": "万叔",
+      "target": "没有",
+      "type": "contrast",
+      "weight": 31
+    },
+    {
+      "source": "创始",
+      "target": "创始人",
+      "type": "causal",
+      "weight": 29
+    },
+    {
+      "source": "创始",
+      "target": "始人",
+      "type": "causal",
+      "weight": 29
+    },
+    {
+      "source": "创始人",
+      "target": "始人",
+      "type": "causal",
+      "weight": 29
+    },
+    {
+      "source": "跃迁",
+      "target": "阶级",
+      "type": "contrast",
+      "weight": 29
+    },
+    {
+      "source": "跃迁",
+      "target": "阶级跃迁",
+      "type": "contrast",
+      "weight": 28
+    },
+    {
+      "source": "阶级",
+      "target": "阶级跃迁",
+      "type": "contrast",
+      "weight": 28
+    },
+    {
+      "source": "跃迁",
+      "target": "阶级",
+      "type": "causal",
+      "weight": 27
+    },
+    {
+      "source": "跃迁",
+      "target": "阶级跃迁",
+      "type": "causal",
+      "weight": 27
+    },
+    {
+      "source": "阶级",
+      "target": "阶级跃迁",
+      "type": "causal",
+      "weight": 27
+    },
+    {
+      "source": "万叔",
+      "target": "是万",
+      "type": "contrast",
+      "weight": 26
+    },
+    {
+      "source": "万叔",
+      "target": "是万叔",
+      "type": "contrast",
+      "weight": 26
+    },
+    {
+      "source": "是万",
+      "target": "是万叔",
+      "type": "contrast",
+      "weight": 26
+    },
+    {
+      "source": "万叔",
+      "target": "没有",
+      "type": "advice",
+      "weight": 25
+    },
+    {
+      "source": "万叔",
+      "target": "的时",
+      "type": "advice",
+      "weight": 25
+    },
+    {
+      "source": "万叔",
+      "target": "的时",
+      "type": "contrast",
+      "weight": 25
+    },
+    {
+      "source": "万叔",
+      "target": "没有",
+      "type": "causal",
+      "weight": 24
+    },
+    {
+      "source": "万叔",
+      "target": "的时候",
+      "type": "contrast",
+      "weight": 23
+    },
+    {
+      "source": "跃迁",
+      "target": "阶级",
+      "type": "advice",
+      "weight": 22
+    },
+    {
+      "source": "跃迁",
+      "target": "阶级跃迁",
+      "type": "advice",
+      "weight": 22
+    },
+    {
+      "source": "阶级",
+      "target": "阶级跃迁",
+      "type": "advice",
+      "weight": 22
+    },
+    {
+      "source": "跃迁",
+      "target": "阶级",
+      "type": "analogy",
+      "weight": 21
+    },
+    {
+      "source": "跃迁",
+      "target": "阶级跃迁",
+      "type": "analogy",
+      "weight": 21
+    },
+    {
+      "source": "阶级",
+      "target": "阶级跃迁",
+      "type": "analogy",
+      "weight": 21
+    },
+    {
+      "source": "万叔",
+      "target": "的时",
+      "type": "causal",
+      "weight": 21
+    },
+    {
+      "source": "万叔",
+      "target": "的时候",
+      "type": "causal",
+      "weight": 21
+    },
+    {
+      "source": "万叔",
+      "target": "万叔的",
+      "type": "analogy",
+      "weight": 20
+    },
+    {
+      "source": "万叔",
+      "target": "之前",
+      "type": "analogy",
+      "weight": 20
+    },
+    {
+      "source": "万叔",
+      "target": "叔的",
+      "type": "analogy",
+      "weight": 20
+    },
+    {
+      "source": "万叔的",
+      "target": "叔的",
+      "type": "analogy",
+      "weight": 20
+    },
+    {
+      "source": "没有",
+      "target": "的时",
+      "type": "causal",
+      "weight": 20
+    },
+    {
+      "source": "万叔",
+      "target": "的时候",
+      "type": "advice",
+      "weight": 19
+    },
+    {
+      "source": "没有",
+      "target": "的时候",
+      "type": "causal",
+      "weight": 19
+    },
+    {
+      "source": "创始",
+      "target": "创始人",
+      "type": "contrast",
+      "weight": 19
+    },
+    {
+      "source": "创始",
+      "target": "始人",
+      "type": "contrast",
+      "weight": 19
+    },
+    {
+      "source": "创始人",
+      "target": "始人",
+      "type": "contrast",
+      "weight": 19
+    },
+    {
+      "source": "万叔",
+      "target": "之前",
+      "type": "causal",
+      "weight": 16
+    },
+    {
+      "source": "万叔",
+      "target": "了一",
+      "type": "causal",
+      "weight": 16
+    },
+    {
+      "source": "万叔",
+      "target": "之前",
+      "type": "contrast",
+      "weight": 16
+    },
+    {
+      "source": "万叔",
+      "target": "都是",
+      "type": "advice",
+      "weight": 15
+    },
+    {
+      "source": "创始",
+      "target": "创始人",
+      "type": "advice",
+      "weight": 14
+    },
+    {
+      "source": "创始",
+      "target": "始人",
+      "type": "advice",
+      "weight": 14
+    },
+    {
+      "source": "创始人",
+      "target": "始人",
+      "type": "advice",
+      "weight": 14
+    },
+    {
+      "source": "大家",
+      "target": "都是",
+      "type": "causal",
+      "weight": 13
+    },
+    {
+      "source": "万叔",
+      "target": "了一",
+      "type": "contrast",
+      "weight": 12
+    },
+    {
+      "source": "的时",
+      "target": "都是",
+      "type": "advice",
+      "weight": 11
+    },
+    {
+      "source": "的时候",
+      "target": "都是",
+      "type": "advice",
+      "weight": 11
+    },
+    {
+      "source": "万叔",
+      "target": "跃迁",
+      "type": "causal",
+      "weight": 11
+    },
+    {
+      "source": "之前",
+      "target": "没有",
+      "type": "causal",
+      "weight": 11
+    },
+    {
+      "source": "了一",
+      "target": "没有",
+      "type": "causal",
+      "weight": 11
+    },
+    {
+      "source": "之前",
+      "target": "没有",
+      "type": "contrast",
+      "weight": 11
+    },
+    {
+      "source": "万叔",
+      "target": "之前",
+      "type": "advice",
+      "weight": 10
+    },
+    {
+      "source": "万叔",
+      "target": "的时",
+      "type": "analogy",
+      "weight": 10
+    },
+    {
+      "source": "万叔",
+      "target": "的时候",
+      "type": "analogy",
+      "weight": 10
+    },
+    {
+      "source": "万叔",
+      "target": "都是",
+      "type": "causal",
+      "weight": 10
+    },
+    {
+      "source": "没有",
+      "target": "的时",
+      "type": "contrast",
+      "weight": 10
+    },
+    {
+      "source": "万叔",
+      "target": "了一",
+      "type": "advice",
+      "weight": 9
+    },
+    {
+      "source": "万叔",
+      "target": "没有",
+      "type": "analogy",
+      "weight": 9
+    },
+    {
+      "source": "万叔",
+      "target": "都是",
+      "type": "contrast",
+      "weight": 9
+    },
+    {
+      "source": "了一",
+      "target": "没有",
+      "type": "contrast",
+      "weight": 9
+    },
+    {
+      "source": "没有",
+      "target": "的时候",
+      "type": "contrast",
+      "weight": 9
+    },
+    {
+      "source": "没有",
+      "target": "都是",
+      "type": "advice",
+      "weight": 8
+    },
+    {
+      "source": "之前",
+      "target": "的时",
+      "type": "causal",
+      "weight": 8
+    },
+    {
+      "source": "之前",
+      "target": "的时候",
+      "type": "causal",
+      "weight": 8
+    },
+    {
+      "source": "没有",
+      "target": "都是",
+      "type": "causal",
+      "weight": 8
+    },
+    {
+      "source": "万叔",
+      "target": "是万叔的",
+      "type": "contrast",
+      "weight": 8
+    },
+    {
+      "source": "万叔的",
+      "target": "是万",
+      "type": "contrast",
+      "weight": 8
+    },
+    {
+      "source": "万叔的",
+      "target": "是万叔",
+      "type": "contrast",
+      "weight": 8
+    },
+    {
+      "source": "万叔的",
+      "target": "是万叔的",
+      "type": "contrast",
+      "weight": 8
+    },
+    {
+      "source": "叔的",
+      "target": "是万",
+      "type": "contrast",
+      "weight": 8
+    },
+    {
+      "source": "叔的",
+      "target": "是万叔",
+      "type": "contrast",
+      "weight": 8
+    },
+    {
+      "source": "叔的",
+      "target": "是万叔的",
+      "type": "contrast",
+      "weight": 8
+    },
+    {
+      "source": "是万",
+      "target": "是万叔的",
+      "type": "contrast",
+      "weight": 8
+    },
+    {
+      "source": "是万叔",
+      "target": "是万叔的",
+      "type": "contrast",
+      "weight": 8
+    },
+    {
+      "source": "没有",
+      "target": "都是",
+      "type": "contrast",
+      "weight": 8
+    },
+    {
+      "source": "没有",
+      "target": "的时",
+      "type": "advice",
+      "weight": 7
+    },
+    {
+      "source": "万叔",
+      "target": "了一",
+      "type": "analogy",
+      "weight": 7
+    },
+    {
+      "source": "万叔",
+      "target": "阶级",
+      "type": "causal",
+      "weight": 7
+    },
+    {
+      "source": "了一",
+      "target": "大家",
+      "type": "causal",
+      "weight": 7
+    },
+    {
+      "source": "了一",
+      "target": "都是",
+      "type": "causal",
+      "weight": 7
+    },
+    {
+      "source": "的时",
+      "target": "都是",
+      "type": "causal",
+      "weight": 7
+    },
+    {
+      "source": "万叔",
+      "target": "创始",
+      "type": "contrast",
+      "weight": 7
+    },
+    {
+      "source": "万叔",
+      "target": "创始人",
+      "type": "contrast",
+      "weight": 7
+    },
+    {
+      "source": "万叔",
+      "target": "始人",
+      "type": "contrast",
+      "weight": 7
+    },
+    {
+      "source": "万叔",
+      "target": "跃迁",
+      "type": "contrast",
+      "weight": 7
+    },
+    {
+      "source": "之前",
+      "target": "的时",
+      "type": "advice",
+      "weight": 6
+    },
+    {
+      "source": "之前",
+      "target": "的时候",
+      "type": "advice",
+      "weight": 6
+    },
+    {
+      "source": "没有",
+      "target": "的时候",
+      "type": "advice",
+      "weight": 6
+    },
+    {
+      "source": "创始",
+      "target": "创始人",
+      "type": "analogy",
+      "weight": 6
+    },
+    {
+      "source": "创始",
+      "target": "始人",
+      "type": "analogy",
+      "weight": 6
+    },
+    {
+      "source": "创始人",
+      "target": "始人",
+      "type": "analogy",
+      "weight": 6
+    },
+    {
+      "source": "的时候",
+      "target": "都是",
+      "type": "causal",
+      "weight": 6
+    },
+    {
+      "source": "万叔",
+      "target": "大家",
+      "type": "contrast",
+      "weight": 6
+    },
+    {
+      "source": "之前",
+      "target": "了一",
+      "type": "contrast",
+      "weight": 6
+    },
+    {
+      "source": "了一",
+      "target": "的时",
+      "type": "contrast",
+      "weight": 6
+    },
+    {
+      "source": "大家",
+      "target": "的时",
+      "type": "contrast",
+      "weight": 6
+    },
+    {
+      "source": "万叔",
+      "target": "大家",
+      "type": "advice",
+      "weight": 5
+    },
+    {
+      "source": "万叔",
+      "target": "是万",
+      "type": "advice",
+      "weight": 5
+    },
+    {
+      "source": "万叔",
+      "target": "是万叔",
+      "type": "advice",
+      "weight": 5
+    },
+    {
+      "source": "大家",
+      "target": "都是",
+      "type": "advice",
+      "weight": 5
+    },
+    {
+      "source": "是万",
+      "target": "是万叔",
+      "type": "advice",
+      "weight": 5
+    },
+    {
+      "source": "之前",
+      "target": "的时",
+      "type": "analogy",
+      "weight": 5
+    },
+    {
+      "source": "之前",
+      "target": "的时候",
+      "type": "analogy",
+      "weight": 5
+    },
+    {
+      "source": "万叔",
+      "target": "是万",
+      "type": "causal",
+      "weight": 5
+    },
+    {
+      "source": "万叔",
+      "target": "是万叔",
+      "type": "causal",
+      "weight": 5
+    },
+    {
+      "source": "万叔",
+      "target": "阶级跃迁",
+      "type": "causal",
+      "weight": 5
+    },
+    {
+      "source": "了一",
+      "target": "的时",
+      "type": "causal",
+      "weight": 5
+    },
+    {
+      "source": "了一",
+      "target": "的时候",
+      "type": "causal",
+      "weight": 5
+    },
+    {
+      "source": "大家",
+      "target": "的时",
+      "type": "causal",
+      "weight": 5
+    },
+    {
+      "source": "是万",
+      "target": "是万叔",
+      "type": "causal",
+      "weight": 5
+    },
+    {
+      "source": "之前",
+      "target": "的时",
+      "type": "contrast",
+      "weight": 5
+    },
+    {
+      "source": "之前",
+      "target": "的时候",
+      "type": "contrast",
+      "weight": 5
+    },
+    {
+      "source": "了一",
+      "target": "大家",
+      "type": "contrast",
+      "weight": 5
+    },
+    {
+      "source": "大家",
+      "target": "的时候",
+      "type": "contrast",
+      "weight": 5
+    },
+    {
+      "source": "没有",
+      "target": "跃迁",
+      "type": "contrast",
+      "weight": 5
+    },
+    {
+      "source": "之前",
+      "target": "没有",
+      "type": "advice",
+      "weight": 4
+    },
+    {
+      "source": "了一",
+      "target": "没有",
+      "type": "advice",
+      "weight": 4
+    },
+    {
+      "source": "大家",
+      "target": "没有",
+      "type": "advice",
+      "weight": 4
+    },
+    {
+      "source": "的时",
+      "target": "跃迁",
+      "type": "advice",
+      "weight": 4
+    },
+    {
+      "source": "大家",
+      "target": "都是",
+      "type": "analogy",
+      "weight": 4
+    },
+    {
+      "source": "万叔",
+      "target": "创始",
+      "type": "causal",
+      "weight": 4
+    },
+    {
+      "source": "万叔",
+      "target": "创始人",
+      "type": "causal",
+      "weight": 4
+    },
+    {
+      "source": "万叔",
+      "target": "始人",
+      "type": "causal",
+      "weight": 4
+    },
+    {
+      "source": "万叔的",
+      "target": "的时",
+      "type": "causal",
+      "weight": 4
+    },
+    {
+      "source": "万叔的",
+      "target": "的时候",
+      "type": "causal",
+      "weight": 4
+    },
+    {
+      "source": "之前",
+      "target": "都是",
+      "type": "causal",
+      "weight": 4
+    },
+    {
+      "source": "叔的",
+      "target": "的时",
+      "type": "causal",
+      "weight": 4
+    },
+    {
+      "source": "叔的",
+      "target": "的时候",
+      "type": "causal",
+      "weight": 4
+    },
+    {
+      "source": "大家",
+      "target": "的时候",
+      "type": "causal",
+      "weight": 4
+    },
+    {
+      "source": "万叔",
+      "target": "阶级",
+      "type": "contrast",
+      "weight": 4
+    },
+    {
+      "source": "之前",
+      "target": "大家",
+      "type": "contrast",
+      "weight": 4
+    },
+    {
+      "source": "之前",
+      "target": "都是",
+      "type": "contrast",
+      "weight": 4
+    },
+    {
+      "source": "了一",
+      "target": "的时候",
+      "type": "contrast",
+      "weight": 4
+    },
+    {
+      "source": "大家",
+      "target": "都是",
+      "type": "contrast",
+      "weight": 4
+    },
+    {
+      "source": "的时",
+      "target": "都是",
+      "type": "contrast",
+      "weight": 4
+    },
+    {
+      "source": "的时候",
+      "target": "都是",
+      "type": "contrast",
+      "weight": 4
+    },
+    {
+      "source": "万叔",
+      "target": "跃迁",
+      "type": "advice",
+      "weight": 3
+    },
+    {
+      "source": "万叔",
+      "target": "阶级",
+      "type": "advice",
+      "weight": 3
+    },
+    {
+      "source": "万叔",
+      "target": "阶级跃迁",
+      "type": "advice",
+      "weight": 3
+    },
+    {
+      "source": "之前",
+      "target": "了一",
+      "type": "advice",
+      "weight": 3
+    },
+    {
+      "source": "之前",
+      "target": "大家",
+      "type": "advice",
+      "weight": 3
+    },
+    {
+      "source": "之前",
+      "target": "都是",
+      "type": "advice",
+      "weight": 3
+    },
+    {
+      "source": "没有",
+      "target": "跃迁",
+      "type": "advice",
+      "weight": 3
+    },
+    {
+      "source": "万叔",
+      "target": "跃迁",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "万叔",
+      "target": "都是",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "万叔",
+      "target": "阶级",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "万叔",
+      "target": "阶级跃迁",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "万叔的",
+      "target": "之前",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "之前",
+      "target": "叔的",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "之前",
+      "target": "没有",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "了一",
+      "target": "的时",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "了一",
+      "target": "的时候",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "没有",
+      "target": "的时",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "没有",
+      "target": "的时候",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "没有",
+      "target": "跃迁",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "没有",
+      "target": "阶级",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "没有",
+      "target": "阶级跃迁",
+      "type": "analogy",
+      "weight": 3
+    },
+    {
+      "source": "之前",
+      "target": "了一",
+      "type": "causal",
+      "weight": 3
+    },
+    {
+      "source": "之前",
+      "target": "大家",
+      "type": "causal",
+      "weight": 3
+    },
+    {
+      "source": "了一",
+      "target": "创始",
+      "type": "causal",
+      "weight": 3
+    },
+    {
+      "source": "了一",
+      "target": "创始人",
+      "type": "causal",
+      "weight": 3
+    },
+    {
+      "source": "了一",
+      "target": "始人",
+      "type": "causal",
+      "weight": 3
+    },
+    {
+      "source": "创始",
+      "target": "跃迁",
+      "type": "causal",
+      "weight": 3
+    },
+    {
+      "source": "创始",
+      "target": "阶级",
+      "type": "causal",
+      "weight": 3
+    },
+    {
+      "source": "创始",
+      "target": "阶级跃迁",
+      "type": "causal",
+      "weight": 3
+    },
+    {
+      "source": "创始人",
+      "target": "跃迁",
+      "type": "causal",
+      "weight": 3
+    },
+    {
+      "source": "创始人",
+      "target": "阶级",
+      "type": "causal",
+      "weight": 3
+    }
+  ]
+}

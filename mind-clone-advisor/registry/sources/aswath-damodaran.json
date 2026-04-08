@@ -1,0 +1,624 @@
+{
+  "sources": [
+    {
+      "id": "damodaran-dcf-myths",
+      "title": "Ten Myths About Discounted Cash Flow Valuation",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/country/DCFmythsTemasek.pdf",
+      "date": "2012",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["DCF", "intrinsic-valuation", "methodology", "teaching"]
+    },
+    {
+      "id": "damodaran-valuation-survey",
+      "title": "Valuation Approaches and Metrics: A Survey of the Theory and Evidence",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/valuesurvey.pdf",
+      "date": "2010",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["DCF", "relative-valuation", "methodology", "survey"]
+    },
+    {
+      "id": "damodaran-valuation-multiples",
+      "title": "Relative Valuation: Valuation Multiples - First Principles",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/multiples.pdf",
+      "date": "2006",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["relative-valuation", "multiples", "PE-ratio", "methodology"]
+    },
+    {
+      "id": "damodaran-erp-full",
+      "title": "Equity Risk Premiums (ERP): Determinants, Estimation, and Implications",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/ERPfull.pdf",
+      "date": "2008",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["equity-risk-premium", "risk-and-return", "cost-of-capital"]
+    },
+    {
+      "id": "damodaran-erp-2025-ssrn",
+      "title": "Equity Risk Premiums (ERP): Determinants, Estimation, and Implications - The 2025 Edition",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5168609",
+      "date": "2025-03",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["equity-risk-premium", "risk-and-return", "cost-of-capital", "data-update"]
+    },
+    {
+      "id": "damodaran-riskfree-rate-paper",
+      "title": "Estimating Riskfree Rates",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/riskfreerate.pdf",
+      "date": "2008",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["risk-free-rate", "risk-and-return", "methodology"]
+    },
+    {
+      "id": "damodaran-estimating-risk-parameters",
+      "title": "Estimating Risk Parameters (Beta Estimation)",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/beta.pdf",
+      "date": "2009",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["beta", "risk-and-return", "cost-of-capital", "methodology"]
+    },
+    {
+      "id": "damodaran-country-risk-paper",
+      "title": "Country Risk: Determinants, Measures, and Implications - The 2024 Edition",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/countryrisk2024formatted.pdf",
+      "date": "2024",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["country-risk", "emerging-markets", "cost-of-capital"]
+    },
+    {
+      "id": "damodaran-valuing-young-companies",
+      "title": "Valuing Young, Start-up and Growth Companies: Estimation Issues and Valuation Challenges",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/younggrowth.pdf",
+      "date": "2009",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["startup-valuation", "growth-companies", "intrinsic-valuation"]
+    },
+    {
+      "id": "damodaran-valuing-financial-firms",
+      "title": "Valuing Financial Service Firms",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/finfirm09.pdf",
+      "date": "2009",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["financial-services", "banks", "intrinsic-valuation"]
+    },
+    {
+      "id": "damodaran-cost-of-capital-paper",
+      "title": "The Cost of Capital: The Swiss Army Knife of Finance",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/costofcapital.pdf",
+      "date": "2015",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["cost-of-capital", "hurdle-rate", "corporate-finance"]
+    },
+    {
+      "id": "damodaran-narrative-and-numbers-paper",
+      "title": "Numbers and Narrative: Modeling, Story Telling and Investing",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/country/narrative&numbers.pdf",
+      "date": "2016",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["narrative-and-numbers", "valuation-framework", "methodology"]
+    },
+    {
+      "id": "damodaran-value-of-synergy",
+      "title": "The Value of Synergy",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/synergy.pdf",
+      "date": "2005",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["M&A", "synergy", "acquisition-valuation"]
+    },
+    {
+      "id": "damodaran-valuing-esg-ssrn",
+      "title": "Valuing ESG: Doing Good or Sounding Good?",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3557432",
+      "date": "2020-03",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["ESG", "corporate-governance", "value-drivers"]
+    },
+    {
+      "id": "damodaran-value-investing-ssrn",
+      "title": "Value Investing: Requiem, Rebirth or Reincarnation",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3779481",
+      "date": "2021",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["value-investing", "investment-philosophy", "growth-vs-value"]
+    },
+    {
+      "id": "damodaran-tesla-anatomy-ssrn",
+      "title": "Tesla: Anatomy of a Run Up (with Bradford Cornell)",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2429778",
+      "date": "2014",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["Tesla", "tech-valuation", "narrative-and-numbers"]
+    },
+    {
+      "id": "damodaran-big-market-delusion-ssrn",
+      "title": "The Big Market Delusion: Valuation and Investment Implications",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3501688",
+      "date": "2020",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["market-delusion", "tech-valuation", "overvaluation"]
+    },
+    {
+      "id": "damodaran-real-options",
+      "title": "The Promise and Peril of Real Options",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/realopt.pdf",
+      "date": "2005",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["real-options", "valuation-methodology", "uncertainty"]
+    },
+    {
+      "id": "damodaran-transparency-complexity",
+      "title": "The Value of Transparency and the Cost of Complexity",
+      "url": "https://pages.stern.nyu.edu/~adamodar/pdfiles/papers/Transparency.pdf",
+      "date": "2006",
+      "type": "paper",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["transparency", "accounting", "corporate-governance"]
+    },
+    {
+      "id": "blog-viral-meltdown-fear-or-fundamentals",
+      "title": "A Viral Market Meltdown: Fear or Fundamentals?",
+      "url": "https://aswathdamodaran.substack.com/p/a-viral-market-meltdown-fear-or-fundamentals-20-02-26",
+      "date": "2020-02-26",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["COVID-crisis", "market-crisis", "equity-risk-premium", "valuation"]
+    },
+    {
+      "id": "blog-viral-update-ix-sp500-valuation",
+      "title": "A Viral Market Update IX: A Do-it-Yourself S&P 500 Valuation",
+      "url": "https://aswathdamodaran.substack.com/p/a-viral-market-update-ix-a-do-it-20-06-04",
+      "date": "2020-06-04",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["COVID-crisis", "market-valuation", "S&P-500", "intrinsic-valuation"]
+    },
+    {
+      "id": "blog-viral-update-xiv-wrap",
+      "title": "A Viral Market Update XIV: A Wrap on the COVID Market, Premature or Not!",
+      "url": "https://aswathdamodaran.substack.com/p/a-viral-market-update-xiv-a-wrap-20-11-05",
+      "date": "2020-11-05",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["COVID-crisis", "market-crisis", "lessons-learned"]
+    },
+    {
+      "id": "blog-value-investing-i-backstory",
+      "title": "Value Investing I: The Back Story",
+      "url": "https://aswathdamodaran.substack.com/p/value-investing-i-the-back-story-20-10-23",
+      "date": "2020-10-23",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["value-investing", "investment-philosophy", "Graham-Buffett"]
+    },
+    {
+      "id": "blog-value-investing-iii-requiem",
+      "title": "Value Investing III: Requiem, Rebirth or Reinvention?",
+      "url": "https://aswathdamodaran.substack.com/p/value-investing-iii-requiem-rebirth-20-10-23",
+      "date": "2020-10-23",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["value-investing", "growth-vs-value", "investment-philosophy"]
+    },
+    {
+      "id": "blog-esg-skeptical-look",
+      "title": "Sounding Good or Doing Good? A Skeptical Look at ESG",
+      "url": "https://aswathdamodaran.substack.com/p/sounding-good-or-doing-good-a-skeptical-20-09-21",
+      "date": "2020-09-21",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["ESG", "corporate-governance", "investing"]
+    },
+    {
+      "id": "blog-airbnb-ipo",
+      "title": "The Sharing Economy Come Home: The IPO of Airbnb!",
+      "url": "https://aswathdamodaran.substack.com/p/the-sharing-economy-come-home-the-20-12-02",
+      "date": "2020-12-02",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["Airbnb", "IPO", "startup-valuation", "narrative-and-numbers"]
+    },
+    {
+      "id": "blog-tesla-diy-valuation-2020",
+      "title": "A Do-it-Yourself (DIY) Valuation of Tesla: Of Investment Regrets and Disagreements!",
+      "url": "https://aswathdamodaran.substack.com/p/a-do-it-yourself-diy-valuation-of-20-02-07",
+      "date": "2020-02-07",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["Tesla", "tech-valuation", "narrative-and-numbers", "DIY"]
+    },
+    {
+      "id": "blog-esg-goodness-gravy-train",
+      "title": "The ESG Movement: The 'Goodness' Gravy Train Rolls On!",
+      "url": "https://aswathdamodaran.substack.com/p/the-esg-movement-the-goodness-gravy-21-09-14",
+      "date": "2021-09-14",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["ESG", "corporate-governance", "investing"]
+    },
+    {
+      "id": "blog-inflation-steady-state-2022",
+      "title": "In Search of a Steady State: Inflation, Interest Rates and Value",
+      "url": "https://aswathdamodaran.substack.com/p/in-search-of-a-steady-state-inflation",
+      "date": "2022-05-06",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["inflation", "interest-rates", "market-valuation", "equity-risk-premium"]
+    },
+    {
+      "id": "blog-esg-russia-test",
+      "title": "ESG's Russia Test: Trial by Fire or Crash and Burn?",
+      "url": "https://aswathdamodaran.substack.com/p/esgs-russia-test-trial-by-fire-or",
+      "date": "2022-03-28",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["ESG", "Russia", "corporate-governance", "country-risk"]
+    },
+    {
+      "id": "blog-meta-corporate-governance",
+      "title": "Meta (Facebook) Lesson 1: Corporate Governance",
+      "url": "https://aswathdamodaran.substack.com/p/meta-facebook-lesson-1-corporate",
+      "date": "2022-11-07",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["Meta", "corporate-governance", "tech-valuation"]
+    },
+    {
+      "id": "blog-inflation-ripple-effects-2022",
+      "title": "Data Update 3 for 2022: Inflation and its Ripple Effects!",
+      "url": "https://aswathdamodaran.substack.com/p/data-update-3-for-2022-inflation-22-01-27",
+      "date": "2022-01-27",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["inflation", "interest-rates", "risk-free-rate", "data-update"]
+    },
+    {
+      "id": "blog-reaping-whirlwind-inflation",
+      "title": "Reaping the Whirlwind: A September 2022 Inflation Update",
+      "url": "https://aswathdamodaran.substack.com/p/reaping-the-whirlwind-a-september",
+      "date": "2022-09-27",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["inflation", "interest-rates", "Federal-Reserve", "market-valuation"]
+    },
+    {
+      "id": "blog-earnings-cashflows-primer",
+      "title": "Earnings, Cash Flows and Free Cash Flows: A Primer",
+      "url": "https://aswathdamodaran.substack.com/p/earnings-cash-flows-and-free-cash",
+      "date": "2022-10",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["cash-flows", "earnings", "DCF", "methodology"]
+    },
+    {
+      "id": "blog-risk-danger-opportunity-2022",
+      "title": "Data Update 4 for 2022: Risk = Danger + Opportunity!",
+      "url": "https://aswathdamodaran.substack.com/p/data-update-4-for-2022-risk-danger-22-02-09",
+      "date": "2022-02-09",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["country-risk", "equity-risk-premium", "cost-of-capital", "data-update"]
+    },
+    {
+      "id": "blog-tesla-2023-return-reality",
+      "title": "Tesla in 2023: A Return to Reality, The Beginning of the End or Time to Buy",
+      "url": "https://aswathdamodaran.substack.com/p/tesla-in-2023-a-return-to-reality",
+      "date": "2023-01",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["Tesla", "tech-valuation", "narrative-and-numbers"]
+    },
+    {
+      "id": "blog-price-of-risk-erp-caveat-emptor",
+      "title": "The Price of Risk: With Equity Risk Premiums, Caveat Emptor!",
+      "url": "https://aswathdamodaran.substack.com/p/the-price-of-risk-with-equity-risk",
+      "date": "2023-08-05",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["equity-risk-premium", "risk-and-return", "market-valuation"]
+    },
+    {
+      "id": "blog-safe-havens-trust-deficit",
+      "title": "In Search of Safe Havens: The Trust Deficit and Risk-free Investments!",
+      "url": "https://aswathdamodaran.substack.com/p/in-search-of-safe-havens-the-trust",
+      "date": "2023-08",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["risk-free-rate", "trust", "treasuries", "safe-haven"]
+    },
+    {
+      "id": "blog-nvidia-ai-valuation",
+      "title": "AI's Winners, Losers and Wannabes: Valuing the AI Boost at NVIDIA",
+      "url": "https://aswathdamodaran.substack.com/p/ais-winners-losers-and-wannabes-valuing",
+      "date": "2023-06",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["NVIDIA", "AI", "tech-valuation", "narrative-and-numbers"]
+    },
+    {
+      "id": "blog-intangibles-birkenstock-ipo",
+      "title": "Invisible, yet Invaluable: Valuing Intangibles - The Birkenstock IPO",
+      "url": "https://aswathdamodaran.substack.com/p/invisible-yet-invaluable-valuing",
+      "date": "2023-10-06",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["intangible-assets", "brand-value", "IPO", "valuation-methodology"]
+    },
+    {
+      "id": "blog-banking-crisis-2023",
+      "title": "Breach of Trust: Decoding the US Banking Crisis of 2023",
+      "url": "https://aswathdamodaran.substack.com/p/breach-of-trust-decoding-the-us-banking",
+      "date": "2023-03",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["banking-crisis", "financial-services", "market-crisis", "trust"]
+    },
+    {
+      "id": "blog-seven-samurai-big-tech",
+      "title": "The Seven Samurai: Big Tech to the Rescue!",
+      "url": "https://aswathdamodaran.substack.com/p/the-seven-samurai-big-tech-to-the",
+      "date": "2024-02-09",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["Magnificent-Seven", "tech-valuation", "Apple", "NVIDIA", "Amazon", "Microsoft"]
+    },
+    {
+      "id": "blog-corporate-life-cycle",
+      "title": "The Corporate Life Cycle: Managing, Valuation and Investing Implications",
+      "url": "https://aswathdamodaran.substack.com/p/the-corporate-life-cycle-managing",
+      "date": "2024-08-20",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["corporate-life-cycle", "valuation-framework", "management", "investing"]
+    },
+    {
+      "id": "blog-country-risk-2024-update",
+      "title": "Country Risk: My 2024 Update",
+      "url": "https://aswathdamodaran.substack.com/p/country-risk-my-2024-update",
+      "date": "2024-07",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["country-risk", "emerging-markets", "cost-of-capital"]
+    },
+    {
+      "id": "blog-catastrophic-risk",
+      "title": "Big Risks: Catastrophic Risk in Investing and Business",
+      "url": "https://aswathdamodaran.substack.com/p/big-risks-catastrophic-risk-in-investing",
+      "date": "2024-05",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["risk-and-return", "catastrophic-risk", "market-crisis"]
+    },
+    {
+      "id": "blog-nike-brand-value",
+      "title": "Just Do It! Brand Name Lessons from Nike's Troubles",
+      "url": "https://aswathdamodaran.substack.com/p/just-do-it-brand-name-lessons-from",
+      "date": "2024-10-01",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["brand-value", "intangible-assets", "competitive-advantage", "Nike"]
+    },
+    {
+      "id": "blog-nvidia-expectations-2024",
+      "title": "The Power of Expectations: Nvidia's Earnings Report and Market Reaction!",
+      "url": "https://aswathdamodaran.substack.com/p/the-power-of-expectations-nvidias",
+      "date": "2024-08",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["NVIDIA", "AI", "tech-valuation", "expectations"]
+    },
+    {
+      "id": "blog-sustainability-theocratic-trifecta",
+      "title": "The Siren Song of Sustainability: The Theocratic Trifecta's Third Leg",
+      "url": "https://aswathdamodaran.substack.com/p/the-siren-song-of-sustainability",
+      "date": "2024-11-15",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["ESG", "sustainability", "corporate-governance"]
+    },
+    {
+      "id": "blog-data-update-1-2025",
+      "title": "Data Update 1 for 2025: The Draw (and Danger) of Data!",
+      "url": "https://aswathdamodaran.substack.com/p/data-update-1-for-2025-the-draw-and",
+      "date": "2025-01-10",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["data-update", "market-data", "methodology"]
+    },
+    {
+      "id": "blog-data-update-2-2025-us-equities",
+      "title": "Data Update 2 for 2025: The Party Continues (for US Equities)!",
+      "url": "https://aswathdamodaran.substack.com/p/data-update-2-for-2025-the-party",
+      "date": "2025-01-17",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["US-equities", "equity-risk-premium", "market-returns", "data-update"]
+    },
+    {
+      "id": "blog-data-update-4-2025-interest-rates",
+      "title": "Data Update 4 for 2025: Interest Rates, Inflation and Central Banks!",
+      "url": "https://aswathdamodaran.substack.com/p/data-update-4-for-2025-interest-rates",
+      "date": "2025-01-28",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["interest-rates", "inflation", "Federal-Reserve", "data-update"]
+    },
+    {
+      "id": "blog-data-update-6-2025-hurdle-rate",
+      "title": "Data Update 6 for 2025: From Macro to Micro - The Hurdle Rate Question",
+      "url": "https://aswathdamodaran.substack.com/p/data-update-6-for-2025-from-macro",
+      "date": "2025-02-08",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["cost-of-capital", "hurdle-rate", "small-cap-premium", "data-update"]
+    },
+    {
+      "id": "blog-tariff-crisis-2025",
+      "title": "Anatomy of a Crisis: Tariffs, Markets and the Economy!",
+      "url": "https://aswathdamodaran.substack.com/p/anatomy-of-a-crisis-tariffs-markets",
+      "date": "2025-04-07",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["market-crisis", "tariffs", "equity-risk-premium", "trade-war"]
+    },
+    {
+      "id": "blog-bitcoin-corporate-cash",
+      "title": "To Bitcoin or not to Bitcoin: The Corporate Cash Question",
+      "url": "https://aswathdamodaran.substack.com/p/to-bitcoin-or-not-to-bitcoin-the",
+      "date": "2025-07-18",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["Bitcoin", "crypto", "corporate-finance", "MicroStrategy"]
+    },
+    {
+      "id": "blog-gold-price-surge-2025",
+      "title": "A Golden Year (2025): Gold's Price Surge - The Signal in the Noise!",
+      "url": "https://aswathdamodaran.substack.com/p/a-golden-year-2025-golds-price-surge",
+      "date": "2025-11-06",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["gold", "inflation", "commodities", "alternative-investments"]
+    },
+    {
+      "id": "blog-trillion-dollar-market-caps",
+      "title": "Trillion Dollar Market Caps: Fairy Tale Pricing or Business Marvels?",
+      "url": "https://aswathdamodaran.substack.com/p/trillion-dollar-market-caps-fairy",
+      "date": "2025-12-03",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["Magnificent-Seven", "tech-valuation", "NVIDIA", "market-valuation"]
+    },
+    {
+      "id": "blog-bitcoin-boom-2017",
+      "title": "The Bitcoin Boom: Asset, Currency, Commodity or Collectible?",
+      "url": "https://aswathdamodaran.substack.com/p/the-bitcoin-boom-asset-currency-commodity-17-10-24",
+      "date": "2017-10-24",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["Bitcoin", "crypto", "valuation-framework", "currencies"]
+    },
+    {
+      "id": "blog-uber-disruptive-cab-ride",
+      "title": "A Disruptive Cab Ride to Riches: The Uber Payoff",
+      "url": "https://aswathdamodaran.substack.com/p/a-disruptive-cab-ride-to-riches-the-14-06-09",
+      "date": "2014-06-09",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["Uber", "startup-valuation", "narrative-and-numbers", "disruption"]
+    },
+    {
+      "id": "blog-uber-crowd-valuation",
+      "title": "Up, Up and Away! A Crowd-Valuation of Uber!",
+      "url": "https://aswathdamodaran.substack.com/p/up-up-and-away-a-crowd-valuation-14-12-03",
+      "date": "2014-12-03",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["Uber", "startup-valuation", "crowd-sourcing", "narrative-and-numbers"]
+    },
+    {
+      "id": "blog-tesla-test-first-valuation",
+      "title": "Valuation of the Week 1: A Tesla Test",
+      "url": "https://aswathdamodaran.substack.com/p/valuation-of-the-week-1-a-tesla-test-13-09-05",
+      "date": "2013-09-05",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["Tesla", "tech-valuation", "auto-industry", "narrative-and-numbers"]
+    },
+    {
+      "id": "blog-stock-buybacks-2014",
+      "title": "Stock Buybacks: They Are Big, They Are Back and They Scare Some People!",
+      "url": "https://aswathdamodaran.substack.com/p/stock-buybacks-they-are-big-they-14-09-22",
+      "date": "2014-09-22",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["buybacks", "dividends", "cash-return", "corporate-finance"]
+    },
+    {
+      "id": "blog-cost-of-capital-primer-2018",
+      "title": "January 2018 Data Update 6: A Cost of Capital Primer",
+      "url": "https://aswathdamodaran.substack.com/p/january-2018-data-update-6-a-cost-18-01-26",
+      "date": "2018-01-26",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["cost-of-capital", "hurdle-rate", "WACC", "methodology"]
+    }
+  ]
+}

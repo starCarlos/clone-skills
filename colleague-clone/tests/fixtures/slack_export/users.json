@@ -1,0 +1,10 @@
+[
+  {
+    "id": "U01",
+    "name": "alice",
+    "real_name": "Alice Example",
+    "profile": {
+      "display_name": "alice"
+    }
+  }
+]

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Mind Clone Creator"
+  short_description: "通过自我访谈创建可复用数字分身配置"
+  default_prompt: "Use $mind-clone-creator to create my own digital twin config through a guided self-interview, and add bounded profession research when it improves realism."
+
+policy:
+  allow_implicit_invocation: true

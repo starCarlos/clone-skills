@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "id": "weibo_example_001",
+      "url": "https://weibo.com/status/5012345678901234",
+      "title": "Example Weibo Post",
+      "author": "Example Author",
+      "date": "2024-01-15",
+      "tags": ["weibo", "social"]
+    },
+    {
+      "id": "bilibili_example_001",
+      "url": "https://www.bilibili.com/video/BV1xx411c7mD",
+      "title": "Example Bilibili Video",
+      "author": "Example Creator",
+      "date": "2024-01-20",
+      "tags": ["bilibili", "video"]
+    },
+    {
+      "id": "zhihu_example_001",
+      "url": "https://zhuanlan.zhihu.com/p/123456789",
+      "title": "Example Zhihu Article",
+      "author": "Example Writer",
+      "date": "2024-02-01",
+      "tags": ["zhihu", "article"]
+    }
+  ],
+  "browser_mode": "auto",
+  "sleep": 0.5
+}

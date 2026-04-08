@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "bundle_dir": "/home/admin_wsl/sunnet/skills/clones/colleague-clone/examples/sample_pdf_image_reviewer",
+  "normalized_count": 4,
+  "error_count": 0,
+  "errors": [],
+  "state": "sources_normalized",
+  "source_breakdown": {
+    "pdf_document": 1,
+    "image_file": 1,
+    "pasted_text": 2
+  },
+  "detected_platforms": {},
+  "normalized_sources": [
+    {
+      "source_id": "src_001",
+      "source_type": "pdf_document",
+      "detected_platform": "",
+      "normalized_path": "/home/admin_wsl/sunnet/skills/clones/colleague-clone/examples/sample_pdf_image_reviewer/normalized/docs/src_001.jsonl",
+      "platform_detection_mode": "",
+      "missing_fields": []
+    },
+    {
+      "source_id": "src_002",
+      "source_type": "image_file",
+      "detected_platform": "",
+      "normalized_path": "/home/admin_wsl/sunnet/skills/clones/colleague-clone/examples/sample_pdf_image_reviewer/normalized/images/src_002.jsonl",
+      "platform_detection_mode": "",
+      "missing_fields": []
+    },
+    {
+      "source_id": "src_003",
+      "source_type": "pasted_text",
+      "detected_platform": "",
+      "normalized_path": "/home/admin_wsl/sunnet/skills/clones/colleague-clone/examples/sample_pdf_image_reviewer/normalized/pasted/src_003.jsonl",
+      "platform_detection_mode": "",
+      "missing_fields": []
+    },
+    {
+      "source_id": "src_004",
+      "source_type": "pasted_text",
+      "detected_platform": "",
+      "normalized_path": "/home/admin_wsl/sunnet/skills/clones/colleague-clone/examples/sample_pdf_image_reviewer/normalized/pasted/src_004.jsonl",
+      "platform_detection_mode": "",
+      "missing_fields": []
+    }
+  ]
+}

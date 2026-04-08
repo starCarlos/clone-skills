@@ -1,0 +1,25 @@
+{
+  "persons": [
+    {
+      "name": "万叔",
+      "slug": "uncle-wan",
+      "skill_dir": "personas/uncle-wan",
+      "ingestor": "scripts/ingestors/wechat_mp.py",
+      "source_config": "registry/sources/uncle_wan_sources.json",
+      "incremental": true,
+      "since": "2026-01-01",
+      "overwrite_outputs": true,
+      "enabled": false
+    },
+    {
+      "name": "巴菲特",
+      "slug": "warren-buffett",
+      "skill_dir": "personas/warren-buffett",
+      "ingestor": "scripts/ingestors/berkshire_letters.py",
+      "source_config": "registry/sources/berkshire_config.json",
+      "incremental": true,
+      "overwrite_outputs": true,
+      "enabled": false
+    }
+  ]
+}

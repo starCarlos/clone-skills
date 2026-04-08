@@ -1,0 +1,6 @@
+{
+  "blog": "cryptohayes",
+  "author": "Arthur Hayes",
+  "limit": 50,
+  "default_tags": ["crypto", "finance"]
+}

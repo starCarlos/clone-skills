@@ -1,0 +1,97 @@
+{
+  "profession_aliases": [
+    "Lawyer",
+    "律师",
+    "Attorney",
+    "Legal Counsel"
+  ],
+  "preferred_repo_types": [
+    "python",
+    "node"
+  ],
+  "preferred_test_commands": [
+    ["python", "--version"]
+  ],
+  "preferred_run_commands": [
+    ["python", "--version"]
+  ],
+  "notes": [
+    "优先梳理案件事实、争议焦点、法规依据、案例支持和文书交付要求",
+    "更关注法律风险、证据充分性、审阅严谨度和提交口径，而不是工程执行细节"
+  ],
+  "stage_overrides": {
+    "接收案件": {
+      "preferred_tools": [
+        "文档/IM",
+        "会议/聊天"
+      ],
+      "extra_read": [
+        "案件材料",
+        "委托目标"
+      ],
+      "extra_produce": [
+        "事实摘要",
+        "争议焦点"
+      ],
+      "notes": [
+        "先确认委托目标、时间要求和现有材料，再进入法律分析"
+      ]
+    },
+    "调研与分析": {
+      "preferred_tools": [
+        "文档/IM",
+        "任务系统"
+      ],
+      "extra_read": [
+        "相关法条",
+        "类案参考",
+        "证据目录"
+      ],
+      "extra_produce": [
+        "法律依据",
+        "风险判断",
+        "待补证据"
+      ],
+      "notes": [
+        "优先把法条、类案和证据链对应起来，再形成初步法律判断"
+      ]
+    },
+    "起草与审阅": {
+      "preferred_tools": [
+        "文档/IM",
+        "任务系统"
+      ],
+      "extra_read": [
+        "历史文书",
+        "客户要求",
+        "审阅意见"
+      ],
+      "extra_produce": [
+        "文书草稿",
+        "修订说明",
+        "提交版本"
+      ],
+      "notes": [
+        "先统一事实口径和法律依据，再处理措辞严谨性与提交格式"
+      ]
+    }
+  },
+  "execution_overrides": {
+    "tool_preferences": {
+      "文档/IM": {
+        "prefer_mode": "file_artifact"
+      },
+      "会议/聊天": {
+        "prefer_mode": "file_artifact"
+      },
+      "任务系统": {
+        "prefer_mode": "file_artifact"
+      }
+    },
+    "artifact_templates": {
+      "文档/IM": "workflow_clarification_note_template.md",
+      "会议/聊天": "workflow_clarification_note_template.md",
+      "任务系统": "workflow_task_card_template.md"
+    }
+  }
+}

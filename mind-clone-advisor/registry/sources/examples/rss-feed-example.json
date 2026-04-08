@@ -1,0 +1,24 @@
+{
+  "feeds": [
+    {
+      "url": "https://medium.com/feed/@CryptoHayes",
+      "type": "auto",
+      "author_filter": "",
+      "title_filter": "",
+      "author": "Arthur Hayes",
+      "default_tags": ["crypto", "medium"]
+    },
+    {
+      "url": "https://vitalik.ca/feed.xml",
+      "type": "atom",
+      "author_filter": "",
+      "title_filter": "",
+      "author": "Vitalik Buterin",
+      "default_tags": ["ethereum", "crypto"]
+    }
+  ],
+  "fetch_full_content": false,
+  "fallback_feeds": [
+    "https://vitalik.eth.limo/feed.xml"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "bundle_dir": "/home/admin_wsl/sunnet/skills/clones/colleague-clone/examples/sample_search_api_predecessor",
+  "normalized_count": 2,
+  "error_count": 0,
+  "errors": [],
+  "state": "sources_normalized",
+  "source_breakdown": {
+    "markdown": 1,
+    "pasted_text": 1
+  },
+  "detected_platforms": {},
+  "normalized_sources": [
+    {
+      "source_id": "src_001",
+      "source_type": "markdown",
+      "detected_platform": "",
+      "normalized_path": "/home/admin_wsl/sunnet/skills/clones/colleague-clone/examples/sample_search_api_predecessor/normalized/docs/src_001.jsonl",
+      "platform_detection_mode": "",
+      "missing_fields": []
+    },
+    {
+      "source_id": "src_002",
+      "source_type": "pasted_text",
+      "detected_platform": "",
+      "normalized_path": "/home/admin_wsl/sunnet/skills/clones/colleague-clone/examples/sample_search_api_predecessor/normalized/pasted/src_002.jsonl",
+      "platform_detection_mode": "",
+      "missing_fields": []
+    }
+  ]
+}

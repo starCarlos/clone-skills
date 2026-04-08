@@ -1,0 +1,79 @@
+{
+  "profession_aliases": [
+    "AI Engineer",
+    "AI工程师",
+    "ML Engineer",
+    "Machine Learning Engineer"
+  ],
+  "preferred_repo_types": [
+    "python",
+    "node"
+  ],
+  "preferred_test_commands": [
+    ["uv", "run", "pytest", "--collect-only", "-q"],
+    ["pytest", "--collect-only", "-q"],
+    ["npm", "test", "--", "--help"]
+  ],
+  "preferred_run_commands": [
+    ["python", "--version"],
+    ["uv", "run", "python", "--version"],
+    ["npm", "run", "dev", "--", "--help"]
+  ],
+  "notes": [
+    "优先寻找评估脚本、失败样本分析脚本和仓库测试命令",
+    "实现与验证阶段默认重视代码仓库、测试脚本、Notebook/分析脚本"
+  ],
+  "stage_overrides": {
+    "实现与验证": {
+      "preferred_tools": [
+        "代码仓库",
+        "测试脚本",
+        "Notebook"
+      ],
+      "extra_read": [
+        "失败样本",
+        "评估日志"
+      ],
+      "extra_produce": [
+        "验证结论",
+        "失败样本分析"
+      ],
+      "notes": [
+        "优先确认是否存在评估脚本、样本集和失败日志",
+        "先验证链路稳定性，再看是否需要进一步调参"
+      ]
+    },
+    "拆解技术路径": {
+      "preferred_tools": [
+        "文档/IM",
+        "代码仓库"
+      ],
+      "extra_produce": [
+        "实验方案",
+        "风险拆解"
+      ],
+      "notes": [
+        "技术路径拆解时优先明确验证口径和风险点"
+      ]
+    }
+  },
+  "execution_overrides": {
+    "tool_preferences": {
+      "测试脚本": {
+        "prefer_mode": "safe_execute",
+        "retry_fallback_candidates": true
+      },
+      "代码仓库": {
+        "prefer_collect_artifacts": [
+          "git_status",
+          "git_diff_stat",
+          "repo_profile"
+        ]
+      }
+    },
+    "artifact_templates": {
+      "文档/IM": "workflow_clarification_note_template.md",
+      "任务系统": "workflow_task_card_template.md"
+    }
+  }
+}

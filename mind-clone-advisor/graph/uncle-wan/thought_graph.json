@@ -1,0 +1,1472 @@
+{
+  "nodes": [
+    {
+      "id": "万叔",
+      "label": "万叔",
+      "type": "keyword",
+      "weight": 476
+    },
+    {
+      "id": "万叔的",
+      "label": "万叔的",
+      "type": "keyword",
+      "weight": 466
+    },
+    {
+      "id": "叔的",
+      "label": "叔的",
+      "type": "keyword",
+      "weight": 466
+    },
+    {
+      "id": "大家",
+      "label": "大家",
+      "type": "keyword",
+      "weight": 463
+    },
+    {
+      "id": "是万",
+      "label": "是万",
+      "type": "keyword",
+      "weight": 457
+    },
+    {
+      "id": "是万叔",
+      "label": "是万叔",
+      "type": "keyword",
+      "weight": 457
+    },
+    {
+      "id": "始人",
+      "label": "始人",
+      "type": "keyword",
+      "weight": 451
+    },
+    {
+      "id": "的第",
+      "label": "的第",
+      "type": "keyword",
+      "weight": 451
+    },
+    {
+      "id": "创始",
+      "label": "创始",
+      "type": "keyword",
+      "weight": 450
+    },
+    {
+      "id": "创始人",
+      "label": "创始人",
+      "type": "keyword",
+      "weight": 450
+    },
+    {
+      "id": "是万叔的",
+      "label": "是万叔的",
+      "type": "keyword",
+      "weight": 450
+    },
+    {
+      "id": "原创",
+      "label": "原创",
+      "type": "keyword",
+      "weight": 448
+    },
+    {
+      "id": "我是",
+      "label": "我是",
+      "type": "keyword",
+      "weight": 448
+    },
+    {
+      "id": "本文",
+      "label": "本文",
+      "type": "keyword",
+      "weight": 448
+    },
+    {
+      "id": "篇原创",
+      "label": "篇原创",
+      "type": "keyword",
+      "weight": 448
+    },
+    {
+      "id": "篇原",
+      "label": "篇原",
+      "type": "keyword",
+      "weight": 447
+    },
+    {
+      "id": "概率",
+      "label": "概率",
+      "type": "model",
+      "weight": 187
+    },
+    {
+      "id": "结构",
+      "label": "结构",
+      "type": "model",
+      "weight": 172
+    },
+    {
+      "id": "竞争",
+      "label": "竞争",
+      "type": "model",
+      "weight": 162
+    },
+    {
+      "id": "趋势",
+      "label": "趋势",
+      "type": "model",
+      "weight": 151
+    },
+    {
+      "id": "商业模式",
+      "label": "商业模式",
+      "type": "model",
+      "weight": 141
+    },
+    {
+      "id": "周期",
+      "label": "周期",
+      "type": "model",
+      "weight": 140
+    },
+    {
+      "id": "思维",
+      "label": "思维",
+      "type": "model",
+      "weight": 128
+    },
+    {
+      "id": "战略",
+      "label": "战略",
+      "type": "model",
+      "weight": 122
+    },
+    {
+      "id": "模型",
+      "label": "模型",
+      "type": "model",
+      "weight": 109
+    },
+    {
+      "id": "势能",
+      "label": "势能",
+      "type": "model",
+      "weight": 106
+    },
+    {
+      "id": "长期",
+      "label": "长期",
+      "type": "style",
+      "weight": 102
+    },
+    {
+      "id": "平台",
+      "label": "平台",
+      "type": "model",
+      "weight": 101
+    },
+    {
+      "id": "真实",
+      "label": "真实",
+      "type": "value",
+      "weight": 95
+    },
+    {
+      "id": "快速",
+      "label": "快速",
+      "type": "style",
+      "weight": 92
+    },
+    {
+      "id": "效率",
+      "label": "效率",
+      "type": "value",
+      "weight": 82
+    },
+    {
+      "id": "杠杆",
+      "label": "杠杆",
+      "type": "model",
+      "weight": 67
+    },
+    {
+      "id": "期望",
+      "label": "期望",
+      "type": "model",
+      "weight": 61
+    },
+    {
+      "id": "自由",
+      "label": "自由",
+      "type": "value",
+      "weight": 60
+    },
+    {
+      "id": "供需",
+      "label": "供需",
+      "type": "model",
+      "weight": 55
+    },
+    {
+      "id": "框架",
+      "label": "框架",
+      "type": "model",
+      "weight": 49
+    },
+    {
+      "id": "曲线",
+      "label": "曲线",
+      "type": "model",
+      "weight": 46
+    },
+    {
+      "id": "公平",
+      "label": "公平",
+      "type": "value",
+      "weight": 42
+    },
+    {
+      "id": "工具价值",
+      "label": "工具价值",
+      "type": "value",
+      "weight": 39
+    },
+    {
+      "id": "博弈",
+      "label": "博弈",
+      "type": "model",
+      "weight": 38
+    },
+    {
+      "id": "效应",
+      "label": "效应",
+      "type": "model",
+      "weight": 38
+    },
+    {
+      "id": "万叔的第",
+      "label": "万叔的第",
+      "type": "keyword",
+      "weight": 35
+    },
+    {
+      "id": "法则",
+      "label": "法则",
+      "type": "model",
+      "weight": 31
+    },
+    {
+      "id": "的时",
+      "label": "的时",
+      "type": "keyword",
+      "weight": 31
+    },
+    {
+      "id": "大家好",
+      "label": "大家好",
+      "type": "keyword",
+      "weight": 29
+    },
+    {
+      "id": "定价",
+      "label": "定价",
+      "type": "model",
+      "weight": 29
+    },
+    {
+      "id": "家好",
+      "label": "家好",
+      "type": "keyword",
+      "weight": 29
+    },
+    {
+      "id": "文是万叔",
+      "label": "文是万叔",
+      "type": "keyword",
+      "weight": 28
+    },
+    {
+      "id": "责任",
+      "label": "责任",
+      "type": "value",
+      "weight": 28
+    },
+    {
+      "id": "尊重",
+      "label": "尊重",
+      "type": "value",
+      "weight": 24
+    },
+    {
+      "id": "本文是万",
+      "label": "本文是万",
+      "type": "keyword",
+      "weight": 24
+    },
+    {
+      "id": "创始人万",
+      "label": "创始人万",
+      "type": "keyword",
+      "weight": 21
+    },
+    {
+      "id": "始人万叔",
+      "label": "始人万叔",
+      "type": "keyword",
+      "weight": 21
+    },
+    {
+      "id": "叔的第",
+      "label": "叔的第",
+      "type": "keyword",
+      "weight": 19
+    },
+    {
+      "id": "结构价值",
+      "label": "结构价值",
+      "type": "value",
+      "weight": 18
+    },
+    {
+      "id": "人万叔",
+      "label": "人万叔",
+      "type": "keyword",
+      "weight": 17
+    },
+    {
+      "id": "高频",
+      "label": "高频",
+      "type": "style",
+      "weight": 16
+    },
+    {
+      "id": "始人万",
+      "label": "始人万",
+      "type": "keyword",
+      "weight": 15
+    },
+    {
+      "id": "聚焦",
+      "label": "聚焦",
+      "type": "style",
+      "weight": 14
+    },
+    {
+      "id": "谨慎",
+      "label": "谨慎",
+      "type": "style",
+      "weight": 13
+    },
+    {
+      "id": "阶级",
+      "label": "阶级",
+      "type": "keyword",
+      "weight": 13
+    },
+    {
+      "id": "简化",
+      "label": "简化",
+      "type": "style",
+      "weight": 11
+    },
+    {
+      "id": "跃迁",
+      "label": "跃迁",
+      "type": "keyword",
+      "weight": 11
+    },
+    {
+      "id": "的时候",
+      "label": "的时候",
+      "type": "keyword",
+      "weight": 10
+    },
+    {
+      "id": "人万",
+      "label": "人万",
+      "type": "keyword",
+      "weight": 9
+    },
+    {
+      "id": "没有",
+      "label": "没有",
+      "type": "keyword",
+      "weight": 8
+    },
+    {
+      "id": "保守",
+      "label": "保守",
+      "type": "style",
+      "weight": 7
+    },
+    {
+      "id": "文是万",
+      "label": "文是万",
+      "type": "keyword",
+      "weight": 7
+    },
+    {
+      "id": "稳健",
+      "label": "稳健",
+      "type": "style",
+      "weight": 7
+    },
+    {
+      "id": "资源价值",
+      "label": "资源价值",
+      "type": "value",
+      "weight": 7
+    },
+    {
+      "id": "务实",
+      "label": "务实",
+      "type": "value",
+      "weight": 6
+    },
+    {
+      "id": "长期主义",
+      "label": "长期主义",
+      "type": "value",
+      "weight": 6
+    },
+    {
+      "id": "阶级跃迁",
+      "label": "阶级跃迁",
+      "type": "keyword",
+      "weight": 6
+    },
+    {
+      "id": "以下",
+      "label": "以下",
+      "type": "keyword",
+      "weight": 5
+    },
+    {
+      "id": "高杠杆",
+      "label": "高杠杆",
+      "type": "style",
+      "weight": 5
+    },
+    {
+      "id": "诚信",
+      "label": "诚信",
+      "type": "value",
+      "weight": 4
+    },
+    {
+      "id": "都是",
+      "label": "都是",
+      "type": "keyword",
+      "weight": 4
+    },
+    {
+      "id": "下是",
+      "label": "下是",
+      "type": "keyword",
+      "weight": 3
+    },
+    {
+      "id": "了一",
+      "label": "了一",
+      "type": "keyword",
+      "weight": 3
+    },
+    {
+      "id": "以下是",
+      "label": "以下是",
+      "type": "keyword",
+      "weight": 3
+    },
+    {
+      "id": "激进",
+      "label": "激进",
+      "type": "style",
+      "weight": 3
+    },
+    {
+      "id": "之前",
+      "label": "之前",
+      "type": "keyword",
+      "weight": 2
+    },
+    {
+      "id": "以后",
+      "label": "以后",
+      "type": "keyword",
+      "weight": 2
+    },
+    {
+      "id": "认知",
+      "label": "认知",
+      "type": "keyword",
+      "weight": 2
+    },
+    {
+      "id": "end",
+      "label": "end",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "增长",
+      "label": "增长",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "文章",
+      "label": "文章",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "是正",
+      "label": "是正",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "正文",
+      "label": "正文",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "流量",
+      "label": "流量",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "的人",
+      "label": "的人",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "能力",
+      "label": "能力",
+      "type": "keyword",
+      "weight": 1
+    },
+    {
+      "id": "行业",
+      "label": "行业",
+      "type": "keyword",
+      "weight": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "万叔",
+      "target": "万叔的",
+      "weight": 466
+    },
+    {
+      "source": "万叔",
+      "target": "叔的",
+      "weight": 466
+    },
+    {
+      "source": "万叔的",
+      "target": "叔的",
+      "weight": 466
+    },
+    {
+      "source": "万叔",
+      "target": "大家",
+      "weight": 462
+    },
+    {
+      "source": "万叔",
+      "target": "是万",
+      "weight": 457
+    },
+    {
+      "source": "万叔",
+      "target": "是万叔",
+      "weight": 457
+    },
+    {
+      "source": "是万",
+      "target": "是万叔",
+      "weight": 457
+    },
+    {
+      "source": "万叔的",
+      "target": "是万",
+      "weight": 453
+    },
+    {
+      "source": "万叔的",
+      "target": "是万叔",
+      "weight": 453
+    },
+    {
+      "source": "叔的",
+      "target": "是万",
+      "weight": 453
+    },
+    {
+      "source": "叔的",
+      "target": "是万叔",
+      "weight": 453
+    },
+    {
+      "source": "万叔的",
+      "target": "大家",
+      "weight": 452
+    },
+    {
+      "source": "叔的",
+      "target": "大家",
+      "weight": 452
+    },
+    {
+      "source": "万叔",
+      "target": "的第",
+      "weight": 451
+    },
+    {
+      "source": "是万",
+      "target": "的第",
+      "weight": 451
+    },
+    {
+      "source": "是万叔",
+      "target": "的第",
+      "weight": 451
+    },
+    {
+      "source": "万叔",
+      "target": "始人",
+      "weight": 450
+    },
+    {
+      "source": "万叔",
+      "target": "是万叔的",
+      "weight": 450
+    },
+    {
+      "source": "万叔的",
+      "target": "是万叔的",
+      "weight": 450
+    },
+    {
+      "source": "创始",
+      "target": "创始人",
+      "weight": 450
+    },
+    {
+      "source": "创始",
+      "target": "始人",
+      "weight": 450
+    },
+    {
+      "source": "创始人",
+      "target": "始人",
+      "weight": 450
+    },
+    {
+      "source": "叔的",
+      "target": "是万叔的",
+      "weight": 450
+    },
+    {
+      "source": "是万",
+      "target": "是万叔的",
+      "weight": 450
+    },
+    {
+      "source": "是万叔",
+      "target": "是万叔的",
+      "weight": 450
+    },
+    {
+      "source": "万叔",
+      "target": "创始",
+      "weight": 449
+    },
+    {
+      "source": "万叔",
+      "target": "创始人",
+      "weight": 449
+    },
+    {
+      "source": "万叔的",
+      "target": "的第",
+      "weight": 449
+    },
+    {
+      "source": "叔的",
+      "target": "的第",
+      "weight": 449
+    },
+    {
+      "source": "万叔",
+      "target": "原创",
+      "weight": 448
+    },
+    {
+      "source": "万叔",
+      "target": "我是",
+      "weight": 448
+    },
+    {
+      "source": "万叔",
+      "target": "本文",
+      "weight": 448
+    },
+    {
+      "source": "万叔",
+      "target": "篇原创",
+      "weight": 448
+    },
+    {
+      "source": "万叔的",
+      "target": "原创",
+      "weight": 448
+    },
+    {
+      "source": "万叔的",
+      "target": "本文",
+      "weight": 448
+    },
+    {
+      "source": "万叔的",
+      "target": "篇原创",
+      "weight": 448
+    },
+    {
+      "source": "原创",
+      "target": "叔的",
+      "weight": 448
+    },
+    {
+      "source": "原创",
+      "target": "是万",
+      "weight": 448
+    },
+    {
+      "source": "原创",
+      "target": "是万叔",
+      "weight": 448
+    },
+    {
+      "source": "原创",
+      "target": "的第",
+      "weight": 448
+    },
+    {
+      "source": "原创",
+      "target": "篇原创",
+      "weight": 448
+    },
+    {
+      "source": "叔的",
+      "target": "本文",
+      "weight": 448
+    },
+    {
+      "source": "叔的",
+      "target": "篇原创",
+      "weight": 448
+    },
+    {
+      "source": "是万",
+      "target": "篇原创",
+      "weight": 448
+    },
+    {
+      "source": "是万叔",
+      "target": "篇原创",
+      "weight": 448
+    },
+    {
+      "source": "的第",
+      "target": "篇原创",
+      "weight": 448
+    },
+    {
+      "source": "万叔",
+      "target": "篇原",
+      "weight": 447
+    },
+    {
+      "source": "万叔的",
+      "target": "篇原",
+      "weight": 447
+    },
+    {
+      "source": "原创",
+      "target": "是万叔的",
+      "weight": 447
+    },
+    {
+      "source": "原创",
+      "target": "本文",
+      "weight": 447
+    },
+    {
+      "source": "原创",
+      "target": "篇原",
+      "weight": 447
+    },
+    {
+      "source": "叔的",
+      "target": "篇原",
+      "weight": 447
+    },
+    {
+      "source": "是万",
+      "target": "本文",
+      "weight": 447
+    },
+    {
+      "source": "是万",
+      "target": "篇原",
+      "weight": 447
+    },
+    {
+      "source": "是万叔",
+      "target": "本文",
+      "weight": 447
+    },
+    {
+      "source": "是万叔",
+      "target": "篇原",
+      "weight": 447
+    },
+    {
+      "source": "是万叔的",
+      "target": "本文",
+      "weight": 447
+    },
+    {
+      "source": "是万叔的",
+      "target": "的第",
+      "weight": 447
+    },
+    {
+      "source": "是万叔的",
+      "target": "篇原创",
+      "weight": 447
+    },
+    {
+      "source": "本文",
+      "target": "的第",
+      "weight": 447
+    },
+    {
+      "source": "本文",
+      "target": "篇原创",
+      "weight": 447
+    },
+    {
+      "source": "的第",
+      "target": "篇原",
+      "weight": 447
+    },
+    {
+      "source": "篇原",
+      "target": "篇原创",
+      "weight": 447
+    },
+    {
+      "source": "大家",
+      "target": "始人",
+      "weight": 446
+    },
+    {
+      "source": "是万叔的",
+      "target": "篇原",
+      "weight": 446
+    },
+    {
+      "source": "本文",
+      "target": "篇原",
+      "weight": 446
+    },
+    {
+      "source": "创始",
+      "target": "大家",
+      "weight": 445
+    },
+    {
+      "source": "创始人",
+      "target": "大家",
+      "weight": 445
+    },
+    {
+      "source": "大家",
+      "target": "我是",
+      "weight": 445
+    },
+    {
+      "source": "大家",
+      "target": "是万",
+      "weight": 443
+    },
+    {
+      "source": "大家",
+      "target": "是万叔",
+      "weight": 443
+    },
+    {
+      "source": "万叔的",
+      "target": "始人",
+      "weight": 441
+    },
+    {
+      "source": "叔的",
+      "target": "始人",
+      "weight": 441
+    },
+    {
+      "source": "万叔的",
+      "target": "创始",
+      "weight": 440
+    },
+    {
+      "source": "万叔的",
+      "target": "创始人",
+      "weight": 440
+    },
+    {
+      "source": "创始",
+      "target": "叔的",
+      "weight": 440
+    },
+    {
+      "source": "创始人",
+      "target": "叔的",
+      "weight": 440
+    },
+    {
+      "source": "创始",
+      "target": "我是",
+      "weight": 439
+    },
+    {
+      "source": "创始人",
+      "target": "我是",
+      "weight": 439
+    },
+    {
+      "source": "始人",
+      "target": "我是",
+      "weight": 439
+    },
+    {
+      "source": "万叔的",
+      "target": "我是",
+      "weight": 438
+    },
+    {
+      "source": "叔的",
+      "target": "我是",
+      "weight": 438
+    },
+    {
+      "source": "大家",
+      "target": "的第",
+      "weight": 437
+    },
+    {
+      "source": "大家",
+      "target": "是万叔的",
+      "weight": 436
+    },
+    {
+      "source": "原创",
+      "target": "大家",
+      "weight": 434
+    },
+    {
+      "source": "大家",
+      "target": "本文",
+      "weight": 434
+    },
+    {
+      "source": "大家",
+      "target": "篇原创",
+      "weight": 434
+    },
+    {
+      "source": "大家",
+      "target": "篇原",
+      "weight": 433
+    },
+    {
+      "source": "始人",
+      "target": "是万",
+      "weight": 431
+    },
+    {
+      "source": "始人",
+      "target": "是万叔",
+      "weight": 431
+    },
+    {
+      "source": "创始",
+      "target": "是万",
+      "weight": 430
+    },
+    {
+      "source": "创始",
+      "target": "是万叔",
+      "weight": 430
+    },
+    {
+      "source": "创始人",
+      "target": "是万",
+      "weight": 430
+    },
+    {
+      "source": "创始人",
+      "target": "是万叔",
+      "weight": 430
+    },
+    {
+      "source": "我是",
+      "target": "是万",
+      "weight": 429
+    },
+    {
+      "source": "我是",
+      "target": "是万叔",
+      "weight": 429
+    },
+    {
+      "source": "始人",
+      "target": "是万叔的",
+      "weight": 427
+    },
+    {
+      "source": "创始",
+      "target": "是万叔的",
+      "weight": 426
+    },
+    {
+      "source": "创始人",
+      "target": "是万叔的",
+      "weight": 426
+    },
+    {
+      "source": "始人",
+      "target": "的第",
+      "weight": 426
+    },
+    {
+      "source": "创始",
+      "target": "的第",
+      "weight": 425
+    },
+    {
+      "source": "创始人",
+      "target": "的第",
+      "weight": 425
+    },
+    {
+      "source": "始人",
+      "target": "本文",
+      "weight": 425
+    },
+    {
+      "source": "创始",
+      "target": "本文",
+      "weight": 424
+    },
+    {
+      "source": "创始人",
+      "target": "本文",
+      "weight": 424
+    },
+    {
+      "source": "原创",
+      "target": "始人",
+      "weight": 424
+    },
+    {
+      "source": "始人",
+      "target": "篇原创",
+      "weight": 424
+    },
+    {
+      "source": "创始",
+      "target": "原创",
+      "weight": 423
+    },
+    {
+      "source": "创始",
+      "target": "篇原创",
+      "weight": 423
+    },
+    {
+      "source": "创始人",
+      "target": "原创",
+      "weight": 423
+    },
+    {
+      "source": "创始人",
+      "target": "篇原创",
+      "weight": 423
+    },
+    {
+      "source": "始人",
+      "target": "篇原",
+      "weight": 423
+    },
+    {
+      "source": "我是",
+      "target": "的第",
+      "weight": 423
+    },
+    {
+      "source": "创始",
+      "target": "篇原",
+      "weight": 422
+    },
+    {
+      "source": "创始人",
+      "target": "篇原",
+      "weight": 422
+    },
+    {
+      "source": "我是",
+      "target": "是万叔的",
+      "weight": 422
+    },
+    {
+      "source": "原创",
+      "target": "我是",
+      "weight": 420
+    },
+    {
+      "source": "我是",
+      "target": "本文",
+      "weight": 420
+    },
+    {
+      "source": "我是",
+      "target": "篇原创",
+      "weight": 420
+    },
+    {
+      "source": "我是",
+      "target": "篇原",
+      "weight": 419
+    },
+    {
+      "source": "万叔",
+      "target": "概率",
+      "weight": 187
+    },
+    {
+      "source": "万叔的",
+      "target": "概率",
+      "weight": 184
+    },
+    {
+      "source": "叔的",
+      "target": "概率",
+      "weight": 184
+    },
+    {
+      "source": "大家",
+      "target": "概率",
+      "weight": 183
+    },
+    {
+      "source": "是万",
+      "target": "概率",
+      "weight": 182
+    },
+    {
+      "source": "是万叔",
+      "target": "概率",
+      "weight": 182
+    },
+    {
+      "source": "概率",
+      "target": "的第",
+      "weight": 180
+    },
+    {
+      "source": "是万叔的",
+      "target": "概率",
+      "weight": 179
+    },
+    {
+      "source": "原创",
+      "target": "概率",
+      "weight": 178
+    },
+    {
+      "source": "本文",
+      "target": "概率",
+      "weight": 178
+    },
+    {
+      "source": "概率",
+      "target": "篇原",
+      "weight": 178
+    },
+    {
+      "source": "概率",
+      "target": "篇原创",
+      "weight": 178
+    },
+    {
+      "source": "始人",
+      "target": "概率",
+      "weight": 175
+    },
+    {
+      "source": "创始",
+      "target": "概率",
+      "weight": 174
+    },
+    {
+      "source": "创始人",
+      "target": "概率",
+      "weight": 174
+    },
+    {
+      "source": "万叔",
+      "target": "结构",
+      "weight": 172
+    },
+    {
+      "source": "我是",
+      "target": "概率",
+      "weight": 172
+    },
+    {
+      "source": "万叔的",
+      "target": "结构",
+      "weight": 170
+    },
+    {
+      "source": "叔的",
+      "target": "结构",
+      "weight": 170
+    },
+    {
+      "source": "是万",
+      "target": "结构",
+      "weight": 169
+    },
+    {
+      "source": "是万叔",
+      "target": "结构",
+      "weight": 169
+    },
+    {
+      "source": "大家",
+      "target": "结构",
+      "weight": 168
+    },
+    {
+      "source": "的第",
+      "target": "结构",
+      "weight": 166
+    },
+    {
+      "source": "原创",
+      "target": "结构",
+      "weight": 165
+    },
+    {
+      "source": "是万叔的",
+      "target": "结构",
+      "weight": 165
+    },
+    {
+      "source": "篇原",
+      "target": "结构",
+      "weight": 165
+    },
+    {
+      "source": "篇原创",
+      "target": "结构",
+      "weight": 165
+    },
+    {
+      "source": "我是",
+      "target": "结构",
+      "weight": 164
+    },
+    {
+      "source": "本文",
+      "target": "结构",
+      "weight": 164
+    },
+    {
+      "source": "万叔",
+      "target": "竞争",
+      "weight": 162
+    },
+    {
+      "source": "始人",
+      "target": "结构",
+      "weight": 162
+    },
+    {
+      "source": "万叔的",
+      "target": "竞争",
+      "weight": 161
+    },
+    {
+      "source": "创始",
+      "target": "结构",
+      "weight": 161
+    },
+    {
+      "source": "创始人",
+      "target": "结构",
+      "weight": 161
+    },
+    {
+      "source": "叔的",
+      "target": "竞争",
+      "weight": 161
+    },
+    {
+      "source": "大家",
+      "target": "竞争",
+      "weight": 159
+    },
+    {
+      "source": "是万",
+      "target": "竞争",
+      "weight": 158
+    },
+    {
+      "source": "是万叔",
+      "target": "竞争",
+      "weight": 158
+    },
+    {
+      "source": "是万叔的",
+      "target": "竞争",
+      "weight": 158
+    },
+    {
+      "source": "原创",
+      "target": "竞争",
+      "weight": 157
+    },
+    {
+      "source": "本文",
+      "target": "竞争",
+      "weight": 157
+    },
+    {
+      "source": "的第",
+      "target": "竞争",
+      "weight": 157
+    },
+    {
+      "source": "竞争",
+      "target": "篇原",
+      "weight": 157
+    },
+    {
+      "source": "竞争",
+      "target": "篇原创",
+      "weight": 157
+    },
+    {
+      "source": "我是",
+      "target": "竞争",
+      "weight": 152
+    },
+    {
+      "source": "万叔",
+      "target": "趋势",
+      "weight": 151
+    },
+    {
+      "source": "创始",
+      "target": "竞争",
+      "weight": 150
+    },
+    {
+      "source": "创始人",
+      "target": "竞争",
+      "weight": 150
+    },
+    {
+      "source": "始人",
+      "target": "竞争",
+      "weight": 150
+    },
+    {
+      "source": "是万",
+      "target": "趋势",
+      "weight": 149
+    },
+    {
+      "source": "是万叔",
+      "target": "趋势",
+      "weight": 149
+    },
+    {
+      "source": "万叔的",
+      "target": "趋势",
+      "weight": 148
+    },
+    {
+      "source": "叔的",
+      "target": "趋势",
+      "weight": 148
+    },
+    {
+      "source": "是万叔的",
+      "target": "趋势",
+      "weight": 147
+    },
+    {
+      "source": "的第",
+      "target": "趋势",
+      "weight": 147
+    },
+    {
+      "source": "原创",
+      "target": "趋势",
+      "weight": 146
+    },
+    {
+      "source": "大家",
+      "target": "趋势",
+      "weight": 146
+    },
+    {
+      "source": "本文",
+      "target": "趋势",
+      "weight": 146
+    },
+    {
+      "source": "篇原",
+      "target": "趋势",
+      "weight": 146
+    },
+    {
+      "source": "篇原创",
+      "target": "趋势",
+      "weight": 146
+    }
+  ],
+  "meta": {
+    "total_items": 478,
+    "top_keywords": 60,
+    "top_models": 20,
+    "top_values": 12,
+    "top_styles": 12,
+    "min_edge": 3
+  }
+}

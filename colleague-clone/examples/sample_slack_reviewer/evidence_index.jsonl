@@ -1,0 +1,8 @@
+{"evidence_id": "persona_expression_style_001", "field_path": "persona.expression_style", "record_id": "src_001_001", "source_id": "src_001", "source_type": "slack_export", "quote": "先看 impact，再给方案。", "confidence": 1.0}
+{"evidence_id": "persona_decision_patterns_001", "field_path": "persona.decision_patterns", "record_id": "src_001_001", "source_id": "src_001", "source_type": "slack_export", "quote": "先看 impact，再给方案。", "confidence": 1.0}
+{"evidence_id": "persona_decision_patterns_002", "field_path": "persona.decision_patterns", "record_id": "src_002_001", "source_id": "src_002", "source_type": "pasted_text", "quote": "评审时先讲 impact，再讲实现细节。", "confidence": 1.0}
+{"evidence_id": "work_workflow_patterns_001", "field_path": "work.workflow_patterns", "record_id": "src_001_001", "source_id": "src_001", "source_type": "slack_export", "quote": "先看 impact，再给方案。", "confidence": 1.0}
+{"evidence_id": "work_workflow_patterns_002", "field_path": "work.workflow_patterns", "record_id": "src_002_001", "source_id": "src_002", "source_type": "pasted_text", "quote": "评审时先讲 impact，再讲实现细节。", "confidence": 1.0}
+{"evidence_id": "work_review_preferences_001", "field_path": "work.review_preferences", "record_id": "src_001_002", "source_id": "src_001", "source_type": "slack_export", "quote": "错误码要统一。", "confidence": 1.0}
+{"evidence_id": "work_explicit_rules_001", "field_path": "work.explicit_rules", "record_id": "src_001_001", "source_id": "src_001", "source_type": "slack_export", "quote": "先看 impact，再给方案。", "confidence": 1.0}
+{"evidence_id": "work_explicit_rules_002", "field_path": "work.explicit_rules", "record_id": "src_002_001", "source_id": "src_002", "source_type": "pasted_text", "quote": "评审时先讲 impact，再讲实现细节。", "confidence": 1.0}

@@ -1,0 +1,31 @@
+# Python caches and bytecode
+**/__pycache__/
+**/*.py[cod]
+
+# Virtual environments and local tooling caches
+**/.venv/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Local scratch and runtime directories
+.codex
+.codex/
+**/.codex/
+**/.codex-e2e-default/
+**/.codex-e2e-home/
+**/.codex-e2e-home-cch/
+**/.codex-e2e-home-linux/
+**/.e2e-logs/
+**/.claude-plugin/
+
+# OS metadata
+.DS_Store
+*:Zone.Identifier*
+
+# Local databases and logs
+**/*.duckdb
+**/*.db
+**/*.log
+**/*.sqlite-shm
+**/*.sqlite-wal

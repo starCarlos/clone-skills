@@ -1,0 +1,128 @@
+# mind-clone 分身配置文件
+# version: 1.0
+# generated_at: {timestamp}
+# schema: clone_config_v1
+
+meta:
+  name: ""                    # 分身名称 / Clone name
+  creator: ""                 # 创建者 / Creator
+  profession: ""              # 职业 / Profession
+  platform_target: "openclaw" # 当前目标平台
+  created_at: ""              # 创建时间 / Created at
+  last_updated_at: ""         # 最近更新时间 / Last updated at
+  source_mode: "self_interview"   # self_interview / self_interview_plus_materials
+  draft_status: "draft"       # draft / final
+  version: "1.0"
+  quality_score: 0            # 质量评分 / Quality score (/100)
+  clone_type: "self"          # self / profile
+  identity_confirmed: true    # 是否确认是“本人创建本人分身”
+
+identity:
+  summary: ""                 # 一段话定位 / Identity summary
+  expertise:
+    - ""
+  boundaries:
+    - ""
+
+mind_profile:
+  core_beliefs:
+    - ""
+  thinking_style: ""
+  frameworks:
+    - ""
+  blind_spots:
+    - ""
+  decision_style: ""
+  priority_order: ""
+  work_process:
+    start: ""
+    breakdown: ""
+    decision_points:
+      - ""
+    tools:
+      - ""
+    delivery_review: ""
+
+expression:
+  language_style: ""
+  response_format: ""
+  avoid:
+    - ""
+
+runtime:
+  activation_mode: "always_on"  # always_on
+  exit_commands:
+    - "退出分身模式"
+    - "我要和真正的AI说话"
+  use_this_clone_when:
+    - ""
+  do_not_use_this_clone_when:
+    - ""
+  memory:
+    remember:
+      - "用户的核心问题和背景"
+      - "已经给出的建议，保持一致性"
+      - "用户对回答的反馈"
+    forget:
+      - "用户的私人信息（除非用户主动要求）"
+      - "超出能力边界的承诺"
+
+skills:
+  universal:
+    web_search:
+      enabled: false
+      use_case: ""
+    code_execution:
+      enabled: false
+      languages: []
+    data_analysis:
+      enabled: false
+      formats: []
+    file_handling:
+      enabled: false
+      types: []
+  professional: []
+
+knowledge_base:
+  sources: []
+
+source_materials:
+  - id: "interview_a1"
+    type: "interview"         # interview / example_qa / research / artifact
+    summary: ""
+    reliability: "high"       # high / medium / low
+
+confidence_by_dimension:
+  identity: 0                 # 0-100
+  capability_boundary: 0
+  thinking_style: 0
+  values: 0
+  expression_style: 0
+
+evidence_map:
+  summary:
+    - "interview_a1"
+  core_beliefs:
+    - "interview_c1"
+  boundaries:
+    - "interview_a2"
+    - "interview_e3"
+
+system_prompt: |
+  （此处为生成的完整 System Prompt）
+
+eval_summary:
+  overall_score: 0
+  consistency: 0
+  thinking_restoration: 0
+  language_style: 0
+  boundary_awareness: 0
+  reasoning: 0
+  consistency_track: 0
+  transfer_track: 0
+  top_improvement: ""
+
+update_log:
+  - date: "{timestamp}"
+    change: "Initial creation"
+    reason: "Created from structured self-interview"

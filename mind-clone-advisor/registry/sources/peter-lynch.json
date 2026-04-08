@@ -1,0 +1,244 @@
+{
+  "sources": [
+    {
+      "id": "pbs-frontline-betting-on-the-market",
+      "title": "Interview With Peter Lynch | Betting On The Market | FRONTLINE | PBS",
+      "url": "https://www.pbs.org/wgbh/pages/frontline/shows/betting/pros/lynch.html",
+      "date": "1997",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["invest-in-what-you-know", "consumer-products", "magellan-fund", "fundamental-analysis"]
+    },
+    {
+      "id": "national-press-club-1994-moiglobal",
+      "title": "Peter Lynch on Making Money in the U.S. Stock Market (National Press Club 1994)",
+      "url": "https://moiglobal.com/peter-lynch-1994/",
+      "date": "1994-10-07",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["know-what-you-own", "individual-investor-advantage", "earnings-fundamentals", "long-term-investing"]
+    },
+    {
+      "id": "national-press-club-1994-brewbooks",
+      "title": "Transcript of Peter Lynch 8 October 1994 Lecture to the National Press Club",
+      "url": "https://brewbooks.blog/2021/02/22/transcript-of-peter-lynch-8-october-1994-lecture-to-the-national-press-club/",
+      "date": "1994-10-08",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["know-what-you-own", "individual-investor-advantage", "bottom-up-investing"]
+    },
+    {
+      "id": "fidelity-lynch-kuiper-webcast-2022",
+      "title": "Peter Lynch & Chris Kuiper: Understanding the Changing World of Investing (Fidelity Transcript)",
+      "url": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/learning-center/110322%20rewards%20exclusive_UnderstandtheChange-Transcript_%20F.pdf",
+      "date": "2022-11-03",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "pdf",
+      "tags": ["invest-in-what-you-know", "taco-bell", "walmart", "company-edge", "consumer-products"]
+    },
+    {
+      "id": "geoinvesting-barrons-roundtable-2019",
+      "title": "Fidelity's Peter Lynch: Buying Your Losers Is Like Watering The Weeds (Barron's Roundtable Transcript)",
+      "url": "https://geoinvesting.com/fidelitys-peter-lynch-buying-losers-like-watering-weeds-video-transcript/",
+      "date": "2019-12-20",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["watering-the-weeds", "warren-buffett", "buy-what-you-know", "beating-the-index"]
+    },
+    {
+      "id": "yahoo-finance-never-said-invest-2023",
+      "title": "Fidelity legend Peter Lynch: 'I never said to invest in the stock market'",
+      "url": "https://finance.yahoo.com/news/fidelity-legend-peter-lynch-i-never-said-to-invest-in-the-stock-market-120755736.html",
+      "date": "2023-06-20",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["one-up-on-wall-street", "invest-in-what-you-know", "research-discipline", "individual-investor"]
+    },
+    {
+      "id": "cnbc-squawk-box-full-interview-2023",
+      "title": "Watch CNBC's Full Interview with Legendary Investor Peter Lynch (2023)",
+      "url": "https://www.cnbc.com/video/2023/04/25/watch-cnbcs-full-interview-with-legendary-investor-peter-lynch.html",
+      "date": "2023-04-25",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["biggest-mistakes", "apple", "nvidia", "fundamental-analysis", "research-discipline"]
+    },
+    {
+      "id": "cnbc-lynch-ai-trade-nvidia-2025",
+      "title": "Peter Lynch on why he isn't in the AI trade",
+      "url": "https://www.cnbc.com/2025/10/06/peter-lynch-ai-trade-investing.html",
+      "date": "2025-10-06",
+      "type": "interview",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["ai-stocks", "nvidia", "low-tech", "invest-in-what-you-know"]
+    },
+    {
+      "id": "fortune-biggest-mistakes-2023",
+      "title": "Legendary investor Peter Lynch says these are the top mistakes he's made",
+      "url": "https://fortune.com/2023/04/26/legendary-investor-peter-lynch-biggest-mistakes-best-advice/",
+      "date": "2023-04-26",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["biggest-mistakes", "apple", "nvidia", "missed-opportunities", "invest-in-what-you-know"]
+    },
+    {
+      "id": "the-compound-tcaf-211-transcript",
+      "title": "TCAF 211 Transcript: How Peter Lynch Became The Greatest Fund Manager Of All Time",
+      "url": "https://recapio.com/digest/how-peter-lynch-became-the-greatest-fund-manager-of-all-time-tcaf-211-by-the-compound",
+      "date": "2025-10-03",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["magellan-fund", "know-what-you-own", "market-psychology", "long-term-investing"]
+    },
+    {
+      "id": "wharton-magazine-stock-superstar",
+      "title": "Stock Superstar Who Beat The Street: Peter S. Lynch, WG'68",
+      "url": "https://magazine.wharton.upenn.edu/issues/anniversary-issue/stock-superstar-who-beat-the-street-peter-s-lynch-wg68/",
+      "date": "2012",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["magellan-fund", "wharton", "career-profile", "turn-over-rocks"]
+    },
+    {
+      "id": "nyu-stern-worth-growth-stocks",
+      "title": "Peter Lynch: How to Invest a Million (Worth Magazine via NYU Stern)",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/articles/Lynchgrowthstocks.htm",
+      "date": "1997-03",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["worth-magazine", "growth-stocks", "stock-picks", "research-methodology", "dividends"]
+    },
+    {
+      "id": "nyu-stern-lynch-on-investing-pdf",
+      "title": "Peter Lynch on Investing (NYU Stern PDF)",
+      "url": "https://pages.stern.nyu.edu/~igiddy/ing-barings/lynch%20on%20investing.pdf",
+      "date": "1990",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "pdf",
+      "tags": ["investment-philosophy", "fundamental-analysis", "magellan-fund"]
+    },
+    {
+      "id": "nasdaq-peg-ratio-lynch-metric",
+      "title": "The PEG Ratio, Peter Lynch's Favorite Investing Metric",
+      "url": "https://www.nasdaq.com/education/the-peg-ratio-peter-lynchs-favorite-investing-metric",
+      "date": "2023",
+      "type": "article",
+      "reliability": "二手解读",
+      "format": "html",
+      "tags": ["peg-ratio", "garp", "growth-at-reasonable-price", "valuation", "stock-categories"]
+    },
+    {
+      "id": "focusedcompounding-25-golden-rules-pdf",
+      "title": "Peter Lynch's 25 Golden Rules for Investing (PDF)",
+      "url": "https://focusedcompounding.com/wp-content/uploads/2017/06/Peter-Lynch-25-rules.pdf",
+      "date": "1993",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "pdf",
+      "tags": ["25-golden-rules", "beating-the-street", "long-term-investing", "fundamental-analysis"]
+    },
+    {
+      "id": "rbcpa-25-golden-rules",
+      "title": "Lynch's 25 Golden Rules",
+      "url": "https://www.rbcpa.com/commentary-archive/lynchs-25-golden-rules/",
+      "date": "1993",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["25-golden-rules", "beating-the-street", "individual-investor-advantage", "patience"]
+    },
+    {
+      "id": "frederikjournals-confessions-investaholic",
+      "title": "Peter Lynch: Confessions of an Investaholic (1990 Financial World Profile)",
+      "url": "https://www.frederikjournals.com/p/peter-lynch-confessions-of-an-investaholic",
+      "date": "2023-02",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["retirement", "burnout", "work-ethic", "magellan-fund", "track-record"]
+    },
+    {
+      "id": "kingswell-wisdom-of-walking-away",
+      "title": "Peter Lynch: The Wisdom of Walking Away",
+      "url": "https://www.kingswell.io/p/peter-lynch-the-wisdom-of-walking",
+      "date": "2023-06-06",
+      "type": "article",
+      "reliability": "二手解读",
+      "format": "html",
+      "tags": ["retirement", "magellan-fund", "career-profile", "consumer-products"]
+    },
+    {
+      "id": "novelinvestor-single-most-important-thing",
+      "title": "Peter Lynch: The Single Most Important Thing",
+      "url": "https://novelinvestor.com/peter-lynch-single-important-thing/",
+      "date": "2020",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["know-what-you-own", "national-press-club", "fundamental-analysis", "earnings"]
+    },
+    {
+      "id": "project-endeavour-lecture-transcript",
+      "title": "Peter Lynch Lecture on Investing (Project Endeavour Transcript)",
+      "url": "https://projectendeavour.co/blogs/articles-and-resources/peter-lynch-lecture-on-investing",
+      "date": "2020-04-14",
+      "type": "transcript",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["know-what-you-own", "company-stories", "patience", "research-methodology"]
+    },
+    {
+      "id": "peter-lynch-playbook-pdf",
+      "title": "The Peter Lynch Playbook (Compiled Interview Snippets and Book Summaries)",
+      "url": "https://mjbaldbard.wordpress.com/wp-content/uploads/2018/05/the-peter-lynch-playbook.pdf",
+      "date": "2018",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "pdf",
+      "tags": ["one-up-on-wall-street", "beating-the-street", "stock-categories", "peg-ratio", "ten-bagger"]
+    },
+    {
+      "id": "acquirersmultiple-27-timeless-lessons",
+      "title": "Peter Lynch: 27 Timeless Investing Lessons",
+      "url": "https://acquirersmultiple.com/2018/12/peter-lynch-27-timeless-investing-lessons/",
+      "date": "2018-12",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["one-up-on-wall-street", "market-declines", "stock-categories", "long-term"]
+    },
+    {
+      "id": "acquirersmultiple-biggest-mistakes",
+      "title": "Peter Lynch: The Biggest Mistakes Investors Make and How to Avoid Them",
+      "url": "https://acquirersmultiple.com/2025/10/peter-lynch-the-biggest-mistakes-investors-make-and-how-to-avoid-them/",
+      "date": "2025-10",
+      "type": "article",
+      "reliability": "原文直接引语",
+      "format": "html",
+      "tags": ["biggest-mistakes", "staying-invested", "cutting-flowers", "watering-weeds"]
+    },
+    {
+      "id": "kiplinger-we-are-peter-lynch",
+      "title": "We Are Peter Lynch: How to Invest in What You Know",
+      "url": "https://www.kiplinger.com/investing/stocks/we-are-peter-lynch-how-to-invest-in-what-you-know",
+      "date": "2025-06",
+      "type": "article",
+      "reliability": "二手解读",
+      "format": "html",
+      "tags": ["invest-in-what-you-know", "local-knowledge", "consumer-edge", "fundamental-analysis"]
+    }
+  ]
+}

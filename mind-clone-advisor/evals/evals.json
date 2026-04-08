@@ -1,0 +1,35 @@
+{
+  "skill_name": "mind-clone-advisor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我想基于一个公开人物的播客、文章和访谈，做一个思维顾问型 persona，帮我设计完整流程。",
+      "expected_output": "Produces a compliant build workflow covering sources, extraction, prompt design, evaluation, and update plan.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我不是只想模仿语气，我想让这个顾问能回答问题时体现稳定判断框架，怎么做？",
+      "expected_output": "Focuses on workflow design for profile extraction and reasoning scaffolding rather than superficial style imitation.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "如果我手上的素材质量一般、来源也不完全稳定，你先别硬做，告诉我该怎么补。",
+      "expected_output": "Stops short of claiming the advisor is ready and instead returns a quality-gap or upgrade plan.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "我想做一个公开人物的思维顾问，但现在手里只有一堆公众号链接、播客链接和平台导出，还没整理成可用语料。你先告诉我下一步怎么做。",
+      "expected_output": "Recognizes that corpus collection and normalization must happen before advisor construction, and explicitly hands that phase to `content-harvester` instead of pretending the clone-build workflow can start immediately.",
+      "files": [],
+      "expectations": [
+        "The output explicitly recognizes that corpus collection or normalization is still a prerequisite.",
+        "The output mentions `content-harvester` or otherwise explicitly recommends a corpus-harvesting workflow before clone construction.",
+        "The output does not pretend the advisor build can start immediately from unnormalized raw links and exports.",
+        "The output explains the staged handoff: collect/normalize first, then persona extraction and prompt design."
+      ]
+    }
+  ]
+}
