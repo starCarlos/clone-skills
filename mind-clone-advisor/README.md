@@ -16,6 +16,18 @@ It focuses on:
 - optional RAG workflow design
 - evaluation, validation, and compliance review
 
+## Layer Model
+
+This workflow is easiest to understand as three stacked layers:
+
+1. Corpus and compliance layer: public-source materials, metadata quality, and authorization review
+2. Profile and prompt layer: thinking/profile extraction, system prompt composition, and evaluation
+3. Optional graph layer: deeper structured views such as relations, argument chains, and concept hierarchy
+
+When the graph layer is enabled, the concept hierarchy is modeled as:
+
+- belief -> model -> topic
+
 ## Good Fits
 
 - You want to model a public figure's thinking style from public-source materials
@@ -60,6 +72,9 @@ If you have not decided which clone workflow fits the case yet, start from the r
 - This workflow is for compliant construction from public-source materials, not casual impersonation.
 - If authorization is unclear, keep the case in review and stop before synthesis.
 - If source quality is weak, return an upgrade plan instead of pretending the advisor is ready.
+
+By default, a usable result depends first on the corpus and profile/prompt layers.
+The graph layer is optional and exists to deepen analysis, not to replace the core gates.
 
 ## Layout
 

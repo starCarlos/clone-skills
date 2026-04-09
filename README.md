@@ -38,6 +38,17 @@ This repository is intentionally narrow in scope:
 
 Local runtime artifacts, session logs, and environment-specific workspace data stay out of version control.
 
+## Layer Overview
+
+The two published workflows use different layer models:
+
+- `mind-clone-creator`: persona layer -> tool layer -> workflow layer -> decision layer
+- `mind-clone-advisor`: corpus and compliance layer -> profile and prompt layer -> optional graph layer
+
+For `mind-clone-advisor`, the optional concept hierarchy inside the graph layer is modeled as:
+
+- belief -> model -> topic
+
 ## Layout
 
 ```text

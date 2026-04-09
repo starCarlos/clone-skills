@@ -14,6 +14,18 @@ It currently supports two main paths:
 - `persona-only`: deliver a persona-layer clone first for advice, clarification, review, and bounded collaboration
 - `persona-plus-workflow`: keep both the persona layer and a workflow track in the same working bundle, then continue compiling it into a workflow-oriented clone
 
+## Layer Model
+
+This workflow is easiest to understand as a four-layer model:
+
+1. Persona layer: judgment standards, boundaries, expression style, and collaboration preferences
+2. Tool layer: what tools and skills are available in the real environment
+3. Workflow layer: how a task moves stage by stage, with inputs and outputs for each stage
+4. Decision layer: how the clone decides what stage it is in and what to do next
+
+The current default flow always starts from the persona layer.
+`persona-plus-workflow` extends upward only after a concrete work unit is defined.
+
 ## Good Fits
 
 - You want an advisor that answers more like you
@@ -69,6 +81,9 @@ By default, it is not:
 - a fully autonomous execution agent
 - a finished workflow system
 - a clone that can route and run arbitrary work end to end on its own
+
+In other words, the default deliverable reliably covers the persona layer first.
+The higher workflow and decision layers require additional workflow modeling.
 
 ## Layout
 
