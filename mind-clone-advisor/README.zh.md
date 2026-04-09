@@ -1,5 +1,6 @@
 # mind-clone-advisor
 
+[返回根 README](../README.zh.md)
 [English README](README.md)
 
 基于他人的公开资料构建合规的 advisor workflow。
@@ -34,6 +35,7 @@
 - 提取画像、生成 system prompt，并对结果做评测
 
 如果授权状态或来源合法性不明确，就必须在画像合成前停止。
+如果你还没决定该走哪条 clone 工作流，也可以先从根目录的 [SKILL.md](../SKILL.md) 进入。
 
 ## 典型产物
 

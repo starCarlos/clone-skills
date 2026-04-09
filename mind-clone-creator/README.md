@@ -1,5 +1,6 @@
 # mind-clone-creator
 
+[Back to root README](../README.md)
 [中文 README](README.zh.md)
 
 Turn your own experience, judgment, and work habits into a reusable AI advisor, and extend it toward a workflow-oriented work clone when needed.
@@ -24,6 +25,8 @@ It currently supports two main paths:
 
 - `I want to create my own digital twin`
 - `I want to build a persona + workflow work clone`
+
+If you have not decided which clone workflow you need yet, start from the root [SKILL.md](../SKILL.md).
 
 ## Typical Outputs
 

@@ -1,8 +1,9 @@
 # mind-clone-advisor
 
+[Back to root README](../README.md)
 [中文 README](README.zh.md)
 
-Build a compliant advisor workflow from public materials about another person.
+Build a compliant advisor workflow from public-source materials about another person.
 
 ## What It Does
 
@@ -17,7 +18,7 @@ It focuses on:
 
 ## Good Fits
 
-- You want to model a public figure's thinking style from public materials
+- You want to model a public figure's thinking style from public-source materials
 - You need a build workflow, not just a one-off impersonation prompt
 - You need source review, authorization checks, and quality gates before claiming the advisor is usable
 
@@ -34,6 +35,7 @@ It focuses on:
 - Extract the profile, compose the system prompt, and evaluate the result
 
 If authorization or source legitimacy is unclear, stop before profile synthesis.
+If you have not decided which clone workflow fits the case yet, start from the root [SKILL.md](../SKILL.md).
 
 ## Typical Outputs
 
@@ -55,7 +57,7 @@ If authorization or source legitimacy is unclear, stop before profile synthesis.
 
 ## Boundaries
 
-- This workflow is for compliant construction from public materials, not casual impersonation.
+- This workflow is for compliant construction from public-source materials, not casual impersonation.
 - If authorization is unclear, keep the case in review and stop before synthesis.
 - If source quality is weak, return an upgrade plan instead of pretending the advisor is ready.
 

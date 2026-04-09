@@ -1,5 +1,6 @@
 # mind-clone-creator
 
+[返回根 README](../README.zh.md)
 [English README](README.md)
 
 帮你把自己的经验、判断方式和工作习惯整理成可复用的 AI 顾问，并在需要时继续扩展成 workflow-oriented work clone。
@@ -24,6 +25,8 @@
 
 - `我想创建自己的数字分身`
 - `我想做一个人格 + workflow 的工作型替身`
+
+如果你还没决定具体该走哪条 clone 工作流，可以先从根目录的 [SKILL.md](../SKILL.md) 进入。
 
 ## 典型产物
 
