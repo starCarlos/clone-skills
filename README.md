@@ -2,7 +2,7 @@
 
 [中文 README](README.zh.md)
 
-Build clone-style advisors that are more structured, auditable, and reusable than a one-off persona prompt.
+Build clone-style advisors with explicit thought hierarchy, clear boundaries, and reusable workflow assets.
 
 `clone-skills` is an open-source repository of clone-building workflows extracted from a private monorepo. It is built for people who want more than tone imitation: the goal is to turn judgment style, source material, and workflow logic into reusable skills.
 
@@ -10,10 +10,10 @@ Build clone-style advisors that are more structured, auditable, and reusable tha
 
 This repository currently publishes two clone-oriented workflows:
 
-| Skill | What It Helps You Build |
-| --- | --- |
-| `mind-clone-creator` | A clone based on your own experience, judgment, work habits, and expression style |
-| `mind-clone-advisor` | A compliant advisor workflow built from public-source materials about another person |
+| Skill | Core Hierarchy | What It Helps You Build |
+| --- | --- | --- |
+| `mind-clone-creator` | persona -> tool -> workflow -> decision | A clone based on your own experience, judgment, work habits, and expression style |
+| `mind-clone-advisor` | corpus/compliance -> profile/prompt -> graph | A compliant advisor workflow built from public-source materials about another person |
 
 The root [SKILL.md](SKILL.md) is the router that decides which workflow to use.
 
@@ -26,6 +26,16 @@ Most clone projects stop at "write a prompt that sounds like someone." These wor
 - They keep boundaries visible: what is supported, what still needs workflow design, and what must stop for compliance review.
 - They give you reusable assets such as profiles, prompts, workflow artifacts, and evaluation outputs.
 - They are easier to maintain, review, and extend than ad hoc persona setups.
+
+## Thought Hierarchy, Not Just Tone
+
+The core idea of this repository is simple: a useful clone should expose how its thinking is layered.
+
+- If you only want tone mimicry, a prompt may be enough.
+- If you want reusable judgment, tool use, workflow behavior, or decision support, you need explicit hierarchy.
+- If you want to inspect or refine the clone later, hierarchy is what makes that possible.
+
+That is why these skills are built around thought hierarchy instead of a single monolithic persona prompt.
 
 ## Layer Models
 
@@ -63,6 +73,7 @@ This gives you a way to represent not only what someone says, but how their idea
 - Build a public-materials-based advisor around a writer, investor, founder, or public thinker
 - Produce structured clone assets instead of loose notes: profile files, prompts, evaluation outputs, and workflow artifacts
 - Explore a person's thinking at multiple levels, from beliefs and models down to topics and evidence structures
+- Decide whether you need a voice clone, a judgment clone, a workflow clone, or a decision-support clone
 
 ## How To Choose
 
